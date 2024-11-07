@@ -19,7 +19,7 @@ export default function MainGuarantee() {
                 </div>
                 <div className='main-guarantee-text-detail'>
                     <ul>
-                        <li><p>소득증빙 가능한 만 19세 이상 고객</p></li>
+                        <li><p>소득증빙 가능한 만 19세 이상 고객 </p></li>
                         <li>
                             <p>  
                                 <span className='target'>근로자</span>현 직장 5개월 이상 재직중 / 연소득 1,200만원 이상인자<br/>
