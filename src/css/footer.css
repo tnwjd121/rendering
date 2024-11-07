@@ -4,8 +4,6 @@ footer{
   }
 .note-title{
     font-family: 'GmarketBold';
-    display: flex;
-    align-items: flex-start;
 
 }
 #footer1{
@@ -20,31 +18,70 @@ footer{
     padding: 2rem 1rem;
 
 } 
-#footer2{
-    font-family: 'GmarketMedium';
-    font-size: 0.6rem;
-}
-#note{
-    width: 70%;
-}
 .note-title{
-    width: 4.8rem;
+    width: 7rem;
     color: #fbeb9b;
+    vertical-align: top;
+    padding: 0.5rem;
+    word-break: keep-all;
 }
 
-.footer2-text{
-    color: #b2b1b1
-}
-
-.border-line{
-    border-top: 1px solid rgb(212, 210, 210);
-    height: 100%;
-}
 
 #note li {
     font-size: 10px;
 }
 #note li p{
     font-size: 0.8rem;
+    margin: 0px;
+}
+
+#note{
+    width: 70%;
+    border: none;
+    border-collapse: collapse;
+    
+}
+#note td{
+    border-bottom: 1px solid rgb(212, 210, 210);
+    height: 100%;
+    overflow-wrap: break-word;
+}
+#note tr:last-child td {
+    border-bottom: none;
+}
+#note td ul{
+    padding: 5px;
+}
+.indent-title{
+    padding-left: 15px;
+}
+.indent-text{
+    padding-left: 5px;
+}
+
+#footer2{
+    font-family: 'GmarketMedium';
+    font-size: 0.6rem;
+}
+.footer2-text{
+    color: #b2b1b1
+}
+
+#footer2-body{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 5rem;
+}
+.footer2-img img{
+    width: 9rem;
+    height: 2rem;
+}
+.footer2-text li{
+    list-style: none;
+}
+.footer2-text li p{
     margin: 0px;
 }
