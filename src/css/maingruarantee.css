@@ -1,0 +1,76 @@
+#main-guarantee-body{
+    width: 100%;
+    background-color: #efefef;
+}
+#main-guarantee-product{
+    margin: 0 auto;
+    width: 47%;
+}
+.main-guarantee-title{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #efefef;
+    position: relative;
+    top: 2.3rem;
+    width: 60%;
+    border-radius: 1.5rem;
+    padding: 5px;
+}
+.main-guarantee-text{
+    background-color: white;
+    border-radius: 4rem;
+    padding: 4rem 4rem 2.5rem 4rem;
+}
+.main-guarantee-subtitle{
+    font-family: 'GmarketMedium';
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #535353;
+}
+.main-guarantee-maintitle{
+    font-family: 'GmarketBold';
+    font-size: 2rem;
+    color: #34438b;
+}
+.main-guarantee-text-title {
+    display: flex;
+    align-items: center;
+}
+.main-guarantee-text-title hr{
+    flex-grow: 1;
+    border: none;
+    border-top: 1.2px solid #2e4b80
+}
+.main-guarantee-text-title span{
+    font-family: 'GmarketBold';
+   padding-right: 1.5rem;
+   color: #34438b;
+   font-size: 1rem;
+}
+.main-guarantee-text-detail{
+    font-family: 'GmarketMedium';
+    font-size: 0.8rem;
+}
+.main-guarantee-text-detail ul{
+    padding-left: 0px;
+    list-style-type: disc;
+    font-size: 10px;
+}
+.main-guarantee-text-detail li p{
+    font-size: 0.8rem;
+}
+.target{
+    background-color: #434342;
+    color: #ffffff;
+    padding: 2px 10px 2px 2px;
+    /* 너비 수정 */
+}
+.main-guarantee-text-info{
+    color: #5e5e5e;
+    text-align: right;
+    margin-top: 2rem;
+}
+.main-guarantee-text-info p{
+    margin: 0px;
+    font-size: 0.8rem;
+}

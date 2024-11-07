@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "윤고딕310";
+  src: url(../src/fonts/윤고딕310.TTF);
+}
+@font-face {
+  font-family: "윤고딕320";
+  src: url(../src/fonts/윤고딕320.TTF);
+}
+@font-face {
+  font-family: "윤고딕330";
+  src: url(../src/fonts/윤고딕330.TTF);
+}
+@font-face {
+  font-family: "윤고딕340";
+  src: url(../src/fonts/윤고딕340.TTF);
+}
+@font-face {
+  font-family: "윤고딕350";
+  src: url(../src/fonts/윤고딕350.TTF);
+}
+@font-face {
+  font-family: "윤고딕360";
+  src: url(../src/fonts/윤고딕360.ttf);
+}
+@font-face {
+  font-family: "GmarketBold";
+  src: url(../src/fonts/GmarketSansTTFBold.ttf);
+}
+@font-face {
+  font-family: "GmarketLight";
+  src: url(../src/fonts/GmarketSansTTFLight.ttf);
+}
+@font-face {
+  font-family: "GmarketMedium";
+  src: url(../src/fonts/GmarketSansTTFMedium.ttf);
+}

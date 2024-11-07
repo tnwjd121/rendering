@@ -1,0 +1,50 @@
+footer{
+    bottom: 0;
+    width: 100%;
+  }
+.note-title{
+    font-family: 'GmarketBold';
+    display: flex;
+    align-items: flex-start;
+
+}
+#footer1{
+    background-color: #646263;
+    color: rgb(212, 210, 210);
+    font-family: 'GmarketMedium';
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 1rem;
+
+} 
+#footer2{
+    font-family: 'GmarketMedium';
+    font-size: 0.6rem;
+}
+#note{
+    width: 70%;
+}
+.note-title{
+    width: 4.8rem;
+    color: #fbeb9b;
+}
+
+.footer2-text{
+    color: #b2b1b1
+}
+
+.border-line{
+    border-top: 1px solid rgb(212, 210, 210);
+    height: 100%;
+}
+
+#note li {
+    font-size: 10px;
+}
+#note li p{
+    font-size: 0.8rem;
+    margin: 0px;
+}
