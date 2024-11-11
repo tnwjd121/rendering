@@ -25,6 +25,8 @@ export default function MainGuarantee() {
                                 <span className='target'>근로자</span> 현 직장 5개월 이상 재직중 / 연소득 1,200만원 이상인자<br/>
                                 <span className='target'>사업자</span> 사업 개시일로부터 4개월 이상 운영 / 연소득 600만원 이상인자<br/>
                                 <span className='target'>연금수령자</span> 연금 1회이상수령(국민연금, 공무원연금, 군인연금, 사학연금) / 연소득 600만원 이상인자<br/>
+                            </p>
+                            <p>
                                 ※ 중복소득 인정 : 합산소득 기준으로 산정
                             </p>
                         </li>

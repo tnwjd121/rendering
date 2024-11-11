@@ -27,7 +27,7 @@ export default function TopGuarantee() {
             <img src={require('../img/보증부상품구분선.png')} alt='line'/>
           </div>
           <div className='top-guarantee-info-detail'>
-            <p className='produnt-name'><span className='product-number'>01</span>온라인 햇살론</p>
+            <p className='produnt-name'><span className='product-number'>02</span>온라인 햇살론</p>
             <ul>
               <li><p><span>한도 : </span>최대 2,000만원</p></li>
               <li><p><span>금리 : </span>연9%대</p></li>
@@ -36,6 +36,9 @@ export default function TopGuarantee() {
           </div>
         </div>
       </div>
+        <div id='top-guarantee-detail'>
+          <p><span id='loanproduct'>대출상품정보</span> 자세히 보기 <span id='detail'>v</span></p>
+        </div>
     </div>
   )
 }
