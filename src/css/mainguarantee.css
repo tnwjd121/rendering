@@ -4,7 +4,7 @@
 }
 #main-guarantee-product{
     margin: 0 auto;
-    width: 70%;
+    width: 60%;
     padding-bottom: 4rem;
 }
 .main-guarantee-title{
@@ -77,4 +77,14 @@
 .main-guarantee-text-info p{
     margin: 0px;
     font-size: 0.8rem;
+}
+
+.none-list-p{
+    font-family: 'GmarketMedium';
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+#indent-gua{
+    padding-left: 4.5rem;
 }

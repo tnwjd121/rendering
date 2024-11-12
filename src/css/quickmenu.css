@@ -1,0 +1,75 @@
+#test{
+    background-color: #57a6e6;
+}
+#quick-menu-body{
+    display: flex;
+    justify-content: center;
+}
+#quick-delete-button{
+    background-color: #575756;
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-top: 0.5rem;
+}
+#quick-delete-button p{
+    margin: 0px;
+    text-align: center;
+    line-height: 1.3rem;
+    font-family: 'GmarketMedium';
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+#quick-menu-list{
+    text-align: center;
+    width: 7rem;
+    background-color: rgba(128, 128, 128, 0.226);
+}
+
+#quick-menu-list p{
+    margin: 0;
+    font-family: "GmarketBold";
+    font-size: 0.9rem;
+}
+
+#quick-menu-list img{
+    width: 2.3rem;
+    height: 2.2rem;
+    padding-top: 1rem;
+    padding-bottom: 0.3rem;
+}
+#quick-menu-product{
+    background-color: #575756;
+    border-radius: 0.5rem 0.5rem 2rem 2rem;
+    color: #fbd44e;
+    padding-bottom: 0.5rem;
+}
+#quick-icon{
+    font-family: 'GmarketMedium';
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+#quick-menu-credit{
+    background-color: #ffffff;
+    color: #4a4a48;
+    border-end-end-radius: 0.5rem;
+    border-end-start-radius: 0.5rem;
+    padding-bottom: 0.8rem;
+}
+#quick-menu-micro{
+    background-color: #ffffff;
+    color: #4a4a48;
+    border-radius: 0.5rem;
+    padding-bottom: 0.8rem;
+}
+#quick-menu-sb-total{
+    background-color: #ff7900;
+    color: #ffffff;
+    border-radius: 0.5rem;
+    padding-bottom: 0.8rem;
+}
+#quick-menu-sb-pf{
+    background-color: #005f9a;
+    color: #ffffff;
+    border-radius: 0.5rem;
+    padding-bottom: 0.8rem;
+}

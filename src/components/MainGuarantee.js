@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/maingruarantee.css'
+import '../css/mainguarantee.css'
 
 export default function MainGuarantee() {
   return (
@@ -112,11 +112,9 @@ export default function MainGuarantee() {
                         <li><p>서민금융진흥원의 금융교육을 이수한 자</p></li>
                         <li><p>서민금융진흥원 재무진단 평가모형 4등급 이하에 해당하는 근로자</p></li>
                         <li><p>아래의 조건에 모두 해당하는 경우 신청가능</p></li>
-                        <ol>
-                            <li>현 직장 건강보험료 3개월 이상 정상 납부(현 직장 1개월 이상 근로 및 급여수령 필수)</li>
-                            <li>본인 명의의 주택 미보유</li>
-                            <li>본인 명의의 공동인증서 또는 금융인증서, 휴대전화 보유</li>
-                        </ol>
+                            <p className='none-list-p'>1) 현 직장 건강보험료 3개월 이상 정상 납부(현 직장 1개월 이상 근로 및 급여수령 필수)</p>
+                            <p className='none-list-p'>2) 본인 명의의 주택 미보유</p>
+                            <p className='none-list-p'>3) 본인 명의의 공동인증서 또는 금융인증서, 휴대전화 보유</p>
                     </ul>
                 </div>
                 <div className='main-guarantee-text-title'>
@@ -173,15 +171,12 @@ export default function MainGuarantee() {
                     <ul>
                         <li><p>보증수수료 : 서민금융진흥원 보증금액의 연2%</p></li>
                         <li><p>보증료 우대사항</p></li>
-                        <li><p>연체금리 : 대출금리 + 3% 이내(연체가산 이자율), 최대 20% 이내</p></li>
-                        <ol>
-                            <li>저소득청년(연소득 3,500만원 이하, 만 34세 이하) 0.5%p 인하</li>
-                            <li>기타(신용 부채관리 컨설팅 이수자, 금융교육 이수자) 0.1%p 인하</li>
-                            ※ 신용부채관리 컨설팅 금융교육 이수자: 21.7.26. 신규 신청접수분부터 신청일 이전 1년 이내<br/>
-                            서민금융진흥원에서 해당교육 이수한 경우
-                        </ol>
-                        <li><p>보증료인하 : 대출금리가 연10.5%를 초과한 경우, 동 초과분(대출금리-10.5%)의 60에 해당하는<br/>
-                            만큼의 보증료율 인하적용</p></li>
+                            <p className='none-list-p'>1) 저소득청년(연소득 3,500만원 이하, 만 34세 이하) 0.5%p 인하</p>
+                            <p className='none-list-p'>2) 기타(신용 부채관리 컨설팅 이수자, 금융교육 이수자) 0.1%p 인하</p>
+                            <p className='none-list-p'>※ 신용부채관리 컨설팅 금융교육 이수자: 21.7.26. 신규 신청접수분부터 신청일 이전 1년 이내
+                            <br/><span className='indent-title'>서민금융진흥원에서 해당교육 이수한 경우</span></p>
+                        <li><p>보증료인하 : 대출금리가 연10.5%를 초과한 경우, 동 초과분(대출금리-10.5%)의 60에 해당하는
+                            <br/><span id='indent-gua'>만큼의 보증료율 인하적용</span></p></li>
                     </ul>
                 </div>
                 <div className='main-guarantee-text-title'>
