@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/topguarantee.css'
+import Quickmenu from './Quickmenu'
 
 export default function TopGuarantee() {
   return (
@@ -39,6 +40,7 @@ export default function TopGuarantee() {
         <div id='top-guarantee-detail'>
           <p><span id='loanproduct'>대출상품정보</span> 자세히 보기 <span id='detail'>v</span></p>
         </div>
+      <Quickmenu/>  
     </div>
   )
 }

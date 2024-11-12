@@ -1,9 +1,9 @@
-#test{
-    background-color: #57a6e6;
-}
 #quick-menu-body{
     display: flex;
     justify-content: center;
+    position: fixed;
+    top: 10%;
+    right: 10%;
 }
 #quick-delete-button{
     background-color: #575756;
@@ -41,6 +41,8 @@
     border-radius: 0.5rem 0.5rem 1.5rem 1.5rem;
     color: #fbd44e;
     padding-bottom: 0.5rem;
+    position: relative;
+    z-index: 2;
 }
 #quick-icon{
     font-family: 'GmarketMedium';
@@ -53,6 +55,10 @@
     border-end-end-radius: 0.5rem;
     border-end-start-radius: 0.5rem;
     padding-bottom: 0.8rem;
+    margin-top: -2rem;
+    padding-top: 2rem;
+    border-radius: 0.5rem;
+    z-index: 1;
 }
 #quick-menu-micro{
     background-color: #ffffff;
@@ -71,4 +77,16 @@
     color: #ffffff;
     border-radius: 0.5rem;
     padding-bottom: 0.8rem;
+}
+#quick-line-gray{
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 5rem;
+    background: gray;
+}
+#quick-line-white{
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 6rem;
+    background: #ffffff;
 }
