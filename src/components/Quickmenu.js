@@ -13,7 +13,6 @@ export default function Quickmenu() {
                 <img src={require('../img/상품정보바로가기아이콘.png')}></img>
                 <p>상품정보<br/>바로가기</p>
                 <p><span id='quick-icon'>v</span></p>
-                {/*  */}
             </div>
             <div id='quick-menu-credit'>
                 <img src={require('../img/신용대출바로가기아이콘.png')}></img>
