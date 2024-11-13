@@ -2,7 +2,7 @@ import React from 'react'
 import '../css/topguarantee.css'
 import Quickmenu from './QuickmenuGu'
 
-export default function TopGuarantee() {
+export default function TopGuarantee({onToggleMainGuarantee}) {
 
   const easyCheck = () => {
     window.location.href = 'https://sbloan.ibksb.co.kr/ibk/loan_form/loan_limit_01.jsp';
@@ -47,7 +47,7 @@ export default function TopGuarantee() {
           </div>
         </div>
       </div>
-        <div id='top-guarantee-detail'>
+        <div id='top-guarantee-detail' onClick={onToggleMainGuarantee}>
           <p><span id='loanproduct'>대출상품정보</span> 자세히 보기 <span id='detail'>v</span></p>
         </div> 
        <Quickmenu/>  

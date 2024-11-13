@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Footer from '../components/Footer'
 import '../css/footer.css'
 import '../css/mainguarantee.css'
@@ -7,10 +7,15 @@ import TopGuarantee from '../components/TopGuarantee'
 
 
 export default function Guarantee() {
+  const [showMainGuarantee, setShowMainGuarantee] = useState(false);
+
+  const OpenMainGuarantee = () => {
+    setShowMainGuarantee(!showMainGuarantee);
+  }
   return (
     <div>
-      <TopGuarantee/>
-      <MainGuarantee/>
+      <TopGuarantee onToggleMainGuarantee={OpenMainGuarantee}/>
+      {showMainGuarantee && <MainGuarantee />}
       <Footer/>
     </div>
   )

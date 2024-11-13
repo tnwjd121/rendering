@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../css/quickmenu.css'
 
 export default function QuickmenuGu() {
@@ -8,11 +8,19 @@ export default function QuickmenuGu() {
   const deposit = () => {
     window.location.href ='https://www.ibksb.co.kr/deposit'
   }
+  const [isDeleted, setIsDeleted] = useState(false);
+  const handleDelete = () => {
+    setIsDeleted(true); // 상태를 true로 설정하여 메뉴를 숨깁니다.
+  };
+
+  if (isDeleted) {
+    return null; // 삭제되면 아무것도 렌더링하지 않음
+  }
 
   return (
     <div>
       <div id='quick-menu-body'>
-        <div id='quick-delete-button'>
+        <div id='quick-delete-button' onClick={handleDelete}>
             <p>X</p>
         </div>
         <div id='quick-menu-list'>
