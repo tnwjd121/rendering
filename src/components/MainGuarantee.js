@@ -184,7 +184,7 @@ export default function MainGuarantee() {
                 </div>
                 <div className='main-guarantee-text-detail'>
                     <ul>
-                        <li><p>대출금리+3%이내(연체가산 이자율), 최대 15%이내</p></li>
+                        <li><p>대출금리 + 3% 이내(연체가산 이자율), 최대 15% 이내</p></li>
                     </ul>
                 </div>
                 <div className='main-guarantee-text-info'>

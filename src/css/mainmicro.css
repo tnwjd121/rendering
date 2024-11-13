@@ -1,13 +1,13 @@
-#main-guarantee-body{
+#main-micro-body{
     width: 100%;
     background-color: #efefef;
 }
-#main-guarantee-product{
+#main-micro-product{
     margin: 0 auto;
     width: 50rem;
     padding-bottom: 4rem;
 }
-.main-guarantee-title{
+.main-micro-title{
     margin: 0 auto;
     text-align: center;
     background-color: #efefef;
@@ -18,65 +18,72 @@
     padding: 6px;
     padding-bottom: 8px;
 }
-.main-guarantee-text{
+.main-micro-text{
     background-color: white;
     border-radius: 4rem;
     padding: 5.5rem 4rem 2.5rem 4rem;
 }
-.main-guarantee-subtitle{
-    font-family: 'GmarketMedium';
-    font-size: 1rem;
-    margin-bottom: 10px;
-    color: #535353;
-}
-.main-guarantee-maintitle{
+.main-micro-maintitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'GmarketBold';
     font-size: 2rem;
     color: #34438b;
 }
-.main-guarantee-text-title {
+.main-micro-maintitle img{
+    width: 2rem;
+    height: 2.8rem;
+    padding-right: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+.main-micro-text-title {
     display: flex;
     align-items: center;
     padding: 0.5rem 0rem;
+    
 }
-.main-guarantee-text-title hr{
+.main-micro-text-title hr{
     flex-grow: 1;
     border: none;
     border-top: 1.2px solid #2e4b80
 }
-.main-guarantee-text-title span{
+.main-micro-text-title span{
     font-family: 'GmarketBold';
    padding-right: 1.5rem;
    color: #34438b;
    font-size: 1rem;
 }
-.main-guarantee-text-detail{
+.main-micro-text-detail{
     font-family: 'GmarketMedium';
     font-size: 0.8rem;
 }
-.main-guarantee-text-detail ul{
+.main-micro-text-detail p{
+    margin: 0;
+}
+.main-micro-text-detail ul{
     padding-left: 0px;
     list-style-type: disc;
     font-size: 0.5rem;
 }
-.main-guarantee-text-detail li p{
+.main-micro-text-detail li p{
     font-size: 0.8rem;
-    margin: 3px;
+    margin: 2px;
 }
-.target{
+.target-micro{
     background-color: #434342;
     color: #ffffff;
     padding: 2px 2px 2px 2px;
     display: inline-block;
-    width: 4rem;
+    width: 5.5rem;
     margin: 1px;
 }
-.main-guarantee-text-info{
+.main-micro-text-info{
     color: #5e5e5e;
     text-align: right;
     margin-top: 2rem;
 }
-.main-guarantee-text-info p{
+.main-micro-text-info p{
     margin: 0px;
     font-size: 0.8rem;
 }
@@ -87,6 +94,15 @@
     margin: 0;
 }
 
-#indent-gua{
-    padding-left: 4.5rem;
+#indent-plus{
+    padding-left: 6rem;
 }
+#biglone-table{
+    padding-left: 6rem;
+}
+#biglone-table tr td{
+    background-color: #ededed;
+    padding: 0.6rem 0.7rem;
+    text-align: center;
+}
+
