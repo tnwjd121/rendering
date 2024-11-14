@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import '../css/quickmenu.css'
+import { useNavigate } from 'react-router-dom'
 
 export default function QuickmenuCr() {
+  const navigate = useNavigate();
     const  enroll = () =>{
         window.location.href ='https://sbloan.ibksb.co.kr/ibk/loan_form/loan_step00.jsp'
       }
@@ -12,10 +14,16 @@ export default function QuickmenuCr() {
       const handleDelete = () => {
         setIsDeleted(true);
       };
+
+      const navigateToGuarantee = () =>{
+        navigate('/guarantee')
+      } 
+
     
       if (isDeleted) {
         return null;
       }
+      
     
       return (
         <div>
@@ -29,7 +37,7 @@ export default function QuickmenuCr() {
                     <p>상품정보<br/>바로가기</p>
                     <p><span id='quick-icon'>v</span></p>
                 </div>
-                <div id='quick-menu-gua'>
+                <div id='quick-menu-gua' onClick={navigateToGuarantee}>
                     <img src={require('../img/햇살론아이콘.png')}></img>
                     <p>온라인햇살론<br/>사잇돌2</p>
                 </div>
