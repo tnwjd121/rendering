@@ -10,11 +10,11 @@ export default function QuickmenuGu() {
   }
   const [isDeleted, setIsDeleted] = useState(false);
   const handleDelete = () => {
-    setIsDeleted(true); // 상태를 true로 설정하여 메뉴를 숨깁니다.
+    setIsDeleted(true);
   };
 
   if (isDeleted) {
-    return null; // 삭제되면 아무것도 렌더링하지 않음
+    return null;
   }
 
   return (

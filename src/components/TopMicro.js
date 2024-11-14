@@ -1,13 +1,12 @@
 import React from 'react'
 import '../css/topmicro.css'
+import QuickmenuMc from './QuickmenuMc';
 
-export default function TopMicro() {
+export default function TopMicro({onToggleMainMicro}) {
     const easyCheck = () => {
         window.location.href = 'https://sbloan.ibksb.co.kr/ibk/loan_form/loan_limit_01.jsp';
       }
-      const  enroll00B = () =>{
-        window.location.href ='https://sbloan.ibksb.co.kr/ibk/loan_form/loan_step00B.jsp'
-      }
+      // 대출상담신청 링크 주소 받기
     
     return (
      <div id='top-micro-body'>
@@ -17,46 +16,86 @@ export default function TopMicro() {
             <div id='top-micro-shortcut-line'>
               <div id='top-micro-shortcut'>
                 <div id='top-micro-shortcut-main' onClick={easyCheck}>
-                    <span>대출</span>상담신청
+                    <span id='top-micro-white'>대출</span>상담신청
                 </div>
               </div>
             </div>
             <div id='top-micro-info'>
               <div className='top-micro-info-detail'>
-                <p className='produnt-name'><span className='product-number'>01</span> i-빅론U</p>
+                <div className='micro-porduct'>
+                  <div className='micro-product-img'>
+                    <img src={require('../img/1.png')}/> 
+                  </div>
+                  <div className='micro-product-name'>
+                    <p>햇살론<br/>특례보증</p>
+                  </div>
+                </div>
                 <ul>
-                  <li><p><span>한도 : </span>최대 6,000만원</p></li>
-                  <li><p><span>금리 : </span>연11~19%대</p></li>
-                  <li><p><span>기간 : </span>최소 1년~최장 5년</p></li>
+                  <li><p><span>한도 : </span>최대 2,000만원</p></li>
+                  <li><p><span>금리 : </span>연6%대</p></li>
+                  <li><p><span>기간 : </span>1년~4년</p></li>
                 </ul>
               </div>
               <div id='top-micro-info-line'>
-                <img src={require('../img/신용대출선.png')} alt='line'/>
+                <img src={require('../img/소상공인선.png')} alt='line'/>
               </div>
               <div className='top-micro-info-detail'>
-                <p className='produnt-name'><span className='product-number'>02</span> i-빅론U플러스</p>
+                <div className='micro-porduct'>
+                  <div className='micro-product-img'>
+                    <img src={require('../img/2.png')}/> 
+                  </div>
+                  <div className='micro-product-name'>
+                    <p>아파트<br/>담보대출</p>
+                  </div>
+                </div>
                 <ul>
-                  <li><p><span>한도 : </span>최대 1억원</p></li>
-                  <li><p><span>금리 : </span>연7~19%대</p></li>
-                  <li><p><span>기간 : </span>최소 1년~최장 5년</p></li>
+                  <li><p><span>한도 : </span>최대 10억원</p></li>
+                  <li><p><span>금리 : </span>연5~9%대</p></li>
+                  <li><p><span>기간 : </span>운영자금 최대3년</p></li>
                 </ul>
               </div>
               <div id='top-micro-info-line'>
-                <img src={require('../img/신용대출선.png')} alt='line'/>
+                <img src={require('../img/소상공인선.png')} alt='line'/>
               </div>
               <div className='top-micro-info-detail'>
-                <p className='produnt-name'><span className='product-number'>02</span> i-패스트론U</p>
+                <div className='micro-porduct'>
+                  <div className='micro-product-img'>
+                    <img src={require('../img/3.png')}/> 
+                  </div>
+                  <div className='micro-product-name'>
+                    <p>소상공인<br/>신용대출</p>
+                  </div>
+                </div>
                 <ul>
-                  <li><p><span>한도 : </span>최대 3,000만원</p></li>
-                  <li><p><span>금리 : </span>연12~19%대</p></li>
-                  <li><p><span>기간 : </span>최소 1년~최장 5년</p></li>
+                  <li><p><span>한도 : </span>최대 2,000만원</p></li>
+                  <li><p><span>금리 : </span>연7~13%대</p></li>
+                  <li><p><span>기간 : </span>최대 5년이내</p></li>
+                </ul>
+              </div>
+              <div id='top-micro-info-line'>
+                <img src={require('../img/소상공인선.png')} alt='line'/>
+              </div>
+              <div className='top-micro-info-detail'>
+                <div className='micro-porduct'>
+                  <div className='micro-product-img'>
+                    <img src={require('../img/4.png')}/> 
+                  </div>
+                  <div className='micro-product-name'>
+                    <p>부동산<br/>담보대출</p>
+                  </div>
+                </div>
+                <ul>
+                  <li><p><span>한도 : </span>최대 5억원</p></li>
+                  <li><p><span>금리 : </span>연7~13%대</p></li>
+                  <li><p><span>기간 : </span>최대 5년이내</p></li>
                 </ul>
               </div>
             </div>
           </div>
-            <div id='top-micro-detail'>
+            <div id='top-micro-detail' onClick={onToggleMainMicro}>
               <p><span id='loanproduct'>대출상품정보</span> 자세히 보기 <span id='detail'>v</span></p>
-            </div>
+            </div> 
+           <QuickmenuMc/> 
         </div>
       )
 }

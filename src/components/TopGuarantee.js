@@ -27,7 +27,7 @@ export default function TopGuarantee({onToggleMainGuarantee}) {
         </div>
         <div id='top-guarantee-info'>
           <div className='top-guarantee-info-detail'>
-            <p className='produnt-name'><span className='product-number'>01</span> 사잇돌2</p>
+            <p className='guarantee-product-name'><span className='guarantee-product-number'>01</span> 사잇돌2</p>
             <ul>
               <li><p><span>한도 : </span>최대 3,000만원</p></li>
               <li><p><span>금리 : </span>연13~19%대</p></li>
@@ -38,7 +38,7 @@ export default function TopGuarantee({onToggleMainGuarantee}) {
             <img src={require('../img/보증부상품구분선.png')} alt='line'/>
           </div>
           <div className='top-guarantee-info-detail'>
-            <p className='produnt-name'><span className='product-number'>02</span> 온라인 햇살론</p>
+            <p className='guarantee-product-name'><span className='guarantee-product-number'>02</span> 온라인 햇살론</p>
             <ul>
               <li><p><span>한도 : </span>최대 2,000만원</p></li>
               <li><p><span>금리 : </span>연9%대</p></li>

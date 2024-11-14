@@ -85,12 +85,12 @@
   padding-left: 0px;
   margin-top: 3rem;
 }
-.product-number{
+.guarantee-product-number{
   font-family: 'GmarketBold';
   color: #295992;
   font-size: 2rem;
 }
-.produnt-name{
+.guarantee-product-name{
   font-family: 'GmarketBold';
   color: #ffffff;
   font-size: 1.5rem;
@@ -110,6 +110,7 @@
   font-size: 0.5rem;
   color: #ffffff;
   margin-left: 0.8rem;
+  margin-bottom: 0.3rem;
 }
 .top-guarantee-info-detail li p{
   font-size: 0.9rem;
@@ -127,15 +128,16 @@
   bottom:  0px;
   left: 0;
   width: 100%;
-  height: 10%;
+  height: 5rem;
   margin-top: auto;
-  display: flex;  /* flexbox 활성화 */
-  align-items: center;  /* 세로 중앙 정렬 */
-  justify-content: center;  /* 가로 중앙 정렬 (선택 사항) */
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  cursor: pointer;
 }
 #top-guarantee-detail p{
   text-align: center;
-  line-height: 10%;
+  line-height: 5rem;
   font-family: 'GmarketMedium';
   font-size: 1.9rem;
   color: #35438c;
