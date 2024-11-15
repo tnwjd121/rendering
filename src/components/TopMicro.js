@@ -3,10 +3,9 @@ import '../css/topmicro.css'
 import QuickmenuMc from './QuickmenuMc';
 
 export default function TopMicro({onToggleMainMicro}) {
-    const easyCheck = () => {
-        window.location.href = 'https://sbloan.ibksb.co.kr/ibk/loan_form/loan_limit_01.jsp';
+    const enter = () => {
+        window.location.href = 'https://sbloan.ibksb.co.kr/ibk/loan_form/loan_step01_Evt.jsp';
       }
-      // 대출상담신청 링크 주소 받기
     
     return (
      <div id='top-micro-body'>
@@ -15,7 +14,7 @@ export default function TopMicro({onToggleMainMicro}) {
             <div id='top-micro-product'>소상공인<br/>4종대출</div>
             <div id='top-micro-shortcut-line'>
               <div id='top-micro-shortcut'>
-                <div id='top-micro-shortcut-main' onClick={easyCheck}>
+                <div id='top-micro-shortcut-main' onClick={enter}>
                     <span id='top-micro-white'>대출</span>상담신청
                 </div>
               </div>

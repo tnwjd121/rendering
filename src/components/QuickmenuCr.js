@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
 
 export default function QuickmenuCr() {
   const navigate = useNavigate();
+
     const  enroll = () =>{
         window.location.href ='https://sbloan.ibksb.co.kr/ibk/loan_form/loan_step00.jsp'
       }
@@ -17,6 +18,9 @@ export default function QuickmenuCr() {
 
       const navigateToGuarantee = () =>{
         navigate('/guarantee')
+      } 
+      const navigateToMicro = () =>{
+        navigate('/micro')
       } 
 
     
@@ -42,7 +46,7 @@ export default function QuickmenuCr() {
                     <p>온라인햇살론<br/>사잇돌2</p>
                 </div>
                 <hr id='quick-line-gray'/>
-                <div id='quick-menu-micro'>
+                <div id='quick-menu-micro' onClick={navigateToMicro}>
                     <img src={require('../img/소상공인바로가기아이콘.png')}></img>
                     <p>소상공인<br/>4종대출</p>
                 </div>

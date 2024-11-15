@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import '../css/quickmenu.css'
+import { useNavigate } from 'react-router-dom'
 
 export default function QuickmenuGu() {
+  const navigate = useNavigate();
   const  enroll = () =>{
     window.location.href ='https://sbloan.ibksb.co.kr/ibk/loan_form/loan_step00.jsp'
   }
@@ -12,6 +14,14 @@ export default function QuickmenuGu() {
   const handleDelete = () => {
     setIsDeleted(true);
   };
+
+  const navigateToCredit = () =>{
+    navigate('/credit')
+  } 
+  const navigateToMicro = () =>{
+    navigate('/micro')
+  } 
+
 
   if (isDeleted) {
     return null;
@@ -29,12 +39,12 @@ export default function QuickmenuGu() {
                 <p>상품정보<br/>바로가기</p>
                 <p><span id='quick-icon'>v</span></p>
             </div>
-            <div id='quick-menu-credit'>
+            <div id='quick-menu-credit' onClick={navigateToCredit}>
                 <img src={require('../img/신용대출바로가기아이콘.png')}></img>
                 <p>신용대출</p>
             </div>
             <hr id='quick-line-gray'/>
-            <div id='quick-menu-micro'>
+            <div id='quick-menu-micro' onClick={navigateToMicro}>
                 <img src={require('../img/소상공인바로가기아이콘.png')}></img>
                 <p>소상공인<br/>4종대출</p>
             </div>

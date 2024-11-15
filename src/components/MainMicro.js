@@ -58,7 +58,7 @@ export default function MainMicro() {
                 <div className='main-micro-text-detail'>
                     <ul>
                         <li><p>원리금균등분할상환</p></li>
-                        <li><p>이자부과시기 : 매월후취</p></li>
+                        <li><p>이자부과시기: 매월후취</p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
@@ -84,7 +84,7 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>대출금리 + 3% 이내(연체가산 이자율), 최대 15% 이내</p></li>
+                        <li><p>대출금리 + 3% 이내(연체가산 이자율), 최대15%이내</p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-info'>
@@ -141,7 +141,7 @@ export default function MainMicro() {
                 <div className='main-micro-text-detail'>
                     <ul>
                         <li><p>만기일시 or 분할상환</p></li>
-                        <li><p>이자부과시기 : 매월후취</p></li>
+                        <li><p>이자부과시기: 매월후취</p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
@@ -160,7 +160,7 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>인지비용 : 5천만원 초과시 대출금액별 수입인지비용 차등부과 (고객, 저축은행 각 50%씩 부담)</p></li>
+                        <li><p>인지비용: 5천만원 초과시 대출금액별 수입인지비용 차등부과 (고객, 저축은행 각 50%씩 부담)</p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
@@ -168,7 +168,7 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>대출금리 + 3% 이내(연체가산 이자율), 최대 20% 이내</p></li>
+                        <li><p>대출금리 + 3% 이내(연체가산 이자율), 최대20%이내</p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-info'>
@@ -226,7 +226,7 @@ export default function MainMicro() {
                 <div className='main-micro-text-detail'>
                     <ul>
                         <li><p>원리금균등분할상환</p></li>
-                        <li><p>이자부과시기 : 매월후취</p></li>
+                        <li><p>이자부과시기: 매월후취</p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
@@ -253,7 +253,7 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>대출금리 + 3% 이내(연체가산 이자율), 최대 20% 이내</p></li>
+                        <li><p>대출금리 + 3% 이내(연체가산 이자율), 최대20%이내</p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-info'>
@@ -312,7 +312,7 @@ export default function MainMicro() {
                 <div className='main-micro-text-detail'>
                     <ul>
                         <li><p>만기일시 or 분할상환</p></li>
-                        <li><p>이자부과시기 : 매월후취</p></li>
+                        <li><p>이자부과시기: 매월후취</p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
@@ -321,7 +321,7 @@ export default function MainMicro() {
                 <div className='main-micro-text-detail'>
                     <ul>
                         <li>
-                            <p>상환금액의 연 2% 이내</p>
+                            <p>상환금액의 연2%이내</p>
                             <p>※기한 전 상환 대출금액X기한 전 상환수수료율X대출잔여일÷대출기간</p>
                         </li>
                     </ul>
@@ -331,7 +331,7 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>인지비용 : 5천만원 초과시 대출금액별 수입인지비용 차등부과(고객, 저축은행 각 50%씩 부담) </p></li>
+                        <li><p>인지비용: 5천만원 초과시 대출금액별 수입인지비용 차등부과 (고객, 저축은행 각 50%씩 부담) </p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
@@ -339,7 +339,7 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>대출금리 + 3% 이내(연체가산 이자율), 최대 20% 이내</p></li>
+                        <li><p>대출금리 + 3% 이내(연체가산 이자율), 최대20%이내</p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-info'>

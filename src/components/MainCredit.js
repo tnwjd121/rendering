@@ -54,7 +54,7 @@ export default function MainCredit() {
                 </div>
                 <div className='main-credit-text-detail'>
                     <ul>
-                        <li><p>최소 1년 ~ 최장 5년(12개월 단위로 선택가능)</p></li>
+                        <li><p>최소 1년 ~ 최장 5년 (12개월 단위로 선택가능)</p></li>
                     </ul>
                 </div>
                 <div className='main-credit-text-title'>
@@ -170,7 +170,7 @@ export default function MainCredit() {
                 </div>
                 <div className='main-credit-text-detail'>
                     <ul>
-                        <li><p>최소 1년 ~ 최장 5년(12개월 단위로 선택가능)</p></li>
+                        <li><p>최소 1년 ~ 최장 5년 (12개월 단위로 선택가능)</p></li>
                     </ul>
                 </div>
                 <div className='main-credit-text-title'>
@@ -206,7 +206,7 @@ export default function MainCredit() {
                 </div>
                 <div className='main-credit-text-detail'>
                     <ul>
-                        <li><p>연체금리: 대출금리 + 3% 이내(연체가산 이자율), 최대 15% 이내</p></li>
+                        <li><p>연체금리: 대출금리 + 3% 이내(연체가산 이자율), 최대 20% 이내</p></li>
                     </ul>
                 </div>
                 <div className='main-credit-text-info'>
