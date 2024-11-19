@@ -1,0 +1,29 @@
+#main-integrate-body{
+    width: 100%;
+    background-color: #ffffff;
+    font-family: 'GmarketMedium';
+}
+#main-integrate-product{
+    margin: 0 auto;
+    width: 50rem;
+    padding-bottom: 4rem;
+}
+#main-integrate-top{
+    display: flex;
+    align-items: center;
+}
+#main-integrate-number img{
+    width: 5rem;
+    padding-right: 3rem;
+}
+#main-integrate-subtitle{
+    color: #4a4a4a;
+    display: flex;
+    align-items: center;
+}
+#main-integrate-subtitle hr{
+    flex-grow: 1;
+    border-top: 1.2px solid #2e4b80;
+
+
+}
