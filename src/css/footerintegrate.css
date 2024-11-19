@@ -1,0 +1,102 @@
+#footer1-inte{
+    background-color: #eeeeee;
+    font-family: 'GmarketMedium';
+}
+#footer1-inte-body{
+    width: 50rem;
+    margin:0 auto;
+    padding: 2rem 0;
+}
+#footer1-inte-container{
+    padding: 1rem 0;
+}
+#footer1-inte-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 2rem;
+}
+#footer1-inte-title p {
+    font-family: 'GmarketBold';
+    font-size: 1.7rem;
+}
+#footer1-inte-title img {
+    height: 1.2rem;
+    width: 1.3rem;
+}
+#footer1-inte-text p{
+    margin: 0.3rem 0;
+}
+
+
+
+#footer2-inte{
+    font-family: 'GmarketMedium';
+    color: #2b2b2b;
+    font-size: 1.2rem;
+}
+#footer2-inte-body{
+    width: 50rem;
+    margin: 0 auto;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#footer2-inte-container p{
+    margin: 0;
+
+}
+#call-number{
+    font-family: 'GmarketBold';
+    font-size: 2rem;
+    padding-top: 0.3rem;
+    padding-bottom: 1.5rem;
+}
+#footer2-inte-box{
+    background-color: #030d52;
+    padding: 1rem 2.5rem;
+}
+#footer2-inte-box-text1{
+    color: white;
+}
+#footer2-inte-box-text2{
+    font-family: 'GmarketBold';
+    color:#37fe9f;
+    font-size: 2rem;
+}
+
+
+#footer3-inte{
+    font-family: 'GmarketMedium';
+    font-size: 0.6rem;
+    background-color: #343530;
+}
+#footer3-inte{
+    font-family: 'GmarketMedium';
+    font-size: 0.6rem;
+    background-color: #343530;
+}
+.footer3-inte-text{
+    color: #fbfbfb;
+}
+
+#footer3-inte-body{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50rem;
+    height: 5rem;
+}
+.footer3-inte-img img{
+    width: 12rem;
+    height: 2.5rem;
+}
+.footer3-inte-text li{
+    list-style: none;
+}
+.footer3-inte-text li p{
+    margin: 0px;
+}
