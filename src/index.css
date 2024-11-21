@@ -48,3 +48,11 @@ code {
   font-family: "GmarketMedium";
   src: url(../src/fonts/GmarketSansTTFMedium.ttf);
 }
+@font-face {
+  font-family: "PretendardMedium";
+  src: url(../src/fonts/Pretendard-Medium.otf);
+}
+@font-face {
+  font-family: "PretendardtRegular";
+  src: url(../src/fonts/Pretendard-Regular.otf);
+}

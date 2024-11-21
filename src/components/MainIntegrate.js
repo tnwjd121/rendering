@@ -1,12 +1,12 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import '../css/mainintegrate.css'
 
-export default function MainIntegrate() {
+export default function MainIntegrate({bigloneRef, saitdolRef, onlineRef}) {
   return (
     <div id='main-integrate-body'>
-        <div id='main-integrate-product'>
+        <div id='main-integrate-product'  >
             <div id='main-integrate-top'>
-                <div id='main-integrate-number'>
+                <div id='main-integrate-number' ref={bigloneRef}>
                     <img src={require('../img/01.png')}></img>
                 </div>
                 <div id='main-integrate-title'>
@@ -124,14 +124,14 @@ export default function MainIntegrate() {
         </div>
         <div id='main-integrate-product'>
             <div id='main-integrate-top'>
-                <div id='main-integrate-number2'>
+                <div id='main-integrate-number2' ref={saitdolRef}>
                     <img src={require('../img/02.png')}></img>
                 </div>
                 <div id='main-integrate-title'>
                     <div id='main-integrate-subtitle'>
                         <span>중·저신용 거래자 대상의 정부지원대출</span><hr/>
                     </div>
-                    <div id='main-integrate-maintitle'>사잇돌2</div>
+                    <div id='main-integrate-maintitle' >사잇돌2</div>
                 </div>
             </div>
             <div id='main-integrate-container'>
@@ -220,14 +220,14 @@ export default function MainIntegrate() {
         </div>
         <div id='main-integrate-product'>
             <div id='main-integrate-top'>
-                <div id='main-integrate-number2'>
+                <div id='main-integrate-number2' ref={onlineRef}>
                     <img src={require('../img/03.png')}></img>
                 </div>
-                <div id='main-integrate-title'>
+                <div id='main-integrate-title' >
                     <div id='main-integrate-subtitle'>
                         <span>저신용 · 저소득 직장인을 위한 서민지원대출</span><hr/>
                     </div>
-                    <div id='main-integrate-maintitle'>온라인 햇살론</div>
+                    <div id='main-integrate-maintitle' >온라인 햇살론</div>
                 </div>
             </div>
             <div id='main-integrate-container'>

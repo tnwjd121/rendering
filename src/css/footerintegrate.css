@@ -3,7 +3,7 @@
     font-family: 'GmarketMedium';
 }
 #footer1-inte-body{
-    width: 50rem;
+    width: 43rem;
     margin:0 auto;
     padding: 2rem 0;
 }
@@ -14,7 +14,7 @@
     border: 1.2px solid black;
     margin-top: 0.3rem;
     margin-bottom: 1.5rem;
-    width: 49rem;
+    width: 42rem;
 }
 
 #footer1-inte-title{
@@ -26,14 +26,15 @@
 }
 #footer1-inte-title p {
     font-family: 'GmarketBold';
-    font-size: 1.7rem;
+    font-size: 1.4rem;
 }
 #footer1-inte-title img {
     height: 1.2rem;
     width: 1.3rem;
 }
 #footer1-inte-text p{
-    margin: 0.3rem 0;
+    margin: 0.2rem 0;
+    font-size: 0.8rem;
 }
 
 #padding-left-one{
@@ -49,7 +50,7 @@
     font-size: 1.2rem;
 }
 #footer2-inte-body{
-    width: 50rem;
+    width: 43rem;
     margin: 0 auto;
     height: 20rem;
     display: flex;
@@ -100,7 +101,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 50rem;
+    width: 43rem;
     height: 5rem;
 }
 .footer3-inte-img img{
