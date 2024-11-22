@@ -145,7 +145,7 @@ export default function MainIntegrate({bigloneRef, saitdolRef, onlineRef}) {
                         <li><p>사업자: 사업 개시일로부터 4개월 이상 사업 운영중이며, 연소득 600만원 이상인 자</p></li>
                         <li>
                             <p>연금수령자: 연금 1회 이상 수령자 (국민연금, 공무원연금, 군인연금, 사학연금) 중,<br/>
-                            연소득 600만원 이상인자</p>
+                            <span id='padding-five'></span>연소득 600만원 이상인자</p>
                         </li>
                     </ul>
                 </div>
@@ -313,7 +313,7 @@ export default function MainIntegrate({bigloneRef, saitdolRef, onlineRef}) {
                                 1) 저소득청년(연소득 3,500만원 이하, 만34세이하) 0.5%p 인하<br/>
                                 2) 기타(신용부채관리 컨설팅 이수자, 금융교육 이수자) 0.1%p 인하<br/>
                                 ※ 신용부채관리 컨설팅 및 금융교육 이수자: '21.7.26.신규 신청접수분부터 신청일 이전 1년 이내<br/>
-                                서민금융진흥원에서 해당교육 이수한 경우<br/>
+                                <span id='padding-one'></span>서민금융진흥원에서 해당교육 이수한 경우<br/>
                             </p>
                         </li>
                         <li><p>

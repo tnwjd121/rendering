@@ -146,7 +146,21 @@
     width: 2rem;
     height: 2rem;
     font-size: 1.8rem;
+    /* 각도 조정 CSS*/
+    transform: rotate(0deg);
   }
+  #detail-change{
+    display: inline-block;
+    line-height: 2rem;
+    background-color: #b3e7ed;
+    border-radius: 1rem;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.8rem;
+    /* 각도 조정 CSS*/
+    transform: rotate(180deg);
+  }
+  
   
   
   

@@ -151,7 +151,7 @@ export default function MainCredit() {
                 </div>
                 <div className='main-credit-text-detail'>
                     <ul>
-                        <li><p>최저 100만원 ~ 최대 3,000만원</p></li>
+                        <li><p>최저 100만원 ~ 최대 300만원</p></li>
                     </ul>
                 </div>
                 <div className='main-credit-text-title'>

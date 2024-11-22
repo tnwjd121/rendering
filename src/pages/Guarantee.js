@@ -14,7 +14,10 @@ export default function Guarantee() {
   }
   return (
     <div>
-      <TopGuarantee onToggleMainGuarantee={OpenMainGuarantee}/>
+      <TopGuarantee 
+      onToggleMainGuarantee={OpenMainGuarantee}
+      showMainGuarantee={showMainGuarantee}
+      />
       {showMainGuarantee && <MainGuarantee />}
       <Footer/>
     </div>

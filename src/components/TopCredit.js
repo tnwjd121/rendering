@@ -1,8 +1,9 @@
 import React from 'react'
 import '../css/topcredit.css'
 import QuickmenuCr from './QuickmenuCr';
+import { LuChevronUp } from "react-icons/lu";
 
-export default function TopCredit({onToggleMainCredit}) {
+export default function TopCredit({onToggleMainCredit, showMainCredit}) {
     const easyCheck = () => {
         window.location.href = 'https://sbloan.ibksb.co.kr/ibk/loan_form/loan_limit_01.jsp';
       }
@@ -48,9 +49,9 @@ export default function TopCredit({onToggleMainCredit}) {
                 <img src={require('../img/신용대출선.png')} alt='line'/>
               </div>
               <div className='top-credit-info-detail'>
-                <p className='credit-product-name'><span className='credit-product-number'>02</span> i-패스트론U</p>
+                <p className='credit-product-name'><span className='credit-product-number'>03</span> i-패스트론U</p>
                 <ul>
-                  <li><p><span>한도 : </span>최대 3,000만원</p></li>
+                  <li><p><span>한도 : </span>최대 300만원</p></li>
                   <li><p><span>금리 : </span>연12~19%대</p></li>
                   <li><p><span>기간 : </span>최소 1년~최장 5년</p></li>
                 </ul>
@@ -58,7 +59,7 @@ export default function TopCredit({onToggleMainCredit}) {
             </div>
           </div>
             <div id='top-credit-detail' onClick={onToggleMainCredit}>
-              <p><span id='loanproduct'>대출상품정보</span> 자세히 보기 <span id='detail'>v</span></p>
+              <p><span id='loanproduct'>대출상품정보</span> 자세히 보기 <span id={!showMainCredit? 'detail' : 'detail-change'}><LuChevronUp /></span></p>
             </div>
             <QuickmenuCr/>
         </div>

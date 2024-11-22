@@ -12,7 +12,10 @@ export default function Credit() {
 
   return (
     <div>
-      <TopCredit onToggleMainCredit={OpenMainCredit}/>
+      <TopCredit 
+        onToggleMainCredit={OpenMainCredit}
+        showMainCredit={showMainCredit}
+      />
       {showMainCredit && <MainCredit/>}
       <Footer/>
     </div>

@@ -11,7 +11,10 @@ export default function Micro() {
 
   return (
     <div>
-      <TopMicro onToggleMainMicro={OpenMainMicro}/>
+      <TopMicro 
+        onToggleMainMicro={OpenMainMicro}
+        showMainMicro={showMainMicro}
+      />
       {showMainMicro && <MainMicro/>}
       <Footer/>
     </div>

@@ -1,8 +1,9 @@
 import React from 'react'
 import '../css/topguarantee.css'
 import Quickmenu from './QuickmenuGu'
+import { LuChevronUp } from "react-icons/lu";
 
-export default function TopGuarantee({onToggleMainGuarantee}) {
+export default function TopGuarantee({onToggleMainGuarantee, showMainGuarantee}) {
 
   const easyCheck = () => {
     window.location.href = 'https://sbloan.ibksb.co.kr/ibk/loan_form/loan_limit_01.jsp';
@@ -48,7 +49,7 @@ export default function TopGuarantee({onToggleMainGuarantee}) {
         </div>
       </div>
         <div id='top-guarantee-detail' onClick={onToggleMainGuarantee}>
-          <p><span id='loanproduct'>대출상품정보</span> 자세히 보기 <span id='detail'>v</span></p>
+          <p><span id='loanproduct'>대출상품정보</span> 자세히 보기 <span id={!showMainGuarantee? 'detail' : 'detail-change'}><LuChevronUp /></span></p>
         </div> 
        <Quickmenu/>  
     </div>
