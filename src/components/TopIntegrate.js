@@ -2,6 +2,10 @@ import React from 'react'
 import '../css/topintegrate.css'
 
 export default function TopIntegrate({scrollToSection, onToggleMainIntegrate}) {
+  const totalCheck = () => {
+    window.location.href = 'https://sbloan.ibksb.co.kr/ibk/index.jsp';
+  }
+  // 통합간편한도조회 URL별도 부여 예정
   return (
     <div>
       <div id='top-integrate-body'>
@@ -18,7 +22,7 @@ export default function TopIntegrate({scrollToSection, onToggleMainIntegrate}) {
                 나에게 맞는 <span>대출상품을 다이렉트로 신청</span>!!
               </p>
             </div>
-            <div id='top-integrate-shortcut'>
+            <div id='top-integrate-shortcut' onClick={totalCheck}>
               <img src={require('../img/바로가기버튼.png')}></img>
             </div>
             <div id='top-integrate-product-list'>
@@ -99,15 +103,15 @@ export default function TopIntegrate({scrollToSection, onToggleMainIntegrate}) {
                   <div className='top-integrate-text-bottom-text'>
                     <p>
                       <img src={require('../img/liststyle.png')}></img>
-                      연11% ~ 연 19%대
+                      연 8%대 (근로자햇살론 대비 1.4%p적용) 
                     </p>
                     <p>
                       <img src={require('../img/liststyle.png')}></img>
-                      최저 500만원 ~ 최대 6,000만원
+                      최대 2,000만원
                     </p>
                     <p>
                       <img src={require('../img/liststyle.png')}></img>
-                      최소 1년 ~ 최장 5년까지
+                      3년, 5년
                     </p>
                   </div>
                 </div> 

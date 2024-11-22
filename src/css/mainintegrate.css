@@ -68,7 +68,7 @@
     padding-left: 0;
 }
 .main-integrate-text-detail ul li{
-    font-size: 5px;
+    font-size: 8px;
 }
 .main-integrate-text-detail ul li p{
     margin:2px 0;
@@ -77,6 +77,8 @@
 }
 #integrate-biglone-table{
     padding-top: 1rem;
+    border-collapse: separate;
+    border-spacing: 0.2rem;
 }
 #integrate-biglone-table tr td{
     background-color: #ededed;

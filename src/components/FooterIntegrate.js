@@ -23,7 +23,7 @@ export default function FooterIntegrate() {
       <div id='footer1-inte'>
         <div id='footer1-inte-body'>
             <div id='footer1-inte-container'>
-                <div id='footer1-inte-title'>
+                <div id='footer1-inte-title'onClick={OpenFooter1}>
                     <p>유의사항</p>
                     <img src={require('../img/footer화살표.png')} alt='화살표' onClick={OpenFooter1}></img>
                 </div>
@@ -39,9 +39,9 @@ export default function FooterIntegrate() {
                 }
             </div>
             <div id='footer1-inte-container'>
-                <div id='footer1-inte-title'>
+                <div id='footer1-inte-title' onClick={OpenFooter2}>
                     <p>발생가능한 불이익 안내</p>
-                    <img src={require('../img/footer화살표.png')} alt='화살표' onClick={OpenFooter2}></img>
+                    <img src={require('../img/footer화살표.png')} alt='화살표' ></img>
                 </div>
                 <hr/>
                 {
@@ -56,9 +56,9 @@ export default function FooterIntegrate() {
                 }
             </div>
             <div id='footer1-inte-container'>
-                <div id='footer1-inte-title'>
+                <div id='footer1-inte-title' onClick={OpenFooter3}>
                     <p>고객권리사항</p>
-                    <img src={require('../img/footer화살표.png')} alt='화살표' onClick={OpenFooter3}></img>
+                    <img src={require('../img/footer화살표.png')} alt='화살표' ></img>
                 </div>
                 <hr/>
                 {
@@ -83,7 +83,7 @@ export default function FooterIntegrate() {
       <div id='footer2-inte'>
         <div id='footer2-inte-body'>
             <div id='footer2-inte-container'>
-                <p>대출상품문의안내 (평일 오전 9시~오후6시까지)</p>
+                <p>대출상품문의안내 (평일 오전 9시~오후 6시까지)</p>
                 <p id='call-number'>대표번호 1522-7900</p>
                 <div id='footer2-inte-box' onClick={integrateProduct}>
                     <p id='footer2-inte-box-text1'>다른 대출상품이 궁금하시다면?</p>
@@ -95,7 +95,6 @@ export default function FooterIntegrate() {
       <div id='footer3-inte'>
         <div id='footer3-inte-body'>
             <div className='footer3-inte-img'>
-                {/* 이미지 색상 변경 필요 */}
                 <img src={require('../img/IBK로고.png')} alt='IBK Logo'/>
             </div>
             <div className='footer3-inte-text'>

@@ -7,7 +7,7 @@
     background-position: center;
     background-repeat: no-repeat;
     /* background-color: #040d51; */
-    /* 이미지 조정필요 */
+
 }
 #top-integrate-container{
     display: flex;
@@ -41,10 +41,11 @@
 #top-integrate-shortcut img{
     margin-top: 1.8rem;
     width: 23rem;
+    cursor: pointer;
 }
 
 #top-integrate-product-list{
-    width: 38rem;
+    width: 42rem;
     display: flex;
     justify-content: space-around;
     margin-top: 4.9rem;
@@ -55,12 +56,13 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    width: 10.5rem;
-    height: 8rem;
+    width: 11.5rem;
+    height: 9rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 0.5rem 1rem;
+    cursor: pointer;
 }
 .top-integrate-text-top{
     display: flex;
@@ -96,7 +98,7 @@
     height: 2.5rem;
 }
 .top-integrate-text-img2 img{
-    width: 1.6rem;
+    width: 2rem;
     height: 2.5rem;
 }
 .top-integrate-text-bottom{
