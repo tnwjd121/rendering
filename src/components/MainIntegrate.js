@@ -27,8 +27,8 @@ export default function MainIntegrate({bigloneRef, saitdolRef, onlineRef}) {
                         <li>
                             <p>당행 CSS평가 시스템에 의해 대출한도가 산출되는 자 <br/>
                                 (NICE개인신용평점 725점이상 및 KCB개인신용평점 535점 이상)
-                                <br/><br/>
-                                ※심사 진행 시, 개인소득산정에 따라 i-빅론U플러스 신청 여부 확인 가능
+                                <br/>
+                                심사 진행 시, 개인소득산정에 따라 i-빅론U플러스 신청 여부 확인 가능
                             </p>
                         </li>
                     </ul>
@@ -192,8 +192,7 @@ export default function MainIntegrate({bigloneRef, saitdolRef, onlineRef}) {
                 </div>
                 <div className='main-integrate-text-detail'>
                     <ul>
-                        <li><p>상환금액의 1.6%</p></li>
-                        <li><p>※ 기한 전 상환 대출금액 X 기한 전 상환 수수료율 X 대출 잔여일 수 / 대출 기간</p></li>
+                        <li><p>없음</p></li>
                     </ul>
                 </div>
                 <div className='main-integrate-text-title'>

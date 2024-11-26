@@ -145,8 +145,43 @@
     border-radius: 50%;
     width: 2.4rem;
     height: 2.4rem;
+    transform: rotate(180deg);
+}
+#detail-integrate-change{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 2.4rem;
+    height: 2.4rem;
+    transform: rotate(0deg);
   }
   #detail-integrate img{
     width: 1rem;
     height: 1rem;
+  }
+  #detail-integrate-change img{
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  #top-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    font-family: 'GmarketBold';
+    background-color: #232c4a;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    text-align: center;
+    font-size: 0.7rem;
+  }
+  .color-green{
+    color: #34fda2;
   }

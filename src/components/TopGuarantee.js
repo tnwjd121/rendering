@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import '../css/topguarantee.css'
 import Quickmenu from './QuickmenuGu'
 import { LuChevronUp } from "react-icons/lu";
 
 export default function TopGuarantee({onToggleMainGuarantee, showMainGuarantee}) {
+  const topRef = useRef(null);
+
+  const ClickTopButton = () => {
+    topRef.current.scrollIntoView({behavior: 'smooth'});
+  }
 
   const easyCheck = () => {
     window.location.href = 'https://sbloan.ibksb.co.kr/ibk/loan_form/loan_limit_01.jsp';
@@ -13,7 +18,7 @@ export default function TopGuarantee({onToggleMainGuarantee, showMainGuarantee})
   }
 
   return (
-    <div id='top-guarantee-body'>
+    <div id='top-guarantee-body' ref={topRef}>
       <div id='top-guarantee-container'>
         <div id='top-guarantee-bank'>IBK저축은행</div>
         <div id='top-guarantee-product'>보증부<br/>서민대출</div>
@@ -52,6 +57,7 @@ export default function TopGuarantee({onToggleMainGuarantee, showMainGuarantee})
           <p><span id='loanproduct'>대출상품정보</span> 자세히 보기 <span id={!showMainGuarantee? 'detail' : 'detail-change'}><LuChevronUp /></span></p>
         </div> 
        <Quickmenu/>  
+       <div id='top-button' onClick={ClickTopButton}>TOP</div>
     </div>
   )
 }

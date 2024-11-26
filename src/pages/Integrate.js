@@ -48,6 +48,7 @@ export default function Integrate() {
       <TopIntegrate 
         scrollToSection={handleOpenAndScroll} 
         onToggleMainIntegrate={() => setShowMainIntegrate(!showMainIntegrate)} 
+        showMainIntegrate={showMainIntegrate}
       />
       {showMainIntegrate && <MainIntegrate
         bigloneRef={bigloneRef}

@@ -2,14 +2,14 @@ import React, { useState } from 'react'
 import '../css/footerintegrate.css';
 export default function FooterIntegrate() {
     const [footerOpenText1, setFooterOpentext1] = useState(false);
+    const [footerOpenText2, setFooterOpentext2] = useState(false);
+    const [footerOpenText3, setFooterOpentext3] = useState(false);
     const OpenFooter1 = () => {
         setFooterOpentext1(!footerOpenText1);
     }
-    const [footerOpenText2, setFooterOpentext2] = useState(false);
     const OpenFooter2 = () => {
         setFooterOpentext2(!footerOpenText2);
     }
-    const [footerOpenText3, setFooterOpentext3] = useState(false);
     const OpenFooter3 = () => {
         setFooterOpentext3(!footerOpenText3);
     }
@@ -25,7 +25,7 @@ export default function FooterIntegrate() {
             <div id='footer1-inte-container'>
                 <div id='footer1-inte-title'onClick={OpenFooter1}>
                     <p>유의사항</p>
-                    <img src={require('../img/footer화살표.png')} alt='화살표' onClick={OpenFooter1}></img>
+                    <img src={require('../img/footer화살표.png')} alt='화살표' id={footerOpenText1? 'change' : ''}></img>
                 </div>
                 <hr/>
                 { footerOpenText1 &&
@@ -41,24 +41,23 @@ export default function FooterIntegrate() {
             <div id='footer1-inte-container'>
                 <div id='footer1-inte-title' onClick={OpenFooter2}>
                     <p>발생가능한 불이익 안내</p>
-                    <img src={require('../img/footer화살표.png')} alt='화살표' ></img>
+                    <img src={require('../img/footer화살표.png')} alt='화살표' id={footerOpenText2? 'change' : ''}></img>
                 </div>
                 <hr/>
                 {
                     footerOpenText2 &&
                 <div id='footer1-inte-text'>   
-                    <p>- 과도한 대출은 개인신용평점 하락의 원인이 될 수 있습니다.</p>
-                    <p>- 개인신용평점 하락으로 금융거래의 제약 또는 불이익이 발생할 수 있습니다.</p>
-                    <p>- 연체 시 계약기한 만료 전 원리금 변제 의무가 발생할 수 있습니다.</p>
-                    <p>- 계약 체결 전 상품설명서 및 약관을 확인하시기 바랍니다.</p>
-                    <p>- 해당 상품에 대해 충분한 사전 설명을 받을 권리가 있으며, 설명을 이해한 후 거래하시기 바랍니다.</p>
+                    <p>- 신용평점 및 구간에 따라 신용원가율이 가산 될 수 있습니다.</p>
+                    <p>- 기준금리 변동에 따라 대출금리가 변경 될 수 있습니다.</p>
+                    <p>- 신용평점 또는 당사 대출규정에 의거 결격사유가 있는 경우 대출이 제한됩니다.</p>
+                    <p>- 대출금 상환 지연 시 예금 등 기타채권과의 상계나 법적절차진행 등으로 재산상의 불이익을 받을 수 있습니다.</p>
                 </div>
                 }
             </div>
             <div id='footer1-inte-container'>
                 <div id='footer1-inte-title' onClick={OpenFooter3}>
                     <p>고객권리사항</p>
-                    <img src={require('../img/footer화살표.png')} alt='화살표' ></img>
+                    <img src={require('../img/footer화살표.png')} alt='화살표' id={footerOpenText3? 'change' : ''}></img>
                 </div>
                 <hr/>
                 {

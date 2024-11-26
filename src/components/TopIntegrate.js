@@ -1,17 +1,20 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import '../css/topintegrate.css'
 
 
 export default function TopIntegrate({scrollToSection, onToggleMainIntegrate, showMainIntegrate}) {
-  // 화살표 위 아래 수정
-  // 슬라이드 효과 추가
-  // 모바일로 했을때 문제 있는지 확인
+  const topRef = useRef(null);
+
+  const ClickTopButton = () => {
+    topRef.current.scrollIntoView({behavior: 'smooth'});
+  }
+
   const totalCheck = () => {
     window.location.href = 'https://webloan.ibksb.co.kr/?AD_NO=AD0017&AGENT_ID=SL002&RECOMMENDER=Y?adf_cd=40';
   }
   return (
     <div>
-      <div id='top-integrate-body'>
+      <div id='top-integrate-body' ref={topRef}>
         <div id='top-integrate-container'>
             <div id='top-integrate-subtitle'>
               <img src={require('../img/원스톱소제목.png')}></img>
@@ -22,7 +25,7 @@ export default function TopIntegrate({scrollToSection, onToggleMainIntegrate, sh
             <div id='top-integrate-text'>
               <p>
                 <span className='color-blue'>신용평점에 영향없이 3가지 대출상품</span>을 한번에 조회!<br/>
-                나에게 맞는 <span>대출상품을 다이렉트로 신청</span>!!
+                나에게 맞는 <span className='color-green'>대출상품을 다이렉트로 신청</span>!!
               </p>
             </div>
             <div id='top-integrate-shortcut' onClick={totalCheck}>
@@ -62,7 +65,7 @@ export default function TopIntegrate({scrollToSection, onToggleMainIntegrate, sh
               <div className='top-integrate-text' onClick={() => scrollToSection('saitdol')}>
                 <div className='top-integrate-text-top'>
                   <div className='top-integrate-text-top-left'>
-                    <div className='top-integrate-text-subtitle'>중저신용 거래자를 위한<br/>정부지원대출</div>
+                    <div className='top-integrate-text-subtitle'>중·저신용 거래자를 위한<br/>정부지원대출</div>
                     <div className='top-integrate-text-title'>사잇돌2</div>
                   </div>
                   <div className='top-integrate-text-top-right'>                    
@@ -92,7 +95,7 @@ export default function TopIntegrate({scrollToSection, onToggleMainIntegrate, sh
               <div className='top-integrate-text' onClick={() => scrollToSection('online')}>
                 <div className='top-integrate-text-top'>
                   <div className='top-integrate-text-top-left'>
-                    <div className='top-integrate-text-subtitle'>중저신용 거래자를 위한<br/>정부지원대출</div>
+                    <div className='top-integrate-text-subtitle'>저신용·저소득 직장인을 위한<br/>서민지원대출</div>
                     <div className='top-integrate-text-title'>온라인햇살론</div>
                   </div>
                   <div className='top-integrate-text-top-right'>                    
@@ -106,7 +109,7 @@ export default function TopIntegrate({scrollToSection, onToggleMainIntegrate, sh
                   <div className='top-integrate-text-bottom-text'>
                     <p>
                       <img src={require('../img/liststyle.png')}></img>
-                      연 8%대 (근로자햇살론 대비 1.4%p적용) 
+                      연 8%대
                     </p>
                     <p>
                       <img src={require('../img/liststyle.png')}></img>
@@ -124,12 +127,13 @@ export default function TopIntegrate({scrollToSection, onToggleMainIntegrate, sh
       </div>
         <div id='top-intergrate-detail' onClick={onToggleMainIntegrate}>
           <p><span id='loanproduct'>대출상품정보</span> 자세히 보기 
-          <span id='detail-integrate'>
+          <span id={showMainIntegrate?'detail-integrate':'detail-integrate-change'}>
             <img src={require('../img/footer화살표.png')}>
             </img>
           </span>
           </p>
         </div> 
+        <div id='top-button' onClick={ClickTopButton}>TOP</div>
     </div>
   )
 }

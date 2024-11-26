@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import '../css/topmicro.css'
 import QuickmenuMc from './QuickmenuMc';
 import { LuChevronUp } from "react-icons/lu";
 
 export default function TopMicro({onToggleMainMicro,showMainMicro}) {
+  const topRef = useRef(null);
+
+  const ClickTopButton = () => {
+    topRef.current.scrollIntoView({behavior: 'smooth'});
+  }
 
   // URL 확인 필요
     const enter = () => {
@@ -11,7 +16,7 @@ export default function TopMicro({onToggleMainMicro,showMainMicro}) {
       }
     
     return (
-     <div id='top-micro-body'>
+     <div id='top-micro-body' ref={topRef}>
         <div id='top-micro-container'>
             <div id='top-micro-bank'>IBK저축은행</div>
             <div id='top-micro-product'>소상공인<br/>4종대출</div>
@@ -98,6 +103,7 @@ export default function TopMicro({onToggleMainMicro,showMainMicro}) {
               <p><span id='loanproduct'>대출상품정보</span> 자세히 보기 <span id={!showMainMicro? 'detail' : 'detail-change'}><LuChevronUp /></span></p>
             </div> 
            <QuickmenuMc/> 
+           <div id='top-button' onClick={ClickTopButton}>TOP</div>
         </div>
       )
 }

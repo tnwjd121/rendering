@@ -122,3 +122,6 @@
 .footer3-inte-text li p{
     margin: 1px;
 }
+#change{
+    transform: rotate(180deg);
+}
