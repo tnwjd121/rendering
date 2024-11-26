@@ -1,20 +1,20 @@
-import React, { useEffect, useRef, useState } from 'react'
-import FooterIntegrate from '../components/FooterIntegrate'
-import MainIntegrate from '../components/MainIntegrate'
-import TopIntegrate from '../components/TopIntegrate'
+import React, { useEffect, useRef, useState } from 'react';
+import FooterIntegrate from '../components/FooterIntegrate';
+import MainIntegrate from '../components/MainIntegrate';
+import TopIntegrate from '../components/TopIntegrate';
+import { CSSTransition } from 'react-transition-group';
+import '../css/integrate.css';
 
 export default function Integrate() {
-  
   const bigloneRef = useRef(null);
   const saitdolRef = useRef(null);
   const onlineRef = useRef(null);
   const [showMainIntegrate, setShowMainIntegrate] = useState(false);
   const [targetSection, setTargetSection] = useState(null);
 
-
-  const scrollToSection = (section) =>{
-    if(section === 'biglone' && bigloneRef.current) {
-      bigloneRef.current.scrollIntoView({behavior: 'smooth'});
+  const scrollToSection = (section) => {
+    if (section === 'biglone' && bigloneRef.current) {
+      bigloneRef.current.scrollIntoView({ behavior: 'smooth' });
     } else if (section === 'saitdol' && saitdolRef.current) {
       saitdolRef.current.scrollIntoView({ behavior: 'smooth' });
     } else if (section === 'online' && onlineRef.current) {
@@ -41,7 +41,6 @@ export default function Integrate() {
       setTargetSection(null);
     }
   }, [showMainIntegrate, targetSection]);
-  
 
   return (
     <div>
@@ -50,12 +49,21 @@ export default function Integrate() {
         onToggleMainIntegrate={() => setShowMainIntegrate(!showMainIntegrate)} 
         showMainIntegrate={showMainIntegrate}
       />
-      {showMainIntegrate && <MainIntegrate
-        bigloneRef={bigloneRef}
-        saitdolRef={saitdolRef}
-        onlineRef={onlineRef}
-      />}
+      <div>
+        <CSSTransition
+          in={showMainIntegrate}
+          timeout={300}
+          classNames="main-integrate-transition"
+          unmountOnExit
+        >
+          <MainIntegrate
+            bigloneRef={bigloneRef}
+            saitdolRef={saitdolRef}
+            onlineRef={onlineRef}
+          />
+        </CSSTransition>
+      </div>
       <FooterIntegrate/>
     </div>
-  )
+  );
 }

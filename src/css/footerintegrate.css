@@ -125,3 +125,23 @@
 #change{
     transform: rotate(180deg);
 }
+
+.footer-integrate-transition-enter {
+    opacity: 0;
+    overflow: hidden;
+  }
+  .footer-integrate-transition-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
+  }
+  
+  .footer-integrate-transition-exit {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .footer-integrate-transition-exit-active {
+    opacity: 0;
+    transform: translateY(-1px); /* 애니메이션이 완료되면 요소가 위로 사라짐 */
+    transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
+  }

@@ -4,6 +4,8 @@ import '../css/footer.css'
 import '../css/mainguarantee.css'
 import MainGuarantee from '../components/MainGuarantee'
 import TopGuarantee from '../components/TopGuarantee'
+import '../css/guarantee.css'
+import { CSSTransition } from 'react-transition-group'
 
 
 export default function Guarantee() {
@@ -18,7 +20,14 @@ export default function Guarantee() {
       onToggleMainGuarantee={OpenMainGuarantee}
       showMainGuarantee={showMainGuarantee}
       />
-      {showMainGuarantee && <MainGuarantee />}
+      <CSSTransition
+        in={showMainGuarantee}
+        timeout={300}
+        classNames="main-guarantee-transition"
+        unmountOnExit
+      >
+        <MainGuarantee/>
+      </CSSTransition>
       <Footer/>
     </div>
   )

@@ -1,0 +1,25 @@
+/* 컴포넌트가 열릴 때 */
+    .main-guarantee-transition-enter {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+  }
+  .main-guarantee-transition-enter-active {
+    max-height: 100rem; /* 적당히 큰 값으로 설정 */
+    opacity: 1;
+    overflow: hidden;
+    transition: max-height 300ms ease-in-out, opacity 300ms ease-in-out;
+  }
+  
+  /* 컴포넌트가 닫힐 때 */
+  .main-guarantee-transition-exit {
+    max-height: 100rem;
+    opacity: 1;
+    overflow: hidden;
+  }
+  .main-guarantee-transition-exit-active {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 300ms ease-in-out, opacity 300ms ease-in-out;
+  }

@@ -1,7 +1,10 @@
-import React, { useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import '../css/mainintegrate.css'
 
 export default function MainIntegrate({bigloneRef, saitdolRef, onlineRef}) {
+
+    // 확인 필요
+    // 애니메이션이 적용이 안되는 것 같음 
   return (
     <div id='main-integrate-body'>
         <div id='main-integrate-product'  >
