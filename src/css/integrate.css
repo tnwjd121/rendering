@@ -1,6 +1,10 @@
+/* max-height로 했을 때 책갈피 이동 안돼서 다른 페이지와 애니메이션 상이 */
+
 .main-integrate-transition-enter {
     opacity: 0;
     overflow: hidden;
+    /* 애니메이션 전환 시 흔들림, 지연, 성능 문제 줄임 */
+    will-change: transform, opacity;
   }
   .main-integrate-transition-enter-active {
     opacity: 1;
@@ -11,9 +15,12 @@
   .main-integrate-transition-exit {
     opacity: 1;
     transform: translateY(0);
+    /* 애니메이션 전환 시 흔들림, 지연, 성능 문제 줄임 */
+    will-change: transform, opacity;
   }
   .main-integrate-transition-exit-active {
     opacity: 0;
-    transform: translateY(-1px); /* 애니메이션이 완료되면 요소가 위로 사라짐 */
+    transform: translateY(-1px); /* 애니메이션이 완료되면 요소가 위로 사라짐*/
     transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
-  }
+  } 
+ 

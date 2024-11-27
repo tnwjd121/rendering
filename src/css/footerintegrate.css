@@ -126,22 +126,30 @@
     transform: rotate(180deg);
 }
 
-.footer-integrate-transition-enter {
+.enter {
+    height: 0;
     opacity: 0;
     overflow: hidden;
-  }
-  .footer-integrate-transition-enter-active {
+    transition: max-height 200ms ease-in-out, opacity 200ms ease-in-out;
+    /* 애니메이션 전환 시 흔들림, 지연, 성능 문제 줄임 */
+    will-change: transform, opacity;
+}
+
+.enter-active {
+    max-height: 500px;
     opacity: 1;
-    transform: translateY(0);
-    transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
-  }
-  
-  .footer-integrate-transition-exit {
+}
+
+.exit {
+    max-height: 500px;
     opacity: 1;
-    transform: translateY(0);
-  }
-  .footer-integrate-transition-exit-active {
+    /* 애니메이션 전환 시 흔들림, 지연, 성능 문제 줄임 */
+    will-change: transform, opacity;
+}
+
+.exit-active {
+    max-height: 0;
     opacity: 0;
-    transform: translateY(-1px); /* 애니메이션이 완료되면 요소가 위로 사라짐 */
-    transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
-  }
+    transition: max-height 200ms ease-in-out, opacity 200ms ease-in-out;
+}
+

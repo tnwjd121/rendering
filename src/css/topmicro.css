@@ -125,15 +125,15 @@
   }
   
   #top-micro-detail {
-    display: flex;  
-    align-items: center; 
-    justify-content: center;
     background-color: #fbd44e;
     bottom:  0px;
     left: 0;
     width: 100%;
     height: 5rem;
     margin-top: auto;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
     cursor: pointer;
 
   }
@@ -184,16 +184,44 @@
     justify-content: center;
     align-items: center;
     position: fixed;
+    z-index: 100;
     bottom: 5%;
     right: 2%;
     font-family: 'GmarketBold';
-    background-color: #232c4a;
+    background-color: #004b9d;
     color: #ffffff;
     border-radius: 50%;
     width: 3.5rem;
     height: 3.5rem;
     text-align: center;
     font-size: 0.7rem;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.226);
+  }
+
+  #top-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    font-family: 'GmarketBold';
+    background-color: #004b9d;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    text-align: center;
+    font-size: 0.7rem;
+    z-index: 100;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.226);
+  }
+  #top-button p {
+    margin: 0;
+  }
+  #top-button-text{
+     padding-bottom: 0.5rem;
   }
   
 

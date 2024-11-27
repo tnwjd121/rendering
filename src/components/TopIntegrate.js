@@ -1,5 +1,8 @@
 import React, { useRef } from 'react'
 import '../css/topintegrate.css'
+import { FaAngleRight } from "react-icons/fa6";
+import { FaChevronUp } from "react-icons/fa";
+
 
 
 export default function TopIntegrate({scrollToSection, onToggleMainIntegrate, showMainIntegrate}) {
@@ -39,7 +42,7 @@ export default function TopIntegrate({scrollToSection, onToggleMainIntegrate, sh
                     <div className='top-integrate-text-title'>i-빅론U</div>
                   </div>
                   <div className='top-integrate-text-top-right'>                    
-                    <div className='top-integrate-text-button'>></div>
+                    <div className='top-integrate-text-button'><FaAngleRight /></div>
                     <div className='top-integrate-text-img'>
                       <img src={require('../img/빅론.png')}></img> 
                     </div>
@@ -69,7 +72,7 @@ export default function TopIntegrate({scrollToSection, onToggleMainIntegrate, sh
                     <div className='top-integrate-text-title'>사잇돌2</div>
                   </div>
                   <div className='top-integrate-text-top-right'>                    
-                    <div className='top-integrate-text-button'>></div>
+                    <div className='top-integrate-text-button'><FaAngleRight /></div>
                     <div className='top-integrate-text-img'>
                       <img src={require('../img/사잇돌.png')}></img>
                     </div>
@@ -99,7 +102,7 @@ export default function TopIntegrate({scrollToSection, onToggleMainIntegrate, sh
                     <div className='top-integrate-text-title'>온라인햇살론</div>
                   </div>
                   <div className='top-integrate-text-top-right'>                    
-                    <div className='top-integrate-text-button'>></div>
+                    <div className='top-integrate-text-button'><FaAngleRight /></div>
                     <div className='top-integrate-text-img2'>
                       <img src={require('../img/햇살론.png')}></img>
                     </div>
@@ -126,14 +129,17 @@ export default function TopIntegrate({scrollToSection, onToggleMainIntegrate, sh
         </div>
       </div>
         <div id='top-intergrate-detail' onClick={onToggleMainIntegrate}>
-          <p><span id='loanproduct'>대출상품정보</span> 자세히 보기 
+          <p><span id='loanproduct'>대출상품정보</span>자세히 보기 
           <span id={showMainIntegrate?'detail-integrate':'detail-integrate-change'}>
             <img src={require('../img/footer화살표.png')}>
             </img>
           </span>
           </p>
         </div> 
-        <div id='top-button' onClick={ClickTopButton}>TOP</div>
+        <div id='top-button' onClick={ClickTopButton}>
+        <p><FaChevronUp /></p>
+        <p id='top-button-text'>TOP</p>
+       </div>
     </div>
   )
 }

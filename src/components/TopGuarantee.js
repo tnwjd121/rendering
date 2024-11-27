@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import '../css/topguarantee.css'
 import Quickmenu from './QuickmenuGu'
 import { LuChevronUp } from "react-icons/lu";
+import { FaChevronUp } from "react-icons/fa";
 
 export default function TopGuarantee({onToggleMainGuarantee, showMainGuarantee}) {
   const topRef = useRef(null);
@@ -57,7 +58,10 @@ export default function TopGuarantee({onToggleMainGuarantee, showMainGuarantee})
           <p><span id='loanproduct'>대출상품정보</span> 자세히 보기 <span id={!showMainGuarantee? 'detail' : 'detail-change'}><LuChevronUp /></span></p>
         </div> 
        <Quickmenu/>  
-       <div id='top-button' onClick={ClickTopButton}>TOP</div>
+       <div id='top-button' onClick={ClickTopButton}>
+        <p><FaChevronUp /></p>
+        <p id='top-button-text'>TOP</p>
+       </div>
     </div>
   )
 }

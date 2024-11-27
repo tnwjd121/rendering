@@ -31,8 +31,13 @@ export default function FooterIntegrate() {
                 <hr/>
                 <CSSTransition
                     in={footerOpenText1}
-                    timeout={300}
-                    className="footer-integrate-transition"
+                    timeout={200}
+                    classNames={{
+                        enter: 'enter',
+                        enterActive: 'enter-active',
+                        exit: 'exit',
+                        exitActive: 'exit-active'
+                    }}
                     unmountOnExit
                 >
                     <div id='footer1-inte-text'>   
@@ -53,7 +58,12 @@ export default function FooterIntegrate() {
                 <CSSTransition 
                     in={footerOpenText2}
                     timeout={200}
-                    className="footer-integrate-transition"
+                    classNames={{
+                        enter: 'enter',
+                        enterActive: 'enter-active',
+                        exit: 'exit',
+                        exitActive: 'exit-active'
+                    }}
                     unmountOnExit
                 >
                 <div id='footer1-inte-text'>   
@@ -74,7 +84,12 @@ export default function FooterIntegrate() {
                 <CSSTransition
                 in={footerOpenText3}
                 timeout={200}
-                className="footer-integrate-transition"
+                classNames={{
+                    enter: 'enter',
+                    enterActive: 'enter-active',
+                    exit: 'exit',
+                    exitActive: 'exit-active'
+                }}
                 unmountOnExit
                 >
                 <div id='footer1-inte-text'>   

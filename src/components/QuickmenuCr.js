@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import '../css/quickmenu.css'
 import { useNavigate } from 'react-router-dom'
+import { LuChevronDown } from "react-icons/lu";
+import { MdOutlineClose } from "react-icons/md";
+
 
 export default function QuickmenuCr() {
   const navigate = useNavigate();
@@ -33,13 +36,13 @@ export default function QuickmenuCr() {
         <div>
           <div id='quick-menu-body'>
             <div id='quick-delete-button' onClick={handleDelete}>
-                <p>X</p>
+                <p><MdOutlineClose /></p>
             </div>
             <div id='quick-menu-list'>
                 <div id='quick-menu-product'>
                     <img src={require('../img/상품정보바로가기아이콘.png')}></img>
                     <p>상품정보<br/>바로가기</p>
-                    <p><span id='quick-icon'>v</span></p>
+                    <p><span id='quick-icon'><LuChevronDown /></span></p>
                 </div>
                 <div id='quick-menu-gua' onClick={navigateToGuarantee}>
                     <img src={require('../img/햇살론아이콘.png')}></img>

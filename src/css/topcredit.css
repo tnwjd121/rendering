@@ -171,20 +171,27 @@
   
   #top-button-credit{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: fixed;
     bottom: 5%;
     right: 2%;
     font-family: 'GmarketBold';
-    background-color: #57a7e6;
+    background-color: #1e94d4;
     color: #ffffff;
     border-radius: 50%;
     width: 3.5rem;
     height: 3.5rem;
     text-align: center;
     font-size: 0.7rem;
+    z-index: 100;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.226);
   }
-  
-  
+  #top-button-credit p {
+    margin: 0;
+  }
+  #top-button-credit-text{
+     padding-bottom: 0.5rem;
+  }
   

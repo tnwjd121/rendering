@@ -7,9 +7,9 @@ export default function MainIntegrate({bigloneRef, saitdolRef, onlineRef}) {
     // 애니메이션이 적용이 안되는 것 같음 
   return (
     <div id='main-integrate-body'>
-        <div id='main-integrate-product'  >
-            <div id='main-integrate-top'>
-                <div id='main-integrate-number' ref={bigloneRef}>
+        <div id='main-integrate-product' >
+            <div id='main-integrate-top' ref={bigloneRef}>
+                <div id='main-integrate-number' >
                     <img src={require('../img/01.png')}></img>
                 </div>
                 <div id='main-integrate-title'>
@@ -125,9 +125,9 @@ export default function MainIntegrate({bigloneRef, saitdolRef, onlineRef}) {
                 </div>
             </div>
         </div>
-        <div id='main-integrate-product'>
-            <div id='main-integrate-top'>
-                <div id='main-integrate-number2' ref={saitdolRef}>
+        <div id='main-integrate-product' >
+            <div id='main-integrate-top' ref={saitdolRef}>
+                <div id='main-integrate-number2' >
                     <img src={require('../img/02.png')}></img>
                 </div>
                 <div id='main-integrate-title'>
@@ -220,9 +220,9 @@ export default function MainIntegrate({bigloneRef, saitdolRef, onlineRef}) {
                 </div>
             </div>
         </div>
-        <div id='main-integrate-product'>
-            <div id='main-integrate-top'>
-                <div id='main-integrate-number2' ref={onlineRef}>
+        <div id='main-integrate-product' >
+            <div id='main-integrate-top' ref={onlineRef}>
+                <div id='main-integrate-number2' >
                     <img src={require('../img/03.png')}></img>
                 </div>
                 <div id='main-integrate-title' >

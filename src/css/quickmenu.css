@@ -4,6 +4,7 @@
     position: fixed;
     top: 10%;
     right: 10%;
+    z-index: 100; /* 다른 요소 위에 유지 */
 }
 #quick-delete-button{
     background-color: #575756;
@@ -18,7 +19,7 @@
     line-height: 1.3rem;
     font-family: 'GmarketMedium';
     color: #ffffff;
-    font-size: 0.9rem;
+    font-size: 1.3rem;
 }
 #quick-menu-list{
     text-align: center;
@@ -54,7 +55,10 @@
 #quick-icon{
     font-family: 'GmarketMedium';
     color: #ffffff;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #quick-menu-credit{
     background-color: #ffffff;

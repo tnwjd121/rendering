@@ -6,9 +6,10 @@
 #main-integrate-product{
     margin: 0 auto;
     width: 43rem;
-    padding: 5rem 0;
+    padding: 3rem 0 5rem 0;
 }
 #main-integrate-top{
+    padding-top: 2rem;
     display: flex;
     align-items: flex-start;
 

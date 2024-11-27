@@ -90,7 +90,7 @@
 .top-integrate-text-button{
     font-family: 'GmarketBold';
     color: #040d5f;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     padding-right: 0.3rem;
 }
 .top-integrate-text-img img{
@@ -130,12 +130,12 @@
   }
   #top-intergrate-detail p{
     display: flex;
+    text-align: center;
     align-items: center;
     font-family: 'GmarketMedium';
     font-size: 1.8rem;
     color: #ffffff;
     margin: 0px;
-    gap: 0.8rem;
   }
   #detail-integrate{
     display: flex;
@@ -146,6 +146,7 @@
     width: 2.4rem;
     height: 2.4rem;
     transform: rotate(180deg);
+    margin-left: 0.5rem;
 }
 #detail-integrate-change{
     display: flex;
@@ -156,6 +157,7 @@
     width: 2.4rem;
     height: 2.4rem;
     transform: rotate(0deg);
+    margin-left: 0.5rem;
   }
   #detail-integrate img{
     width: 1rem;
@@ -174,14 +176,42 @@
     bottom: 5%;
     right: 2%;
     font-family: 'GmarketBold';
-    background-color: #232c4a;
+    background-color: #004b9d;
     color: #ffffff;
     border-radius: 50%;
     width: 3.5rem;
     height: 3.5rem;
     text-align: center;
     font-size: 0.7rem;
+    z-index: 100;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.226);
   }
   .color-green{
     color: #34fda2;
+  }
+
+  #top-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    font-family: 'GmarketBold';
+    background-color: #004b9d;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    text-align: center;
+    font-size: 0.7rem;
+    z-index: 100;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.226);
+  }
+  #top-button p {
+    margin: 0;
+  }
+  #top-button-text{
+     padding-bottom: 0.5rem;
   }

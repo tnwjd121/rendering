@@ -168,7 +168,7 @@
   justify-content: center;
   line-height: 2rem;
   background-color: #b3e7ed;
-  border-radius: 1rem;
+  border-radius: 50%;
   width: 2.5rem;
   height: 2.5rem;
   font-size: 1.8rem;
@@ -179,18 +179,28 @@
 
 #top-button{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: fixed;
   bottom: 5%;
   right: 2%;
   font-family: 'GmarketBold';
-  background-color: #232c4a;
+  background-color: #004b9d;
   color: #ffffff;
   border-radius: 50%;
   width: 3.5rem;
   height: 3.5rem;
   text-align: center;
   font-size: 0.7rem;
+  z-index: 100;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.226);
+}
+#top-button p {
+  margin: 0;
+}
+#top-button-text{
+   padding-bottom: 0.5rem;
+  
 }
 
