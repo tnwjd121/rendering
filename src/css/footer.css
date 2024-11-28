@@ -1,3 +1,4 @@
+@media (min-width:1024px){
 footer{
     bottom: 0;
     width: 100%;
@@ -61,7 +62,7 @@ footer{
 
 #footer2{
     font-family: 'GmarketMedium';
-    font-size: 0.6rem;
+    font-size: 0.7rem;
 }
 .footer2-text{
     color: #b2b1b1
@@ -84,4 +85,97 @@ footer{
 }
 .footer2-text li p{
     margin: 0px;
+}
+    
+}
+
+@media (max-width:1024px){
+footer{
+    bottom: 0;
+    width: 100%;
+  }
+.note-title{
+    font-family: 'GmarketBold';
+
+}
+#footer1{
+    background-color: #646263;
+    color: rgb(212, 210, 210);
+    font-family: 'GmarketMedium';
+    font-size: 1.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3vw 1.5vw;
+
+} 
+.note-title{
+    width: 11vw;
+    color: #fbeb9b;
+    vertical-align: top;
+    padding: 0.7vw;
+    word-break: keep-all;
+}
+
+
+#note li {
+    font-size: 1vw;
+}
+#note li p{
+    font-size: 1.2vw;
+    margin: 0px;
+}
+
+#note{
+    width: 75vw;
+    border: none;
+    border-collapse: collapse;
+    
+}
+#note td{
+    border-bottom: 0.1vw solid rgb(212, 210, 210);
+    height: 100%;
+    overflow-wrap: break-word;
+}
+#note tr:last-child td {
+    border-bottom: none;
+}
+#note td ul{
+    padding: 0.5vw;
+}
+.indent-title{
+    padding-left: 1.5vw;
+}
+.indent-text{
+    padding-left: 0.5vw;
+}
+
+#footer2{
+    font-family: 'GmarketMedium';
+    font-size: 1.1vw;
+}
+.footer2-text{
+    color: #b2b1b1
+}
+
+#footer2-body{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65vw;
+    height: 8vw;
+}
+.footer2-img img{
+    width: 14vw;
+    height: 3vw;
+}
+.footer2-text li{
+    list-style: none;
+}
+.footer2-text li p{
+    margin: 0px;
+}
+    
 }

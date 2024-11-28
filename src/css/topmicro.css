@@ -30,12 +30,7 @@
     line-height: 8rem;
     font-size: 7.5rem;
     padding-bottom: 0.5rem;
-    background-color: black;
-    background-clip: text;
-    -webkit-background-clip: text; 
-    -moz-background-clip: text;
-    color: transparent;
-    text-shadow: rgba(42, 55, 118, 0.868) 0px 2px 2px;
+    
 
   }
   

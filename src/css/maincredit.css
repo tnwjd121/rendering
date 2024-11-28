@@ -1,3 +1,4 @@
+@media (min-width: 1024px){
 #main-credit-body{
     width: 100%;
     background-color: #efefef;
@@ -103,4 +104,110 @@
 .orange-color{
     color: #ef7338;
   }
-  
+}
+@media (max-width: 1024px){
+
+#main-credit-body{
+    width: 100%;
+    background-color: #efefef;
+}
+#main-credit-product{
+    margin: 0 auto;
+    width: 71vw;
+    padding-bottom: 7vw;
+}
+.main-credit-title{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #efefef;
+    position: relative;
+    top: 4.8vw;
+    width: 65%;
+    border-radius: 3.5vw;
+    padding: 1vw;
+}
+.main-credit-text{
+    background-color: white;
+    border-radius: 6vw;
+    padding: 8vw 6vw 4vw 6vw;
+}
+.main-credit-subtitle{
+    font-family: 'GmarketMedium';
+    font-size: 1.6vw;
+    margin-bottom: 1.1vw;
+    color: #535353;
+}
+.main-credit-maintitle{
+    font-family: 'GmarketBold';
+    font-size: 3.3vw;
+    color: #34438b;
+}
+.main-credit-text-title {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    
+}
+.main-credit-text-title hr{
+    flex-grow: 1;
+    border: none;
+    border-top: 0.1vw solid #2e4b80
+}
+.main-credit-text-title span{
+    font-family: 'GmarketBold';
+    padding-right: 2vw;
+   color: #34438b;
+   font-size: 1.6vw;
+}
+.main-credit-text-detail{
+    font-family: 'GmarketMedium';
+}
+.main-credit-text-detail ul{
+    padding-left: 0px;
+    list-style-type: disc;
+    font-size: 0.7vw;
+}
+.main-credit-text-detail li p{
+    font-size: 1.3vw;
+    margin: 0.1vw;
+}
+.target-credit{
+    background-color: #434342;
+    color: #ffffff;
+    padding: 0.2vw 0.2vw 0.2vw 0.2vw;
+    display: inline-block;
+    width: 9vw;
+    margin: 0.1vw;
+}
+.main-credit-text-info{
+    color: #5e5e5e;
+    text-align: right;
+    margin-top: 3.5vw;
+}
+.main-credit-text-info p{
+    margin: 0px;
+    font-size: 1.22vw;
+}
+
+.none-list-p{
+    font-family: 'GmarketMedium';
+    font-size: 1.3vw !important;
+    margin: 0;
+}
+
+#indent-plus{
+    padding-left: 10vw !important;
+}
+#biglone-table{
+    padding-left: 10vw !important;
+}
+#biglone-table tr td{
+    background-color: #ededed;
+    padding: 0.5vw 1.2vw !important;
+    text-align: center;
+}
+
+.orange-color{
+    color: #ef7338;
+  }
+}

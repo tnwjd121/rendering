@@ -1,3 +1,4 @@
+@media (min-width: 1024px) {
 #top-guarantee-body{
   background-image: url('/src/img/보증부상품배경.png');
   width: 100%;
@@ -11,16 +12,16 @@
 #top-guarantee-container{
   display: flex;
   flex-direction: column; 
-  height: 90%;
-  width: 50rem;
+  height: 91%;
+  width: 53rem;
   margin: 0 auto;
 }
 #top-guarantee-bank{
   font-family: 'GmarketBold';
   color: #ffffff;
   font-size: 3.2rem;
-  padding-top: 7rem;
-  padding-left: 0.5rem;
+  padding-top: 6rem;
+  padding-left: 1rem;
   text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.151);
   padding-bottom: 1rem;
 }
@@ -30,25 +31,21 @@
   line-height: 8rem;
   font-size: 8rem;
   padding-bottom: 0.5rem;
-  background-color: black;
-  background-clip: text;
-  -webkit-background-clip: text; 
-  -moz-background-clip: text;
-  color: transparent;
-  text-shadow: rgba(44, 57, 122, 0.868) 0px 2px 2px;
+  color: #152168;
+  padding-left: 0.5rem;
 
 }
 
 
 #top-guarantee-shortcut{
-  background-color: #35438c;
+  background-color: #0000ff;
   display: flex;
   width: 30rem;
-  height: 5rem;
+  height: 5.5rem;
   border-radius: 3rem;
   align-items: center;
-  justify-content: space-evenly;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.836);
+  padding-left: -0.5rem;
   
 }
 #top-guarantee-shortcut-line{
@@ -61,20 +58,23 @@
 
 #top-guarantee-shortcut-left{
   font-family: 'GmarketBold';
-  font-size: 2rem;
+  font-size: 1.9rem;
   color: #ffffff;
   cursor: pointer;
+  padding-left: 2.5rem;
+  padding-right: 1.5rem;
 }
 
 #top-guarantee-shortcut-center img{
-  height: 3.5rem;
+  height: 2.7rem;
 }
 
 #top-guarantee-shortcut-right{
   font-family: 'GmarketBold';
-  font-size: 2rem;
-  color: #fbd44e;
+  font-size: 1.9rem;
+  color: #ffff00;
   cursor: pointer;
+  padding-left: 3rem;
 }
 
 #top-guarantee-info{
@@ -83,17 +83,22 @@
   justify-content: space-evenly;
   align-items: center;
   padding-left: 0px;
-  margin-top: 3rem;
+  margin-top: 2.5rem;
 }
 .guarantee-product-number{
   font-family: 'GmarketBold';
-  color: #295992;
+  color: #ffffff;
   font-size: 2rem;
 }
 .guarantee-product-name{
   font-family: 'GmarketBold';
-  color: #ffffff;
-  font-size: 1.5rem;
+  color: #152168;
+  font-size: 1.7rem;
+}
+.guarantee-product-name2{
+  font-family: 'GmarketBold';
+  color: #021a2e;
+  font-size: 1.7rem;
 }
 .top-guarantee-info-detail{
   font-family: 'GmarketBold';
@@ -107,16 +112,13 @@
   margin-top: 0.2rem;
 }
 .top-guarantee-info-detail li{
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   color: #ffffff;
-  margin-left: 0.8rem;
+  margin-left: 1rem;
   margin-bottom: 0.3rem;
 }
 .top-guarantee-info-detail li p{
-  font-size: 0.9rem;
-  color: #4a4a48;
-}
-.top-guarantee-info-detail li p span{
+  font-size: 1rem;
   color:#ffffff;
 }
 #top-guarantee-info-line img {
@@ -141,7 +143,7 @@
   align-items: center;
   font-family: 'GmarketMedium';
   font-size: 1.9rem;
-  color: #35438c;
+  color: #021a2e;
   margin: 0px;
 }
 #loanproduct{
@@ -158,7 +160,6 @@
   width: 2.5rem;
   height: 2.5rem;
   font-size: 1.8rem;
-  /* 각도 조정 CSS*/
   transform: rotate(0deg);
   margin-left: 0.5rem;
 }
@@ -172,7 +173,6 @@
   width: 2.5rem;
   height: 2.5rem;
   font-size: 1.8rem;
-  /* 각도 조정 CSS*/
   transform: rotate(180deg);
   margin-left: 0.5rem;
 }
@@ -202,12 +202,14 @@
 #top-button-text{
    padding-bottom: 0.5rem;
 }
+}
 
-@media (max-width: 768px) {
+/* 1024px 이하 기준 */
+@media (max-width: 1024px) {
   #top-guarantee-body{
     background-image: url('/src/img/보증부상품배경.png');
     width: 100%;
-    height: 17rem;
+    height: 83vw;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -217,31 +219,31 @@
   #top-guarantee-container{
     display: flex;
     flex-direction: column; 
-    height: 90%;
+    height: 91%;
     margin: 0 auto;
     width: 75%;
   }
   #top-guarantee-bank{
     font-family: 'GmarketBold';
     color: #ffffff;
-    font-size: 4.5vw;
-    padding-top: 2.2rem;
-    padding-left: 0.3rem;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.151);
-    padding-bottom: 0.5rem;
+    font-size: 5vw;
+    padding-top: 12vw;
+    padding-left: 0.8vw;
+    text-shadow: 0.5vw 0.5vw 0.5vw rgba(0, 0, 0, 0.151);
+    padding-bottom: 1.2vw;
   }
   
   #top-guarantee-product{
     font-family: 'GmarketBold';
-    line-height: 2.5rem;
-    font-size: 11.5vw;
-    padding-bottom: 0.1rem;
+    line-height: 13vw;
+    font-size: 12.8vw;
+    padding-bottom: 0.5vw;
     background-color: black;
     background-clip: text;
     -webkit-background-clip: text; 
     -moz-background-clip: text;
     color: transparent;
-    text-shadow: rgba(44, 57, 122, 0.868) 0px 0.5px 0.5px;
+    text-shadow: rgba(44, 57, 122, 0.868) 0px 0.23vw 0.23vw;
   
   }
   
@@ -249,57 +251,57 @@
   #top-guarantee-shortcut{
     background-color: #35438c;
     display: flex;
-    width: 10rem;
-    height: 1.8rem;
-    border-radius: 0.8rem;
+    width: 47vw;
+    height: 8vw;
+    border-radius: 5vw;
     align-items: center;
     justify-content: space-evenly;
-    box-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.836);
+    box-shadow: 0.1vw 0.1vw 0.1vw rgba(0, 0, 0, 0.836);
     
   }
   #top-guarantee-shortcut-line{
     background-color: #ffffff;
-    width: 10rem;
-    border-radius: 5rem;
-    border: 2.4px solid #ffffff;
+    width: 47vw;
+    border-radius: 5vw;
+    border: 0.5vw solid #ffffff;
   }
   
   
   #top-guarantee-shortcut-left{
     font-family: 'GmarketBold';
-    font-size: 3vw;
+    font-size: 2.9vw;
     color: #ffffff;
     cursor: pointer;
   }
   
   #top-guarantee-shortcut-center img{
-    height: 1.2rem;
+    height: 5vw;
   }
   
   #top-guarantee-shortcut-right{
     font-family: 'GmarketBold';
-    font-size: 3vw;
+    font-size: 2.9vw;
     color: #fbd44e;
     cursor: pointer;
   }
   
   #top-guarantee-info{
-    width: 9rem;
+    width: 45vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding-left: 0px;
-    margin-top: 0.8rem;
+    margin-top: 5vw;
   }
   .guarantee-product-number{
     font-family: 'GmarketBold';
     color: #295992;
-    font-size: 2.8vw;
+    font-size: 3vw;
   }
   .guarantee-product-name{
     font-family: 'GmarketBold';
     color: #ffffff;
-    font-size: 2.4vw;
+    font-size: 2.6vw;
   }
   .top-guarantee-info-detail{
     font-family: 'GmarketBold';
@@ -310,23 +312,23 @@
   .top-guarantee-info-detail ul{
     margin: 0px;
     padding: 0px;
-    margin-top: 0.1rem;
+    margin-top: 0.7vw;
   }
   .top-guarantee-info-detail li{
-    font-size: 0.5vw;
+    font-size: 0.8vw;
     color: #ffffff;
-    margin-left: 0.4rem;
-    margin-bottom: 0.1rem;
+    margin-left: 2vw;
+    margin-bottom: 0.5vw;
   }
   .top-guarantee-info-detail li p{
-    font-size: 1.3vw;
+    font-size: 1.6vw;
     color: #4a4a48;
   }
   .top-guarantee-info-detail li p span{
     color:#ffffff;
   }
   #top-guarantee-info-line img {
-    height: 2.5rem;
+    height: 10vw;
   }
   
   #top-guarantee-detail {
@@ -334,7 +336,7 @@
     bottom:  0px;
     left: 0;
     width: 100%;
-    height: 1.7rem;
+    height: 7.5vw;
     margin-top: auto;
     display: flex;
     align-items: center; 
@@ -346,24 +348,21 @@
     text-align: center;
     align-items: center;
     font-family: 'GmarketMedium';
-    font-size: 2.6vw;
+    font-size: 2.9vw;
     color: #35438c;
     margin: 0px;
   }
   #loanproduct{
     font-family: 'GmarketBold';
-    margin-right: 0.1rem;
   }
-
-  /* 크기가 안바뀜 */
   #detail{
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     background-color: #b3e7ed;
-    width: 1rem !important;
-    height: 1rem !important;
+    width: 4vw !important;
+    height: 4vw !important;
     font-size: 3vw !important; 
     transform: rotate(0deg);
     margin-left: 0.5rem;
@@ -374,14 +373,13 @@
     justify-content: center;
     text-align: center;
     background-color: #b3e7ed;
-    width: 1rem !important; 
-    height: 1rem !important; 
+    width: 4vw !important;
+    height: 4vw !important;
     font-size: 3vw !important; 
     transform: rotate(180deg);
     margin-left: 0.5rem;
   }
   
-  /* main, footer 수정 후 반영 */
   #top-button{
     display: flex;
     flex-direction: column;
@@ -394,10 +392,10 @@
     background-color: #004b9d;
     color: #ffffff;
     border-radius: 50%;
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 2.5rem !important;
+    height: 2.5rem !important;
     text-align: center;
-    font-size: 0.7rem;
+    font-size: 0.6rem !important;
     z-index: 100;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.226);
   }
@@ -405,6 +403,6 @@
     margin: 0;
   }
   #top-button-text{
-     padding-bottom: 0.5rem;
+     padding-bottom: 0.4rem !important;
   }
 }

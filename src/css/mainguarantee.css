@@ -1,10 +1,12 @@
+@media (min-width: 1024px){
+
 #main-guarantee-body{
     width: 100%;
     background-color: #efefef;
 }
 #main-guarantee-product{
     margin: 0 auto;
-    width: 50rem;
+    width: 45rem;
     padding-bottom: 4rem;
 }
 .main-guarantee-title{
@@ -89,4 +91,98 @@
 
 #indent-gua{
     padding-left: 4.5rem;
+}
+}
+@media (max-width: 1024px){
+
+#main-guarantee-body{
+    width: 100%;
+    background-color: #efefef;
+}
+#main-guarantee-product{
+    margin: 0 auto;
+    width: 71vw;
+    padding-bottom: 7vw;
+}
+.main-guarantee-title{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #efefef;
+    position: relative;
+    top: 4.8vw;
+    width: 65%;
+    border-radius: 3.5vw;
+    padding: 1vw;
+}
+.main-guarantee-text{
+    background-color: white;
+    border-radius: 6vw;
+    padding: 8vw 6vw 4vw 6vw;
+}
+.main-guarantee-subtitle{
+    font-family: 'GmarketMedium';
+    font-size: 1.6vw;
+    margin-bottom: 1.1vw;
+    color: #535353;
+}
+.main-guarantee-maintitle{
+    font-family: 'GmarketBold';
+    font-size: 3.3vw;
+    color: #34438b;
+}
+.main-guarantee-text-title {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.main-guarantee-text-title hr{
+    flex-grow: 1;
+    border: none;
+    border-top: 0.1vw solid #2e4b80
+}
+.main-guarantee-text-title span{
+    font-family: 'GmarketBold';
+   padding-right: 2vw;
+   color: #34438b;
+   font-size: 1.6vw;
+}
+.main-guarantee-text-detail{
+    font-family: 'GmarketMedium';
+}
+.main-guarantee-text-detail ul{
+    padding-left: 0px;
+    list-style-type: disc;
+    font-size: 0.7vw;
+}
+.main-guarantee-text-detail li p{
+    font-size: 1.3vw;
+    margin: 0.1vw;
+}
+.target{
+    background-color: #434342;
+    color: #ffffff;
+    padding: 0.2vw 0.2vw 0.2vw 0.2vw;
+    display: inline-block;
+    width: 6.5vw;
+    margin: 0.1vw;
+}
+.main-guarantee-text-info{
+    color: #5e5e5e;
+    text-align: right;
+    margin-top: 3.5vw;
+}
+.main-guarantee-text-info p{
+    margin: 0px;
+    font-size: 1.22vw;
+}
+
+.none-list-p{
+    font-family: 'GmarketMedium';
+    font-size: 1.3vw !important;
+    margin: 0;
+}
+
+#indent-gua{
+    padding-left: 7.3vw;
+}
 }
