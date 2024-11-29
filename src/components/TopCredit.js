@@ -36,9 +36,9 @@ export default function TopCredit({ onToggleMainCredit, showMainCredit }) {
           <div className='top-credit-info-detail'>
             <p className='credit-product-name'><span className='credit-product-number'>01</span> i-빅론U</p>
             <ul>
-              <li><p><span>한도 : </span>최대 6,000만원</p></li>
-              <li><p><span>금리 : </span>연 11~19%대</p></li>
-              <li><p><span>기간 : </span>최소 1년~최장 5년</p></li>
+              <li><p>최대 6,000만원</p></li>
+              <li><p>연11%대 ~ 연19%대</p></li>
+              <li><p>최장 5년</p></li>
             </ul>
           </div>
           <div id='top-credit-info-line'>
@@ -47,9 +47,9 @@ export default function TopCredit({ onToggleMainCredit, showMainCredit }) {
           <div className='top-credit-info-detail'>
             <p className='credit-product-name'><span className='credit-product-number'>02</span> i-빅론U플러스</p>
             <ul>
-              <li><p><span>한도 : </span>최대 1억원</p></li>
-              <li><p><span>금리 : </span>연 7~19%대</p></li>
-              <li><p><span>기간 : </span>최소 1년~최장 5년</p></li>
+              <li><p>최대 1억원</p></li>
+              <li><p>연7%대 ~ 연19%대</p></li>
+              <li><p>최장 5년</p></li>
             </ul>
           </div>
         </div>

@@ -14,7 +14,7 @@ export default function MainIntegrate({bigloneRef, saitdolRef, onlineRef}) {
                 </div>
                 <div id='main-integrate-title'>
                     <div id='main-integrate-subtitle'>
-                        <span>직장인을 위한 IBK저축은행 직원심사 안심대출</span><hr/>
+                        <span>직장인을 위한 IBKSB 신용대출</span><hr/>
                     </div>
                     <div id='main-integrate-maintitle'>i-빅론U</div>
                 </div>
@@ -112,7 +112,7 @@ export default function MainIntegrate({bigloneRef, saitdolRef, onlineRef}) {
                     </ul>
                 </div>
                 <div className='main-integrate-text-title'>
-                        <span>연체율</span><hr/>
+                        <span>연체금리</span><hr/>
                 </div>
                 <div className='main-integrate-text-detail'>
                     <ul>
@@ -207,7 +207,7 @@ export default function MainIntegrate({bigloneRef, saitdolRef, onlineRef}) {
                     </ul>
                 </div>
                 <div className='main-integrate-text-title'>
-                        <span>연체율</span><hr/>
+                        <span>연체금리</span><hr/>
                 </div>
                 <div className='main-integrate-text-detail'>
                     <ul>
@@ -269,8 +269,8 @@ export default function MainIntegrate({bigloneRef, saitdolRef, onlineRef}) {
                     <ul>
                         <li>
                             <p>
-                                근로자: 연 8%대 (12개월변동금리)<br/>
-                                ※ 햇살론(근로자)대비 1.4%p 우대금리 적용<br/>
+                                근로자: 연 9%대 (12개월변동금리)<br/>
+                                ※ 햇살론(근로자)대비 0.75%p 우대금리 적용<br/>
                                 ※ 대출금리=기준금리+가산금리<br/>
                                 -기준금리: 전전월 저축은행 전체 1년 만기 정기예금 가중평균 금리<br/>
                                 -가산금리: 고객 신용평점 등에 따라 달리 적용
@@ -326,7 +326,7 @@ export default function MainIntegrate({bigloneRef, saitdolRef, onlineRef}) {
                     </ul>
                 </div>
                 <div className='main-integrate-text-title'>
-                        <span>연체율</span><hr/>
+                        <span>연체금리</span><hr/>
                 </div>
                 <div className='main-integrate-text-detail'>
                     <ul>

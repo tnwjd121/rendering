@@ -45,7 +45,7 @@ export default function MainGuarantee() {
                 </div>
                 <div className='main-guarantee-text-detail'>
                     <ul>
-                        <li><p>연 13% ~ 19% 대(서울보증보험 CSS결과에 따라 차등적용)</p></li>
+                        <li><p>연 12% ~ 연 17% 대(서울보증보험 CSS결과에 따라 차등적용)</p></li>
                     </ul>
                 </div>
                 <div className='main-guarantee-text-title'>
@@ -74,11 +74,11 @@ export default function MainGuarantee() {
                     </ul>
                 </div>
                 <div className='main-guarantee-text-title'>
-                    <span>연체율</span><hr/>
+                    <span>연체금리</span><hr/>
                 </div>
                 <div className='main-guarantee-text-detail'>
                     <ul>
-                        <li><p>연체금리 : 대출금리 + 3% 이내(연체가산 이자율), 최대 20% 이내</p></li>
+                        <li><p>대출금리 + 3% 이내(연체가산 이자율), 최대 20% 이내</p></li>
                     </ul>
                 </div>
                 <div className='main-guarantee-text-info'>
@@ -113,8 +113,7 @@ export default function MainGuarantee() {
                         <li><p>서민금융진흥원 재무진단 평가모형 4등급 이하에 해당하는 근로자</p></li>
                         <li><p>아래의 조건에 모두 해당하는 경우 신청가능</p></li>
                             <p className='none-list-p'>1) 현 직장 건강보험료 3개월 이상 정상 납부(현 직장 1개월 이상 근로 및 급여수령 필수)</p>
-                            <p className='none-list-p'>2) 본인 명의의 주택 미보유</p>
-                            <p className='none-list-p'>3) 본인 명의의 공동인증서 또는 금융인증서, 휴대전화 보유</p>
+                            <p className='none-list-p'>2) 본인 명의의 공동인증서 또는 금융인증서, 휴대전화 보유</p>
                     </ul>
                 </div>
                 <div className='main-guarantee-text-title'>
@@ -169,7 +168,7 @@ export default function MainGuarantee() {
                 </div>
                 <div className='main-guarantee-text-detail'>
                     <ul>
-                        <li><p>보증수수료 : 서민금융진흥원 보증금액의 연2%</p></li>
+                        <li><p>보증수수료 : 서민금융진흥원 보증금액의 연2.5%</p></li>
                         <li><p>보증료 우대사항</p></li>
                             <p className='none-list-p'>1) 저소득청년(연소득 3,500만원 이하, 만 34세 이하) 0.5%p 인하</p>
                             <p className='none-list-p'>2) 기타(신용 부채관리 컨설팅 이수자, 금융교육 이수자) 0.1%p 인하</p>
@@ -180,11 +179,11 @@ export default function MainGuarantee() {
                     </ul>
                 </div>
                 <div className='main-guarantee-text-title'>
-                    <span>연체율</span><hr/>
+                    <span>연체금리</span><hr/>
                 </div>
                 <div className='main-guarantee-text-detail'>
                     <ul>
-                        <li><p>대출금리+3%이내(연체가산 이자율), 최대 15%이내</p></li>
+                        <li><p>대출금리 + 3% 이내(연체가산 이자율), 최대 15%이내</p></li>
                     </ul>
                 </div>
                 <div className='main-guarantee-text-info'>

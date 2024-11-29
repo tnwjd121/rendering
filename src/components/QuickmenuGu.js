@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import '../css/quickmenu.css'
 import { useNavigate } from 'react-router-dom'
-import { LuChevronDown } from "react-icons/lu";
 import { MdOutlineClose } from "react-icons/md";
 
 export default function QuickmenuGu() {
@@ -32,33 +31,29 @@ export default function QuickmenuGu() {
   return (
     <div>
       <div id='quick-menu-body'>
-        <div id='quick-delete-button' onClick={handleDelete}>
-            <p><MdOutlineClose /></p>
-        </div>
         <div id='quick-menu-list'>
             <div id='quick-menu-product'>
-                <img src={require('../img/상품정보바로가기아이콘.png')}></img>
-                <p>상품정보<br/>바로가기</p>
-                <p><span id='quick-icon'><LuChevronDown /></span></p>
+                <p>IBKSB Quick</p>
             </div>
-            <div id='quick-menu-credit' onClick={navigateToCredit}>
-                <img src={require('../img/신용대출바로가기아이콘.png')}></img>
+            <div id='quick-menu' onClick={navigateToCredit}>
+                <img src={require('../img/신용대출아이콘.png')}></img>
                 <p>신용대출</p>
             </div>
-            <hr id='quick-line-gray'/>
-            <div id='quick-menu-micro' onClick={navigateToMicro}>
-                <img src={require('../img/소상공인바로가기아이콘.png')}></img>
+            <div id='quick-menu' onClick={navigateToMicro}>
+                <img src={require('../img/소상공인아이콘.png')}></img>
                 <p>소상공인<br/>4종대출</p>
             </div>
             <div id='quick-menu-sb-total' onClick={enroll}>
-                <img src={require('../img/통합대출바로가기아이콘.png')}></img>
-                <p>IBKSB<br/>통합 대출신청</p>
+                <img src={require('../img/예적금아이콘.png')}></img>
+                <p>예적금<br/>정보</p>
             </div>
-            <hr id='quick-line-white'/>
             <div id='quick-menu-sb-pf' onClick={deposit}>
-                <img src={require('../img/예적금바로가기아이콘.png')}></img>
-                <p>IBKSB<br/>예적금정보</p>
+                <img src={require('../img/손아이콘.png')}></img>
+                <p>IBKSB<br/><span id='color-yellow'>통합<br/>대출신청</span></p>
             </div>
+        </div>
+        <div id='quick-delete-button' onClick={handleDelete}>
+            <p><MdOutlineClose /></p>
         </div>
       </div>
     </div>

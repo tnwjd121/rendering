@@ -52,11 +52,11 @@ export default function TopIntegrate({scrollToSection, onToggleMainIntegrate, sh
                   <div className='top-integrate-text-bottom-text'>
                     <p>
                       <img src={require('../img/liststyle.png')}></img>
-                      연11% ~ 연 19%대
+                      연 11%대 ~ 연 19%대
                     </p>
                     <p>
                       <img src={require('../img/liststyle.png')}></img>
-                      최저 500만원 ~ 최대 6,000만원
+                      최대 6,000만원
                     </p>
                     <p>
                       <img src={require('../img/liststyle.png')}></img>
@@ -82,7 +82,7 @@ export default function TopIntegrate({scrollToSection, onToggleMainIntegrate, sh
                   <div className='top-integrate-text-bottom-text'>
                     <p>
                       <img src={require('../img/liststyle.png')}></img>
-                      연12% ~ 연 17%대
+                      연 12%대 ~ 연 17%대
                     </p>
                     <p>
                       <img src={require('../img/liststyle.png')}></img>
@@ -112,7 +112,7 @@ export default function TopIntegrate({scrollToSection, onToggleMainIntegrate, sh
                   <div className='top-integrate-text-bottom-text'>
                     <p>
                       <img src={require('../img/liststyle.png')}></img>
-                      연 8%대
+                      연 9%대
                     </p>
                     <p>
                       <img src={require('../img/liststyle.png')}></img>

@@ -16,20 +16,22 @@
     width: 60%;
     border-radius: 1.8rem;
     padding: 6px;
-    padding-bottom: 8px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .main-micro-text{
     background-color: white;
     border-radius: 4rem;
     padding: 5.5rem 4rem 2.5rem 4rem;
+
 }
 .main-micro-maintitle{
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'GmarketBold';
-    font-size: 2rem;
-    color: #34438b;
+    font-size: 2.1rem;
+    color: #021a2e;
 }
 .main-micro-maintitle img{
     width: 2rem;
@@ -97,14 +99,7 @@
 #indent-plus{
     padding-left: 6rem;
 }
-#biglone-table{
-    padding-left: 6rem;
-}
-#biglone-table tr td{
-    background-color: #ededed;
-    padding: 0.6rem 0.7rem;
-    text-align: center;
-}
+
 #indent-one{
     padding-left: 1rem;
 }

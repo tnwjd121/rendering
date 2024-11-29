@@ -221,41 +221,37 @@
     flex-direction: column; 
     height: 91%;
     margin: 0 auto;
-    width: 75%;
+    width: 76%;
   }
   #top-guarantee-bank{
     font-family: 'GmarketBold';
     color: #ffffff;
     font-size: 5vw;
-    padding-top: 12vw;
-    padding-left: 0.8vw;
+    padding-top: 10vw;
+    padding-left: 2vw;
     text-shadow: 0.5vw 0.5vw 0.5vw rgba(0, 0, 0, 0.151);
     padding-bottom: 1.2vw;
   }
   
   #top-guarantee-product{
     font-family: 'GmarketBold';
-    line-height: 13vw;
+    line-height: 12.8vw;
     font-size: 12.8vw;
     padding-bottom: 0.5vw;
-    background-color: black;
-    background-clip: text;
-    -webkit-background-clip: text; 
-    -moz-background-clip: text;
-    color: transparent;
-    text-shadow: rgba(44, 57, 122, 0.868) 0px 0.23vw 0.23vw;
+    color: #152168;
+    padding-left: 01vw;
+
   
   }
   
   
   #top-guarantee-shortcut{
-    background-color: #35438c;
+    background-color: #0000ff;
     display: flex;
     width: 47vw;
     height: 8vw;
     border-radius: 5vw;
     align-items: center;
-    justify-content: space-evenly;
     box-shadow: 0.1vw 0.1vw 0.1vw rgba(0, 0, 0, 0.836);
     
   }
@@ -272,17 +268,20 @@
     font-size: 2.9vw;
     color: #ffffff;
     cursor: pointer;
+    padding-left: 4vw;
+    padding-right: 3vw;
   }
   
   #top-guarantee-shortcut-center img{
-    height: 5vw;
+    height: 4vw;
   }
   
   #top-guarantee-shortcut-right{
     font-family: 'GmarketBold';
     font-size: 2.9vw;
-    color: #fbd44e;
+    color: #ffff00;
     cursor: pointer;
+    padding-left: 5vw;
   }
   
   #top-guarantee-info{
@@ -295,12 +294,17 @@
   }
   .guarantee-product-number{
     font-family: 'GmarketBold';
-    color: #295992;
+    color: #ffffff;
     font-size: 3vw;
   }
   .guarantee-product-name{
     font-family: 'GmarketBold';
-    color: #ffffff;
+    color: #152168;
+    font-size: 2.6vw;
+  }
+  .guarantee-product-name2{
+    font-family: 'GmarketBold';
+    color: #021a2e;
     font-size: 2.6vw;
   }
   .top-guarantee-info-detail{
@@ -318,11 +322,11 @@
     font-size: 0.8vw;
     color: #ffffff;
     margin-left: 2vw;
-    margin-bottom: 0.5vw;
+    margin-bottom: 0.1vw;
   }
   .top-guarantee-info-detail li p{
     font-size: 1.6vw;
-    color: #4a4a48;
+    color:#ffffff;
   }
   .top-guarantee-info-detail li p span{
     color:#ffffff;

@@ -11,7 +11,6 @@
     background-color: #575756;
     width: 1.3rem;
     height: 1.3rem;
-    margin-top: 0.5rem;
     cursor: pointer;
 }
 #quick-delete-button p{
@@ -24,117 +23,71 @@
 }
 #quick-menu-list{
     text-align: center;
-    width: 7rem;
-}
-
-#quick-menu-list p{
-    margin: 0;
-    font-family: "GmarketBold";
-    font-size: 0.9rem;
+    width: 6rem;
 }
 
 #quick-menu-list img{
-    width: 2.3rem;
+    width: 2rem;
     height: 2rem;
-    padding-top: 1rem;
     padding-bottom: 0.3rem;
 }
-#quick-menu-gua img{
-    width: 2.8rem;
-    height: 2.5rem;
-    padding-top: 1rem;
-    padding-bottom: 0.3rem;
+#quick-menu-sb-pf img{
+    width: 2.7rem;
+    height: 2.8rem;
 }
 #quick-menu-product{
-    background-color: #575756;
-    border-radius: 0.5rem 0.5rem 1.5rem 1.5rem;
-    color: #fbd44e;
-    padding-bottom: 0.5rem;
-    position: relative;
-    z-index: 2;
-}
-#quick-icon{
+    background-color: #021a2e;
+    border-radius: 0.4rem;
+    color: #f3f3f4;
     font-family: 'GmarketMedium';
-    color: #ffffff;
-    font-size: 1.2rem;
+    font-size: 0.7rem;
+    padding: 0.4rem 0;
+}
+#quick-menu-list p{
+ margin: 0;
+}
+#quick-menu{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-#quick-menu-credit{
     background-color: #ffffff;
-    color: #4a4a48;
-    border-end-end-radius: 0.5rem;
-    border-end-start-radius: 0.5rem;
-    padding-bottom: 0.8rem;
-    margin-top: -2rem;
-    padding-top: 2rem;
-    border-radius: 0.5rem;
-    z-index: 1;
+    color: #021a2e;
+    border-radius: 0.4rem;
     cursor: pointer;
-    height: 5.5rem;
-    padding-bottom: 0.4rem;
-}
-#quick-menu-gua{
-    background-color: #ffffff;
-    color: #4a4a48;
-    border-end-end-radius: 0.5rem;
-    border-end-start-radius: 0.5rem;
-    padding-bottom: 0.8rem;
-    margin-top: -2rem;
-    padding-top: 1.6rem;
-    border-radius: 0.5rem;
-    z-index: 1;
-    cursor: pointer;
-    height: 5.5rem;
-}
-#quick-menu-credit-mc{
-    background-color: #ffffff;
-    color: #4a4a48;
-    border-radius: 0.5rem;
-    padding-bottom: 0.8rem;
-    cursor: pointer;
-    height: 5.5rem;
-    justify-content: center;
-    padding-top: 0.4rem;
-    padding-bottom: 0.4rem;
-
-}
-#quick-menu-micro{
-    background-color: #ffffff;
-    color: #4a4a48;
-    border-radius: 0.5rem;
-    padding-bottom: 0.8rem;
-    cursor: pointer;
-    height: 5.5rem;
+    height: 5.2rem;
+    font-family: 'GmarketBold';
+    font-size: 1.1rem;
+    margin-bottom: 1px;
 }
 #quick-menu-sb-total{
-    background-color: #ff7900;
-    color: #ffffff;
-    border-radius: 0.5rem;
-    padding-bottom: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: #0000ff;
+    border-radius: 0.4rem;
     cursor: pointer;
-    height: 5.5rem;
+    height: 5.2rem;
+    font-family: 'GmarketBold';
+    font-size: 1.1rem;
 }
 #quick-menu-sb-pf{
-    background-color: #005f9a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000ff;
     color: #ffffff;
-    border-radius: 0.5rem;
-    padding-bottom: 0.8rem;
+    border-radius: 0.4rem;
     cursor: pointer;
-    height: 5.5rem;
+    height: 8.5rem;
+    font-family: 'GmarketBold';
+    font-size: 1.1rem;
 }
-#quick-line-gray{
-    margin-top: 0;
-    margin-bottom: 0;
-    width: 6rem;
-    background: gray;
-}
-#quick-line-white{
-    margin-top: 0;
-    margin-bottom: 0;
-    width: 6rem;
-    background: #ffffff;
+#color-yellow{
+    color: #ffff00;
 }
 }
 @media (max-width: 1024px){
@@ -150,7 +103,6 @@
     background-color: #575756;
     width: 2vw;
     height: 2vw;
-    margin-top: 1vw;
     cursor: pointer;
 }
 #quick-delete-button p{
@@ -163,113 +115,71 @@
 }
 #quick-menu-list{
     text-align: center;
-    width: 11vw;
-}
-
-#quick-menu-list p{
-    margin: 0;
-    font-family: "GmarketBold";
-    font-size: 1.5vw;
+    width: 10vw;
 }
 
 #quick-menu-list img{
-    width: 3.2vw;
+    width: 3vw;
     height: 3vw;
-    padding-top: 1vw;
+    padding-bottom: 0.5vw;
 }
-#quick-menu-gua img{
-    width: 3.5vw;
-    height: 3.3vw;
-    padding-top: 1vw;
+#quick-menu-sb-pf img{
+    width: 5vw;
+    height: 5vw;
 }
 #quick-menu-product{
-    background-color: #575756;
-    border-radius: 1vw 1vw 2.5vw 2.5vw;
-    color: #fbd44e;
-    padding-bottom: 0.1vw;
-    position: relative;
-    z-index: 2;
-}
-#quick-icon{
+    background-color: #021a2e;
+    border-radius: 0.5vw;
+    color: #f3f3f4;
     font-family: 'GmarketMedium';
-    color: #ffffff;
-    font-size: 2.2vw;
+    font-size: 1.2vw;
+    padding: 0.5vw 0;
+}
+#quick-menu-list p{
+    margin: 0;
+}
+#quick-menu{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-#quick-menu-credit{
     background-color: #ffffff;
-    color: #4a4a48;
-    border-end-end-radius: 1vw;
-    border-end-start-radius: 1vw;
-    margin-top: -4vw;
-    padding-top: 4vw;
-    border-radius: 1vw;
-    z-index: 1;
+    color: #021a2e;
+    border-radius: 0.5vw;
     cursor: pointer;
     height: 9vw;
-}
-#quick-menu-gua{
-    background-color: #ffffff;
-    color: #4a4a48;
-    border-end-end-radius: 1vw;
-    border-end-start-radius: 1vw;
-    padding-bottom: 1vw;
-    margin-top: -4vw;
-    padding-top: 4vw;
-    border-radius: 1vw;
-    z-index: 1;
-    cursor: pointer;
-    height: 9vw;
-    padding-bottom: 1vw;
-}
-#quick-menu-credit-mc{
-    background-color: #ffffff;
-    color: #4a4a48;
-    border-radius: 1vw;
-    padding-bottom: 1vw;
-    cursor: pointer;
-    height: 8.5vw;
-    justify-content: center;
-    padding-top: 0.8vw;
-    height: 9vw;
-
-}
-#quick-menu-micro{
-    background-color: #ffffff;
-    color: #4a4a48;
-    border-radius: 1vw;
-    padding-bottom: 1vw;
-    cursor: pointer;
-    height: 9vw;
+    font-family: 'GmarketBold';
+    font-size: 1.9vw;
+    margin-bottom: 0.1vw;
 }
 #quick-menu-sb-total{
-    background-color: #ff7900;
-    color: #ffffff;
-    border-radius: 1vw;
-    padding-bottom: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: #0000ff;
+    border-radius: 0.5vw;
     cursor: pointer;
     height: 9vw;
+    font-family: 'GmarketBold';
+    font-size: 1.9vw;
+    margin-bottom: 0.1vw;
 }
 #quick-menu-sb-pf{
-    background-color: #005f9a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000ff;
     color: #ffffff;
-    border-radius: 1vw;
-    padding-bottom: 1vw;
+    border-radius: 0.5vw;
     cursor: pointer;
-    height: 9vw;
+    height: 15vw;
+    font-family: 'GmarketBold';
+    font-size: 1.9vw;
 }
-#quick-line-gray{
-    margin-top: 0;
-    margin-bottom: 0;
-    width: 9vw;
-    background: gray;
-}
-#quick-line-white{
-    margin-top: 0;
-    margin-bottom: 0;
-    width: 9vw;
-    background: #ffffff;
+#color-yellow{
+    color: #ffff00;
 }
 }

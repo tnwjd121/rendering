@@ -6,8 +6,7 @@ export default function MainMicro() {
         <div id='main-micro-product'>
             <div className='main-micro-title'>
                 <div className='main-micro-maintitle'>
-                    <img src={require('../img/1.png')} alt='first'/>
-                    햇살론 특례보증
+                    사업자 햇살론대출
                 </div>
             </div>
             <div className='main-micro-text'>
@@ -15,10 +14,12 @@ export default function MainMicro() {
                     <span>가입대상</span><hr/>
                 </div>
                 <div className='main-micro-text-detail'>
-                    <p>개인사업자 중</p>
                     <ul>
-                        <li><p>1. 저신용 자영업자 : 개인신용평점 744점 이하</p></li>
-                        <li><p>2. 저소득 자영업자 : 연간소득 3,500만원 이하</p></li>
+                        <li><p>소득증빙 가능한 만 19세이상 고객</p></li>
+                        <li><p>개인신용평점이 744점이하 및 연간소득 4,500만원 이하에 해당하는 사업자
+                            <br/>
+                            ※단, 연소득3,500만원 이하 (3개월이상 사업운영 중)인 경우 개인신용평점과 무관하게 가능
+                        </p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
@@ -26,7 +27,7 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>운영자금 : 최소400만원 ~ 최대2,000만원 </p></li>
+                        <li><p>최대5,000만원 </p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
@@ -35,12 +36,7 @@ export default function MainMicro() {
                 <div className='main-micro-text-detail'>
                     <ul>
                         <li>
-                            <p>연 6%대 (변동금리 3, 6, 12개월)</p>
-                            <p>※ 대출금리 : 변경금리=조달금리+2.5%p</p>
-                            <p id='indent-one'>조달금리 : 현재 매월 금감원을 통해 통지하는 방법으로 동일적용</p>
-                            <p id='indent-five'>(전전월의 1년만기 정기예금 신규취급 가중평균금리)</p>
-                            <p id='indent-one'>가산금리 : 2.5%p</p>
-                            <p>※ 단, 대출금리 최대 상한은 10.5%로 제한유지</p>
+                            <p>연 9%대</p>
                         </li>
                     </ul>
                 </div>
@@ -49,7 +45,7 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>1년 거치 4년</p></li>
+                    <li><p>1년~5년</p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
@@ -57,7 +53,7 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>원리금균등분할상환</p></li>
+                        <li><p>1년 거치 4년 이내 원금균등분할상환 또는 5년이내 원금균등분할상환 가능</p></li>
                         <li><p>이자부과시기: 매월후취</p></li>
                     </ul>
                 </div>
@@ -76,11 +72,11 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>보증료 : 보증금액의 연0.8% (지역 신용보증재단) </p></li>
+                        <li><p>보증료 : 보증금액의 연 1%이내 (지역 신용보증재단) </p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
-                    <span>연체율</span><hr/>
+                    <span>연체금리</span><hr/>
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
@@ -96,8 +92,7 @@ export default function MainMicro() {
         <div id='main-micro-product'>
             <div className='main-micro-title'>
                 <div className='main-micro-maintitle'>
-                    <img src={require('../img/2.png')} alt='second'/>
-                    아파트 담보대출
+                    사업자 아파트 담보대출
                 </div>
             </div>
             <div className='main-micro-text'>
@@ -106,8 +101,9 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                    <li><p>개입사업자 중, 개인신용평점 725~1,000점 범위에 속하는 자</p></li>
-                        <li><p>사업개시일로부터 3개월 이상인자</p></li>
+                        <li><p>아파트를 담보로 제공하고 대출을 받고자 하는 개인사업자</p></li>
+                        <li><p>사업 개시일로부터 3개월 이상 사업 영위자로 NICE 725점이상 범위에 속하는 자</p></li>
+                        <li><p>서울 수도권 및 부산지역 취급</p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
@@ -124,7 +120,7 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>연 5%대 ~ 9%대 (신용평점 및 LTV별 차등적용)</p></li>
+                        <li><p>연 5%대 ~ 연 9%대 (신용평점 및 LTV별 차등적용)</p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
@@ -132,7 +128,8 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>운영자금 최대 3년</p></li>
+                        <li><p>가계자금: 최장 30년이내</p></li>
+                        <li><p>운영자금: 최장 3년이내</p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
@@ -140,7 +137,8 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>만기일시 or 분할상환</p></li>
+                        <li><p>가계자금: 원리금균등분할상환</p></li>
+                        <li><p>운영자금: 만기일시상환, 원리금균등분할상환</p></li>
                         <li><p>이자부과시기: 매월후취</p></li>
                     </ul>
                 </div>
@@ -160,11 +158,12 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>인지비용: 5천만원 초과시 대출금액별 수입인지비용 차등부과 (고객, 저축은행 각 50%씩 부담)</p></li>
+                        <li><p>인지비용 : 인지세법에 따라 대출약정 시 납부하는 세금으로 수입인지 비용 발생(고객과 저축은행 각 50% 부담)</p></li>
+                        <li><p>근저당권 설정 : 국민주택채권 매입비용 고객부담(근저당권 말소 또는 채권최고액 감액시 비용 고객부담) </p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
-                    <span>연체율</span><hr/>
+                    <span>연체금리</span><hr/>
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
@@ -180,8 +179,7 @@ export default function MainMicro() {
         <div id='main-micro-product'>
             <div className='main-micro-title'>
                 <div className='main-micro-maintitle'>
-                    <img src={require('../img/3.png')} alt='third'/>
-                    신용대출
+                    소상공인 신용대출
                 </div>
             </div>
             <div className='main-micro-text'>
@@ -190,8 +188,8 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>신용대출을 필요로 하는 소상공인 중</p></li>
-                        <li><p>개인신용평점 665점~1,000점에 속하는 자</p></li>
+                        <li><p>신용대출을 필요로 하는 사업자(자영업자)</p></li>
+                        <li><p>개인신용평점 665점이상 범위에 속하는 자</p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
@@ -199,7 +197,7 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>최대 2,000만원 </p></li>
+                        <li><p>최대 1억원 </p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
@@ -208,7 +206,7 @@ export default function MainMicro() {
                 <div className='main-micro-text-detail'>
                     <ul>
                         <li>
-                            <p>연 7%대 ~ 13%대 (신용평점별 차등적용)</p>
+                            <p>연 8%대 ~  연 14%대</p>
                         </li>
                     </ul>
                 </div>
@@ -217,7 +215,7 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>최대 5년이내</p></li>
+                        <li><p>최장 5년</p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
@@ -235,7 +233,7 @@ export default function MainMicro() {
                 <div className='main-micro-text-detail'>
                     <ul>
                         <li>
-                            <p>상환금액의 연2%이내</p>
+                            <p>상환금액의 연1.8%이내</p>
                             <p>※기한 전 상환 대출금액X기한 전 상환수수료율X대출잔여일÷대출기간</p>
                         </li>
                     </ul>
@@ -245,11 +243,12 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>없음 </p></li>
+                        <li><p>인지비용: 인지세법에 따라 대출약정 시 납부하는 세금으로 수입인지 비용 발생(고객과 저축은행 각 50% 부담) </p></li>
+                        <li><p>근저당권 설정 시 : 국민주택채권 매입비용 고객부담(근저당권 말소 또는 채권최고액 감액시 비용 고객부담) </p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
-                    <span>연체율</span><hr/>
+                    <span>연체금리</span><hr/>
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
@@ -265,8 +264,7 @@ export default function MainMicro() {
         <div id='main-micro-product'>
             <div className='main-micro-title'>
                 <div className='main-micro-maintitle'>
-                    <img src={require('../img/4.png')} alt='four'/>
-                    부동산 담보대출
+                    소상공인 부동산 담보대출
                 </div>
             </div>
             <div className='main-micro-text'>
@@ -275,8 +273,8 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>부동산 담보제공(부동산 개발 및 아파트 담보대출 제외) 가능한 소상공인 중</p></li>
-                        <li><p>개인신용평점 665점~1,000점에 속하는 자</p></li>
+                        <li><p>부동산 담보제공(부동산 개발 및 아파트 담보대출 제외) 가능한 사업자(자영업자)</p></li>
+                        <li><p>개인신용평점 665점이상 범위에 속하는 자</p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
@@ -284,7 +282,7 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>최대 5억원 </p></li>
+                        <li><p>최대 60억원 </p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
@@ -293,7 +291,7 @@ export default function MainMicro() {
                 <div className='main-micro-text-detail'>
                     <ul>
                         <li>
-                            <p>연 7%대 ~ 13%대 (신용평점별 차등적용)</p>
+                            <p>연 7%대 ~ 연 13%대</p>
                         </li>
                     </ul>
                 </div>
@@ -302,7 +300,7 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>최대 5년 이내
+                        <li><p>최장 5년
                             </p></li>
                     </ul>
                 </div>
@@ -311,7 +309,7 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>만기일시 or 분할상환</p></li>
+                        <li><p>만기일시상환, 원리금균등분할상환</p></li>
                         <li><p>이자부과시기: 매월후취</p></li>
                     </ul>
                 </div>
@@ -331,11 +329,12 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>인지비용: 5천만원 초과시 대출금액별 수입인지비용 차등부과 (고객, 저축은행 각 50%씩 부담) </p></li>
+                        <li><p>인지비용: 인지세법에 따라 대출약정 시 납부하는 세금으로 수입인지 비용 발생(고객과 저축은행 각 50% 부담) </p></li>
+                        <li><p>근저당권 설정 시 : 국민주택채권 매입비용 고객부담(근저당권 말소 또는 채권최고액 감액시 비용 고객부담) </p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
-                    <span>연체율</span><hr/>
+                    <span>연체금리</span><hr/>
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>

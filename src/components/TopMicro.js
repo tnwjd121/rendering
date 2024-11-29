@@ -31,17 +31,17 @@ export default function TopMicro({ onToggleMainMicro, showMainMicro }) {
         <div id='top-micro-info'>
           <div className='top-micro-info-detail'>
             <div className='micro-porduct'>
-              <div className='micro-product-img'>
-                <img src={require('../img/1.png')} />
+              <div className='micro-product-number'>
+                <p>01</p>
               </div>
               <div className='micro-product-name'>
-                <p>햇살론<br />특례보증</p>
+                <p>사업자<br />햇살론대출</p>
               </div>
             </div>
             <ul>
-              <li><p><span>한도 : </span>최대 2,000만원</p></li>
-              <li><p><span>금리 : </span>연6%대</p></li>
-              <li><p><span>기간 : </span>1년~4년</p></li>
+              <li><p>최대 5,000만원</p></li>
+              <li><p>연9%대</p></li>
+              <li><p>최장 5년</p></li>
             </ul>
           </div>
           <div id='top-micro-info-line'>
@@ -49,17 +49,17 @@ export default function TopMicro({ onToggleMainMicro, showMainMicro }) {
           </div>
           <div className='top-micro-info-detail'>
             <div className='micro-porduct'>
-              <div className='micro-product-img'>
-                <img src={require('../img/2.png')} />
+              <div className='micro-product-number'>
+                <p>02</p>
               </div>
               <div className='micro-product-name'>
-                <p>아파트<br />담보대출</p>
+                <p>사업자 아파트<br />담보대출</p>
               </div>
             </div>
             <ul>
-              <li><p><span>한도 : </span>최대 10억원</p></li>
-              <li><p><span>금리 : </span>연5~9%대</p></li>
-              <li><p><span>기간 : </span>운영자금 최대3년</p></li>
+              <li><p>최대 10억원</p></li>
+              <li><p>연5%대~연9%대</p></li>
+              <li><p>운영자금 최대3년</p></li>
             </ul>
           </div>
           <div id='top-micro-info-line'>
@@ -67,17 +67,17 @@ export default function TopMicro({ onToggleMainMicro, showMainMicro }) {
           </div>
           <div className='top-micro-info-detail'>
             <div className='micro-porduct'>
-              <div className='micro-product-img'>
-                <img src={require('../img/3.png')} />
+              <div className='micro-product-number'>
+                <p>03</p>
               </div>
               <div className='micro-product-name'>
                 <p>소상공인<br />신용대출</p>
               </div>
             </div>
             <ul>
-              <li><p><span>한도 : </span>최대 2,000만원</p></li>
-              <li><p><span>금리 : </span>연7~13%대</p></li>
-              <li><p><span>기간 : </span>최대 5년이내</p></li>
+              <li><p>최대 1억원</p></li>
+              <li><p>연8%대~연14%대</p></li>
+              <li><p>최장 5년</p></li>
             </ul>
           </div>
           <div id='top-micro-info-line'>
@@ -85,17 +85,17 @@ export default function TopMicro({ onToggleMainMicro, showMainMicro }) {
           </div>
           <div className='top-micro-info-detail'>
             <div className='micro-porduct'>
-              <div className='micro-product-img'>
-                <img src={require('../img/4.png')} />
+              <div className='micro-product-number'>
+                <p>04</p>
               </div>
               <div className='micro-product-name'>
-                <p>부동산<br />담보대출</p>
+                <p>소상공인<br />부동산 담보대출</p>
               </div>
             </div>
             <ul>
-              <li><p><span>한도 : </span>최대 5억원</p></li>
-              <li><p><span>금리 : </span>연7~13%대</p></li>
-              <li><p><span>기간 : </span>최대 5년이내</p></li>
+              <li><p>최대 60억원</p></li>
+              <li><p>연7%대~연13%대</p></li>
+              <li><p>최장 5년</p></li>
             </ul>
           </div>
         </div>

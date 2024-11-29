@@ -33,7 +33,7 @@
 .main-credit-maintitle{
     font-family: 'GmarketBold';
     font-size: 2rem;
-    color: #34438b;
+    color: #1c2f40;
 }
 .main-credit-text-title {
     display: flex;
@@ -88,17 +88,15 @@
     font-size: 0.8rem;
     margin: 0;
 }
-
-#indent-plus{
-    padding-left: 6rem;
-}
 #biglone-table{
-    padding-left: 6rem;
+    margin-top: 1rem;
 }
+
 #biglone-table tr td{
     background-color: #ededed;
-    padding: 0.6rem 0.7rem;
+    padding: 0.5rem 1rem;
     text-align: center;
+    font-size: 0.8rem;
 }
 
 .orange-color{
@@ -195,16 +193,14 @@
     margin: 0;
 }
 
-#indent-plus{
-    padding-left: 10vw !important;
-}
 #biglone-table{
-    padding-left: 10vw !important;
+    margin-top: 1vw;
 }
 #biglone-table tr td{
     background-color: #ededed;
-    padding: 0.5vw 1.2vw !important;
+    padding: 0.8vw 1.7vw !important;
     text-align: center;
+    font-size: 1.22vw;
 }
 
 .orange-color{
