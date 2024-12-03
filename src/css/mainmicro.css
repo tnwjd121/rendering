@@ -1,3 +1,4 @@
+@media (min-width: 1024px){
 #main-micro-body{
     width: 100%;
     background-color: #efefef;
@@ -32,12 +33,6 @@
     font-family: 'GmarketBold';
     font-size: 2.1rem;
     color: #021a2e;
-}
-.main-micro-maintitle img{
-    width: 2rem;
-    height: 2.8rem;
-    padding-right: 0.8rem;
-    padding-bottom: 0.8rem;
 }
 .main-micro-text-title {
     display: flex;
@@ -96,14 +91,96 @@
     margin: 0;
 }
 
-#indent-plus{
-    padding-left: 6rem;
+}
+@media (max-width: 1024px){
+#main-micro-body{
+    width: 100%;
+    background-color: #efefef;
+}
+#main-micro-product{
+    margin: 0 auto;
+    width: 71vw;
+    padding-bottom: 7vw;
+}
+.main-micro-title{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #efefef;
+    position: relative;
+    top: 4.8vw;
+    width: 60%;
+    border-radius: 3vw;
+    padding: 1.5vw;
+
+}
+.main-micro-text{
+    background-color: white;
+    border-radius: 6vw;
+    padding: 8vw 6vw 4vw 6vw;
+
+}
+.main-micro-maintitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'GmarketBold';
+    font-size: 3.3vw;
+    color: #021a2e;
+}
+.main-micro-text-title {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    
+}
+.main-micro-text-title hr{
+    flex-grow: 1;
+    border: none;
+    border-top: 1.2px solid #2e4b80
+}
+.main-micro-text-title span{
+    font-family: 'GmarketBold';
+    padding-right: 2vw;
+   color: #34438b;
+   font-size: 1.5vw;
+}
+.main-micro-text-detail{
+    font-family: 'GmarketMedium';
+}
+.main-micro-text-detail p{
+    margin: 0;
+}
+.main-micro-text-detail ul{
+    padding-left: 0px;
+    list-style-type: disc;
+    font-size: 0.7vw;
+    margin-right: -4vw;
+}
+.main-micro-text-detail li p{
+    font-size: 1.3vw;
+    margin: 0.1vw;
+}
+.target-micro{
+    background-color: #434342;
+    color: #ffffff;
+    padding: 0.2vw 0.2vw 0.2vw 0.2vw;
+    display: inline-block;
+    width: 6.5vw;
+    margin: 0.1vw;
+}
+.main-micro-text-info{
+    color: #5e5e5e;
+    text-align: right;
+    margin-top: 3.5vw;
+}
+.main-micro-text-info p{
+    margin: 0px;
+    font-size: 1.22vw;
 }
 
-#indent-one{
-    padding-left: 1rem;
+.none-list-p{
+    font-family: 'GmarketMedium';
+    font-size: 1.3vw !important;
+    margin: 0;
 }
-#indent-five{
-    padding-left: 4.8rem;
 }
-

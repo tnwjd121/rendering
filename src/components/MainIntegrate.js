@@ -79,8 +79,8 @@ export default function MainIntegrate({bigloneRef, saitdolRef, onlineRef}) {
                 </div>
                 <div className='main-integrate-text-detail'>
                     <ul>
-                        <li><p>상환금액의 1.6%</p></li>
-                        <li><p>※ 기한 전 상환 대출금액 X 기한 전 상환 수수료율 X 대출 잔여일 수 / 대출 기간</p></li>
+                        <li><p>상환금액의 1.6%
+                        <br/>※ 기한 전 상환 대출금액 X 기한 전 상환 수수료율 X 대출 잔여일 수 / 대출 기간</p></li>
                     </ul>
                 </div>
                 <div className='main-integrate-text-title'>

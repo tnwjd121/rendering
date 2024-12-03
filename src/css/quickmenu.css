@@ -9,9 +9,10 @@
 }
 #quick-delete-button{
     background-color: #575756;
-    width: 1.3rem;
-    height: 1.3rem;
+    width: 1.4rem;
+    height: 1.4rem;
     cursor: pointer;
+    margin-top: 0.05rem;
 }
 #quick-delete-button p{
     margin: 0px;
@@ -108,10 +109,10 @@
 #quick-delete-button p{
     margin: 0px;
     text-align: center;
-    line-height: 1.5vw;
+    line-height: 2vw;
     font-family: 'GmarketMedium';
     color: #ffffff;
-    font-size: 2.2vw;
+    font-size: 2vw;
 }
 #quick-menu-list{
     text-align: center;

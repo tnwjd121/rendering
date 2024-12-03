@@ -1,8 +1,12 @@
+@media(min-width: 1024px){
+
 #top-integrate-body{
     margin: 0 auto;
-    background-image: url('/src/img/원스톱배경2.png');
+    /* background-image: url('/src/img/원스톱배경포함.png'); */
     width: 100%;
-    height: 50rem;
+    background-image: url('/src/img/원스톱배경.png');
+    height: 55.5rem;
+    /* height: 45rem; */
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,21 +22,21 @@
     margin: 0 auto;
 }
 #top-integrate-subtitle img{
-    margin-top: 8.5rem;
-    width: 35rem;
+    margin-top: 9rem;
+    width: 41.5rem;
 }
 #top-integrate-title img{
-    margin-top: 0.8rem;
-    width: 36.5rem;
+    margin-top: 0.9rem;
+    width: 41.5rem;
 }
 #top-integrate-text{
     text-align: center;
     color: white;
     font-family: "GmarketMedium";
-    font-size: 1.35rem;
+    font-size: 1.5rem;
 }
 #top-integrate-text span{
-    font-size: 1.35rem;
+    font-size: 1.5rem;
     font-family: "GmarketBold";
 }
 .color-blue{
@@ -40,12 +44,12 @@
 }
 #top-integrate-shortcut img{
     margin-top: 1.8rem;
-    width: 23rem;
+    width: 25rem;
     cursor: pointer;
 }
 
 #top-integrate-product-list{
-    width: 42rem;
+    width: 44rem;
     display: flex;
     justify-content: space-around;
     margin-top: 4.9rem;
@@ -56,8 +60,8 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    width: 11.5rem;
-    height: 9rem;
+    width: 13rem;
+    height: 9.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,14 +76,14 @@
 }
 .top-integrate-text-subtitle{
     font-family: 'PretendardMedium';
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: #040d5f;
 }
 .top-integrate-text-title{
     font-family: 'GmarketBold';
     color: #040d5f;
-    font-size: 1.4rem;
-    margin-top: 0.2rem;
+    font-size: 1.6rem;
+    margin-top: 0.25rem;
 }
 .top-integrate-text-top-right{
     display: flex;
@@ -94,7 +98,7 @@
     padding-right: 0.3rem;
 }
 .top-integrate-text-img img{
-    width: 2.5rem;
+    width: 2.8rem;
     height: 2.5rem;
 }
 .top-integrate-text-img2 img{
@@ -109,7 +113,7 @@
     margin: 0.2rem;
     color: #3c3c3b;
     font-family: 'PretendardtRegular';
-    font-size: 0.63rem;
+    font-size: 0.87rem;
 }
 .top-integrate-text-bottom p img{
     margin-right: 0.1rem;
@@ -121,7 +125,7 @@
     background-color: #000000;
     bottom:  0px;
     left: 0;
-    width: 47.5rem;
+    width: 52.8rem;
     height: 4rem;
     display: flex;
     align-items: center; 
@@ -215,3 +219,208 @@
   #top-button-text{
      padding-bottom: 0.5rem;
   }
+      
+}
+@media(max-width: 1024px){
+
+#top-integrate-body{
+    margin: 0 auto;
+    background-image: url('/src/img/원스톱배경.png');
+    width: 100%;
+    height: 87vw;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-color: #040d51; */
+
+}
+#top-integrate-container{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    height: 90%;
+    width: 87vw;
+    margin: 0 auto;
+}
+#top-integrate-subtitle img{
+    margin-top: 14vw;
+    width: 64.5vw;
+}
+#top-integrate-title img{
+    margin-top: 1.2vw;
+    width: 64.5vw;
+}
+#top-integrate-text{
+    text-align: center;
+    color: white;
+    font-family: "GmarketMedium";
+    font-size: 2.4vw;
+}
+#top-integrate-text span{
+    font-size: 2.4vw;
+    font-family: "GmarketBold";
+}
+.color-blue{
+    color: #25eaf9;
+}
+#top-integrate-shortcut img{
+    margin-top: 2.5vw;
+    width: 40vw;
+    cursor: pointer;
+}
+
+#top-integrate-product-list{
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vw;
+}
+
+.top-integrate-text{
+    background-image: url('/src/img/상품상자.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 19vw;
+    height: 14.8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2.5vw 1.5vw;
+    cursor: pointer;
+}
+.top-integrate-text-top{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.8vw;
+    padding-right: 0.4vw;
+}
+.top-integrate-text-subtitle{
+    font-family: 'PretendardMedium';
+    font-size: 1.2vw;
+    color: #040d5f;
+}
+.top-integrate-text-title{
+    font-family: 'GmarketBold';
+    color: #040d5f;
+    font-size: 2.4vw;
+    margin-top: 0.4vw;
+}
+.top-integrate-text-top-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+
+}
+.top-integrate-text-button{
+    font-family: 'GmarketBold';
+    color: #040d5f;
+    font-size: 1.5vw;
+    padding-right: 0.6cw;
+}
+.top-integrate-text-img img{
+    width: 4.5vw;
+    height: 3.8vw;
+}
+.top-integrate-text-img2 img{
+    width: 3vw;
+    height: 4vw;
+}
+.top-integrate-text-bottom{
+    padding-top: 0.4vw;
+}
+.top-integrate-text-bottom p{
+    display: flex;
+    margin: 0.4vw;
+    color: #3c3c3b;
+    font-family: 'PretendardtRegular';
+    font-size: 1.3vw;
+}
+.top-integrate-text-bottom p img{
+    margin-right: 0.2vw;
+    width: 1.4vw;
+}
+
+#top-intergrate-detail {
+    margin: 0 auto;
+    background-color: #000000;
+    bottom:  0px;
+    left: 0;
+    width: 82.6vw;
+    height: 6vw;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    cursor: pointer;
+    margin-top: -1vw;
+  }
+  #top-intergrate-detail p{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: 'GmarketMedium';
+    font-size: 2.8vw;
+    color: #ffffff;
+    margin: 0px;
+  }
+  #detail-integrate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 3.5vw !important;
+    height: 3.5vw !important;
+    transform: rotate(180deg);
+    margin-left: 1vw !important;
+}
+#detail-integrate-change{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 3.5vw !important;
+    height: 3.5vw !important;
+    transform: rotate(0deg);
+    margin-left: 1vw !important;
+  }
+  #detail-integrate img{
+    width: 1.7vw;
+    height: 1.7vw;
+  }
+  #detail-integrate-change img{
+    width: 1.7vw;
+    height: 1.7vw;
+  }
+  .color-green{
+    color: #34fda2;
+  }
+  
+  #top-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    font-family: 'GmarketBold';
+    background-color: #004b9d;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    text-align: center;
+    font-size: 0.6rem !important;
+    z-index: 100;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.226);
+  }
+  #top-button p {
+    margin: 0;
+  }
+  #top-button-text{
+     padding-bottom: 0.4rem !important;
+  }
+      
+}

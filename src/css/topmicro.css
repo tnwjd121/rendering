@@ -2,7 +2,7 @@
 #top-micro-body{
   background-image: url('/src/img/소상공인배경.png');
   width: 100%;
-  height: 65rem;
+  height: 66rem;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -229,7 +229,7 @@
 #top-micro-body{
   background-image: url('/src/img/소상공인배경.png');
   width: 100%;
-  height: 83vw;
+  height: 103vw;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -242,29 +242,29 @@
   flex-direction: column; 
   text-align: center;
   height: 92.5%;
-  width: 75%;
+  width:100%;
   margin: 0 auto;
 }
 #top-micro-bank{
   font-family: 'GmarketBold';
   color: #6f6f6e;
-  font-size: 4vw;
-  padding-top: 11vw;
+  font-size: 5.1vw;
+  padding-top: 15vw;
   padding-bottom: 1.2vw;
 }
 
 #top-micro-product{
   font-family: 'GmarketBold';
-  line-height: 10vw;
-  font-size: 10vw;
+  line-height: 12vw;
+  font-size: 12vw;
   color: #002556;
 }
 
 
 #top-micro-shortcut{
   background-color: #0000ff;
-  width: 32vw;
-  height: 6vw;
+  width: 38vw;
+  height: 8.5vw;
   border-radius: 5vw;
   text-align: center;
   box-shadow: 0.1vw 0.1vw 0.1vw rgba(0, 0, 0, 0.836);
@@ -275,17 +275,17 @@
 }
 #top-micro-shortcut-line{
   background-color: #ffffff;
-  width: 32vw;
+  width: 38vw;
   border-radius: 5vw;
   border: 0.5vw solid #ffffff;
   text-align: center;
-  margin: 18.5vw auto 0;
+  margin: 22vw auto 0;
 }
 
 
 #top-micro-shortcut-main{
   font-family: 'GmarketBold';
-  font-size: 2.9vw;
+  font-size: 3.5vw;
   color: #ffff00;
   cursor: pointer;
 }
@@ -294,13 +294,12 @@
 }
 
 #top-micro-info{
-  width: 75vw;
+  width: 85vw;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding-left: 0px;
-  margin-top: 3vw;
+  justify-items: center;
   text-align: left;
+  margin: 5vw auto;
 
 }
 .micro-porduct{
@@ -309,7 +308,7 @@
 }
 .micro-product-number {
   font-family: 'GmarketBold';
-  font-size: 2.5vw;
+  font-size: 3.5vw;
   color: #ffffff;
   padding-right: 1vw;
   line-height: 4.5vw;
@@ -318,14 +317,14 @@
 .micro-product-name{
   font-family: 'GmarketBold';
   color: #002556;
-  font-size: 1.8vw;
+  font-size: 2.2vw;
   text-align: left;
 }
 
 .top-micro-info-detail{
   font-family: 'GmarketBold';
-  padding-left: 2vw;
-  padding-right: 2vw;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
 }
 .top-micro-info-detail p{
   margin: 0;
@@ -342,13 +341,13 @@
   margin-bottom: 0.3vw;
 }
 .top-micro-info-detail li p{
-  font-size: 1.5vw;
+  font-size: 1.7vw;
 }
 .top-micro-info-detail li p span{
   color:#413d3b;
 }
 #top-micro-info-line img {
-  height: 10vw;
+  height: 13vw;
 }
 
 #top-micro-detail {
@@ -356,7 +355,7 @@
   bottom:  0px;
   left: 0;
   width: 100%;
-  height: 5.5vw;
+  height: 6.8vw;
   margin-top: 6vw;
   display: flex;
   align-items: center; 
@@ -380,47 +379,32 @@
   text-align: center;
   background-color: #b3e7ed;
   border-radius: 50%;
-  width: 2.5rem;
-  height: 2.5rem;
-  font-size: 1.8rem;
+  width: 4vw !important;
+  height: 4vw !important;
+  font-size: 3vw !important; 
   /* 각도 조정 CSS*/
   transform: rotate(0deg);
-  margin-left: 0.5rem;
+  margin-left: 1vw !important;
 }
 #detail-change{
   display: flex;
   align-items: center;
   justify-content: center;
-  line-height: 2rem;
+  text-align: center;
   background-color: #b3e7ed;
   border-radius: 50%;
-  width: 2.5rem;
-  height: 2.5rem;
-  font-size: 1.8rem;
+  width: 4vw !important;
+  height: 4vw !important;
+  font-size: 3vw !important; 
   /* 각도 조정 CSS*/
   transform: rotate(180deg);
-  margin-left: 0.5rem;
+  margin-left: 1vw !important;
 }
 
-#top-button{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  z-index: 100;
-  bottom: 5%;
-  right: 2%;
+#loanproduct{
   font-family: 'GmarketBold';
-  background-color: #004b9d;
-  color: #ffffff;
-  border-radius: 50%;
-  width: 3.5rem;
-  height: 3.5rem;
-  text-align: center;
-  font-size: 0.7rem;
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.226);
+  margin-right: 0.8vw;
 }
-
 #top-button{
   display: flex;
   flex-direction: column;
@@ -433,10 +417,10 @@
   background-color: #004b9d;
   color: #ffffff;
   border-radius: 50%;
-  width: 3.5rem;
-  height: 3.5rem;
+  width: 2.5rem !important;
+  height: 2.5rem !important;
   text-align: center;
-  font-size: 0.7rem;
+  font-size: 0.6rem !important;
   z-index: 100;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.226);
 }
@@ -444,7 +428,7 @@
   margin: 0;
 }
 #top-button-text{
-   padding-bottom: 0.5rem;
+   padding-bottom: 0.4rem !important;
 }
 }
 

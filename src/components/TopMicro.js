@@ -59,7 +59,7 @@ export default function TopMicro({ onToggleMainMicro, showMainMicro }) {
             <ul>
               <li><p>최대 10억원</p></li>
               <li><p>연5%대~연9%대</p></li>
-              <li><p>운영자금 최대3년</p></li>
+              <li><p>운영자금 최장 3년</p></li>
             </ul>
           </div>
           <div id='top-micro-info-line'>

@@ -158,8 +158,8 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>인지비용 : 인지세법에 따라 대출약정 시 납부하는 세금으로 수입인지 비용 발생(고객과 저축은행 각 50% 부담)</p></li>
-                        <li><p>근저당권 설정 : 국민주택채권 매입비용 고객부담(근저당권 말소 또는 채권최고액 감액시 비용 고객부담) </p></li>
+                        <li><p>인지비용: 인지세법에 따라 대출약정 시 납부하는 세금으로 수입인지 비용 발생(고객과 저축은행 각 50% 부담)</p></li>
+                        <li><p>근저당권 설정 시 : 국민주택채권 매입비용 고객부담(근저당권 말소 또는 채권최고액 감액시 비용 고객부담) </p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>

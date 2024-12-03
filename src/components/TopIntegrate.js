@@ -129,7 +129,7 @@ export default function TopIntegrate({scrollToSection, onToggleMainIntegrate, sh
         </div>
       </div>
         <div id='top-intergrate-detail' onClick={onToggleMainIntegrate}>
-          <p><span id='loanproduct'>대출상품정보</span>자세히 보기 
+          <p><span id='loanproduct'>대출상품정보</span>자세히보기 
           <span id={showMainIntegrate?'detail-integrate':'detail-integrate-change'}>
             <img src={require('../img/footer화살표.png')}>
             </img>

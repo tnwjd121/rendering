@@ -1,131 +1,6 @@
-#footer1-inte{
-    background-color: #eeeeee;
-    font-family: 'GmarketMedium';
-    width: 47.5rem;
-    margin: 0 auto;
-}
-#footer1-inte-body{
-    width: 43rem;
-    margin:0 auto;
-    padding: 1rem 0;
-}
-#footer1-inte-container{
-    padding: 1rem 0;
-}
-#footer1-inte-container hr{
-    border: 1.2px solid black;
-    margin-top: 0.3rem;
-    margin-bottom: 1.5rem;
-    width: 42rem;
-}
-
-#footer1-inte-title{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 2rem;
-    padding: 0 0.5rem;
-    cursor: pointer;
-}
-#footer1-inte-title p {
-    font-family: 'GmarketBold';
-    font-size: 1.4rem;
-}
-#footer1-inte-title img {
-    height: 1.2rem;
-    width: 1.3rem;
-}
-#footer1-inte-text p{
-    margin: 0.2rem 0;
-    font-size: 0.87rem;
-}
-
-#padding-left-one{
-    padding-left: 0.8rem;
-}
-#padding-left-two{
-    padding-left: 1.7rem;
-}
-
-#footer2-inte{
-    font-family: 'GmarketMedium';
-    color: #2b2b2b;
-    font-size: 1.15rem;
-    width: 47.5rem;
-    margin: 0 auto;
-}
-#footer2-inte-body{
-    width: 43rem;
-    margin: 0 auto;
-    height: 20rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-#footer2-inte-container p{
-    margin: 0;
-
-}
-#call-number{
-    font-family: 'GmarketBold';
-    font-size: 1.9rem;
-    padding-top: 0.3rem;
-    padding-bottom: 1.3rem;
-}
-#footer2-inte-box{
-    background-color: #030d52;
-    padding: 1rem 2.5rem;
-    cursor: pointer;
-}
-#footer2-inte-box-text1{
-    color: white;
-}
-#footer2-inte-box-text2{
-    font-family: 'GmarketBold';
-    color:#37fe9f;
-    font-size: 1.8rem;
-}
-
-
-#footer3-inte{
-    font-family: 'GmarketMedium';
-    font-size: 0.6rem;
-    background-color: #343530;
-    width: 47.5rem;
-    margin: 0 auto;
-}
-#footer3-inte{
-    font-family: 'GmarketMedium';
-    font-size: 0.6rem;
-    background-color: #343530;
-}
-.footer3-inte-text{
-    color: #ffffff;
-}
-
-#footer3-inte-body{
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 38rem;
-    height: 6rem;
-}
-.footer3-inte-img img{
-    width: 12rem;
-    height: 2.5rem;
-}
-.footer3-inte-text li{
-    list-style: none;
-}
-.footer3-inte-text li p{
-    margin: 1px;
-}
 #change{
     transform: rotate(180deg);
 }
-
 .enter {
     height: 0;
     opacity: 0;
@@ -152,4 +27,256 @@
     opacity: 0;
     transition: max-height 200ms ease-in-out, opacity 200ms ease-in-out;
 }
+@media(min-width:1024px){
+#footer1-inte{
+    background-color: #eeeeee;
+    font-family: 'GmarketMedium';
+    width: 52.8rem;
+    margin: 0 auto;
+}
+#footer1-inte-body{
+    width: 45rem;
+    margin:0 auto;
+    padding: 1rem 0;
+}
+#footer1-inte-container{
+    padding: 1rem 0;
+}
+#footer1-inte-container hr{
+    border: 1.2px solid black;
+    margin-top: 0.3rem;
+    margin-bottom: 1.5rem;
+    width: 44rem;
+}
 
+#footer1-inte-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 2rem;
+    padding: 0 0.5rem;
+    cursor: pointer;
+}
+#footer1-inte-title p {
+    font-family: 'GmarketBold';
+    font-size: 1.5rem;
+}
+#footer1-inte-title img {
+    height: 1.2rem;
+    width: 1.3rem;
+}
+#footer1-inte-text p{
+    margin: 0.2rem 0;
+    font-size: 0.9rem;
+}
+
+#padding-left-one{
+    padding-left: 0.8rem;
+}
+#padding-left-two{
+    padding-left: 1.7rem;
+}
+
+#footer2-inte{
+    font-family: 'GmarketMedium';
+    color: #2b2b2b;
+    font-size: 1.2rem;
+    width: 48rem;
+    margin: 0 auto;
+}
+#footer2-inte-body{
+    width: 43rem;
+    margin: 0 auto;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#footer2-inte-container p{
+    margin: 0;
+
+}
+#call-number{
+    font-family: 'GmarketBold';
+    font-size: 2.1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 1.3rem;
+}
+#footer2-inte-box{
+    background-color: #030d52;
+    padding: 1rem 2.5rem;
+    cursor: pointer;
+}
+#footer2-inte-box-text1{
+    color: white;
+}
+#footer2-inte-box-text2{
+    font-family: 'GmarketBold';
+    color:#37fe9f;
+    font-size: 1.9rem;
+}
+
+
+#footer3-inte{
+    font-family: 'GmarketMedium';
+    font-size: 0.6rem;
+    background-color: #343530;
+    width: 52.8rem;
+    margin: 0 auto;
+}
+#footer3-inte{
+    font-family: 'GmarketMedium';
+    font-size: 0.6rem;
+    background-color: #343530;
+}
+.footer3-inte-text{
+    color: #ffffff;
+}
+
+#footer3-inte-body{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40rem;
+    height: 6rem;
+}
+.footer3-inte-img img{
+    width: 12rem;
+    height: 2.5rem;
+}
+.footer3-inte-text li{
+    list-style: none;
+}
+.footer3-inte-text li p{
+    margin: 1px;
+}
+}
+@media(max-width:1024px){
+#footer1-inte{
+    background-color: #eeeeee;
+    font-family: 'GmarketMedium';
+    width: 82.5vw;
+    margin: 0 auto;
+}
+#footer1-inte-body{
+    width: 72vw;
+    margin:0 auto;
+    padding: 2vw 0;
+}
+#footer1-inte-container{
+    padding: 2vw 0;
+}
+#footer1-inte-container hr{
+    border: 0.1vw solid black;
+    margin-top: 0.5vw;
+    margin-bottom: 2vw;
+    width: 70vw;
+}
+
+#footer1-inte-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4vw;
+    padding: 0 1vw;
+    cursor: pointer;
+}
+#footer1-inte-title p {
+    font-family: 'GmarketBold';
+    font-size: 2.5vw;
+}
+#footer1-inte-title img {
+    height: 1.6vw;
+    width: 1.8vw;
+}
+#footer1-inte-text p{
+    margin: 0.4vw 0;
+    font-size: 1.5vw;
+}
+
+#padding-left-one{
+    padding-left: 1vw;
+}
+#padding-left-two{
+    padding-left: 2.5vw;
+}
+
+#footer2-inte{
+    font-family: 'GmarketMedium';
+    color: #2b2b2b;
+    font-size: 2.1vw;
+    width: 82.5vw;
+    margin: 0 auto;
+}
+#footer2-inte-body{
+    width: 82.5vw;
+    margin: 0 auto;
+    height: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#footer2-inte-container p{
+    margin: 0;
+
+}
+#call-number{
+    font-family: 'GmarketBold';
+    font-size: 3.5vw;
+    padding-top: 0.6vw;
+    padding-bottom: 2.7vw;
+}
+#footer2-inte-box{
+    background-color: #030d52;
+    padding: 1.5vw 4vw;
+    cursor: pointer;
+}
+#footer2-inte-box-text1{
+    color: white;
+}
+#footer2-inte-box-text2{
+    font-family: 'GmarketBold';
+    color:#37fe9f;
+    font-size: 3.5vw;
+}
+
+
+#footer3-inte{
+    font-family: 'GmarketMedium';
+    font-size: 1.1vw;
+    background-color: #343530;
+    width: 82.5vw;
+    margin: 0 auto;
+}
+#footer3-inte{
+    font-family: 'GmarketMedium';
+    font-size: 1.1vw;
+    background-color: #343530;
+}
+.footer3-inte-text{
+    color: #ffffff;
+}
+
+#footer3-inte-body{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    height: 12vw;
+}
+.footer3-inte-img img{
+    width: 21vw;
+    height: 4.5vw;
+}
+.footer3-inte-text li{
+    list-style: none;
+}
+.footer3-inte-text li p{
+    margin: 0.2vw;
+}
+
+}

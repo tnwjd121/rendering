@@ -145,6 +145,7 @@
   }
   #loanproduct{
     font-family: 'GmarketBold';
+    margin-right: 0.5rem;
   }
   #detail{
     display: flex;
@@ -270,19 +271,18 @@
   #top-credit-shortcut-right{
     font-family: 'GmarketBold';
     font-size: 2.9vw;
-    color: #fbd44e;
+    color: #ffff00;
     cursor: pointer;
     padding-left: 5vw;
   }
   
   #top-credit-info{
-    width:45vw;
+    width:55vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding-left: 0px;
     margin-top: 5vw;
-    margin-left: 4vw;
   }
   .credit-product-number{
     font-family: 'GmarketBold';
@@ -309,7 +309,7 @@
     font-size: 0.8vw;
     color: #ffffff;
     margin-left: 2vw;
-    margin-bottom: 0.5vw;
+    margin-bottom: 0.1vw;
   }
   .top-credit-info-detail li p{
     font-size: 1.6vw;
@@ -319,20 +319,18 @@
   }
   #top-credit-info-line img {
     height: 10vw;
-    padding-left: 3vw;
-    padding-right: 3vw;
   }
   
   #top-credit-detail {
-    display: flex;  
-    align-items: center; 
-    justify-content: center;
     background-color: #fbd44e;
     bottom:  0px;
     left: 0;
     width: 100%;
     height: 7.5vw;
     margin-top: auto;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
     cursor: pointer;
   }
   #top-credit-detail p{
@@ -346,6 +344,7 @@
   }
   #loanproduct{
     font-family: 'GmarketBold';
+    margin-right: 0.8vw;
   }
   #detail{
     display: flex;
