@@ -31,7 +31,7 @@
 #footer1-inte{
     background-color: #eeeeee;
     font-family: 'GmarketMedium';
-    width: 52.8rem;
+    width: 62.7rem;
     margin: 0 auto;
 }
 #footer1-inte-body{
@@ -81,7 +81,7 @@
     font-family: 'GmarketMedium';
     color: #2b2b2b;
     font-size: 1.2rem;
-    width: 48rem;
+    width: 62.7rem;
     margin: 0 auto;
 }
 #footer2-inte-body{
@@ -122,7 +122,7 @@
     font-family: 'GmarketMedium';
     font-size: 0.6rem;
     background-color: #343530;
-    width: 52.8rem;
+    width: 62.7rem;
     margin: 0 auto;
 }
 #footer3-inte{
@@ -157,7 +157,7 @@
 #footer1-inte{
     background-color: #eeeeee;
     font-family: 'GmarketMedium';
-    width: 82.5vw;
+    width: 95vw;
     margin: 0 auto;
 }
 #footer1-inte-body{
@@ -207,7 +207,7 @@
     font-family: 'GmarketMedium';
     color: #2b2b2b;
     font-size: 2.1vw;
-    width: 82.5vw;
+    width: 95vw;
     margin: 0 auto;
 }
 #footer2-inte-body{
@@ -223,7 +223,7 @@
     margin: 0;
 
 }
-#call-number{
+#call-number{ 
     font-family: 'GmarketBold';
     font-size: 3.5vw;
     padding-top: 0.6vw;
@@ -248,7 +248,7 @@
     font-family: 'GmarketMedium';
     font-size: 1.1vw;
     background-color: #343530;
-    width: 82.5vw;
+    width: 95vw;
     margin: 0 auto;
 }
 #footer3-inte{

@@ -98,7 +98,7 @@ export default function TopIntegrate({scrollToSection, onToggleMainIntegrate, sh
               <div className='top-integrate-text' onClick={() => scrollToSection('online')}>
                 <div className='top-integrate-text-top'>
                   <div className='top-integrate-text-top-left'>
-                    <div className='top-integrate-text-subtitle'>저신용·저소득 직장인을 위한<br/>서민지원대출</div>
+                    <div className='top-integrate-text-subtitle'>저신용 · 저소득 직장인을 위한<br/>서민지원대출</div>
                     <div className='top-integrate-text-title'>온라인햇살론</div>
                   </div>
                   <div className='top-integrate-text-top-right'>                    

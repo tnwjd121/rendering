@@ -6,7 +6,7 @@
 }
 #main-guarantee-product{
     margin: 0 auto;
-    width: 45rem;
+    width: 50rem;
     padding-bottom: 4rem;
 }
 .main-guarantee-title{
@@ -40,6 +40,7 @@
     display: flex;
     align-items: center;
     padding: 0.5rem 0rem;
+    margin-top: 0.4rem;
 }
 .main-guarantee-text-title hr{
     flex-grow: 1;
@@ -134,6 +135,7 @@
     display: flex;
     align-items: center;
     padding: 0;
+    margin-top: 1.2vw;
 }
 .main-guarantee-text-title hr{
     flex-grow: 1;
@@ -145,6 +147,8 @@
    padding-right: 2vw;
    color: #34438b;
    font-size: 1.6vw;
+   margin-top: 1vw;
+   margin-bottom: 0.2vw;
 }
 .main-guarantee-text-detail{
     font-family: 'GmarketMedium';
@@ -152,7 +156,7 @@
 .main-guarantee-text-detail ul{
     padding-left: 0px;
     list-style-type: disc;
-    font-size: 0.7vw;
+    font-size: 0.5vw;
 }
 .main-guarantee-text-detail li p{
     font-size: 1.3vw;
@@ -163,7 +167,7 @@
     color: #ffffff;
     padding: 0.2vw 0.2vw 0.2vw 0.2vw;
     display: inline-block;
-    width: 6.5vw;
+    width: 6.9vw;
     margin: 0.1vw;
 }
 .main-guarantee-text-info{
@@ -183,6 +187,6 @@
 }
 
 #indent-gua{
-    padding-left: 7.3vw;
+    padding-left: 7.8vw;
 }
 }

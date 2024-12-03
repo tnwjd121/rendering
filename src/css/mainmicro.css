@@ -136,13 +136,15 @@
 .main-micro-text-title hr{
     flex-grow: 1;
     border: none;
-    border-top: 1.2px solid #2e4b80
+    border-top: 1.2px solid #2e4b80;
 }
 .main-micro-text-title span{
-    font-family: 'GmarketBold';
-    padding-right: 2vw;
-   color: #34438b;
+  font-family: 'GmarketBold';
+  padding-right: 2vw;
+  color: #34438b;
    font-size: 1.5vw;
+   margin-top: 1vw;
+   margin-bottom: 0.2vw;
 }
 .main-micro-text-detail{
     font-family: 'GmarketMedium';
