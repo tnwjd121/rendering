@@ -27,7 +27,7 @@ export default function TopIntegrate({scrollToSection, onToggleMainIntegrate, sh
             </div>
             <div id='top-integrate-text'>
               <p>
-                <span className='color-blue'>신용평점에 영향없이 3가지 대출상품</span>을 한번에 조회!<br/>
+                <span className='color-blue'>신용평점에 영향 없이 3가지 대출상품</span>을 한 번에 조회!<br/>
                 나에게 맞는 <span className='color-green'>대출상품을 다이렉트로 신청</span>!!
               </p>
             </div>
@@ -90,7 +90,7 @@ export default function TopIntegrate({scrollToSection, onToggleMainIntegrate, sh
                     </p>
                     <p>
                       <img src={require('../img/liststyle.png')}></img>
-                      최장 5년까지 (보증기간 이내)
+                      최장 5년까지(보증기간 이내)
                     </p>
                   </div>
                 </div> 
@@ -98,7 +98,7 @@ export default function TopIntegrate({scrollToSection, onToggleMainIntegrate, sh
               <div className='top-integrate-text' onClick={() => scrollToSection('online')}>
                 <div className='top-integrate-text-top'>
                   <div className='top-integrate-text-top-left'>
-                    <div className='top-integrate-text-subtitle'>저신용 · 저소득 직장인을 위한<br/>서민지원대출</div>
+                    <div className='top-integrate-text-subtitle'>저신용·저소득 직장인을 위한<br/>서민지원대출</div>
                     <div className='top-integrate-text-title'>온라인햇살론</div>
                   </div>
                   <div className='top-integrate-text-top-right'>                    

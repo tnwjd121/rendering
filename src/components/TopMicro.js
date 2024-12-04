@@ -40,7 +40,7 @@ export default function TopMicro({ onToggleMainMicro, showMainMicro }) {
             </div>
             <ul>
               <li><p>최대 5,000만원</p></li>
-              <li><p>연9%대</p></li>
+              <li><p>연 9%대</p></li>
               <li><p>최장 5년</p></li>
             </ul>
           </div>
@@ -58,7 +58,7 @@ export default function TopMicro({ onToggleMainMicro, showMainMicro }) {
             </div>
             <ul>
               <li><p>최대 10억원</p></li>
-              <li><p>연5%대~연9%대</p></li>
+              <li><p>연 5%대 ~ 연 9%대</p></li>
               <li><p>운영자금 최장 3년</p></li>
             </ul>
           </div>
@@ -76,7 +76,7 @@ export default function TopMicro({ onToggleMainMicro, showMainMicro }) {
             </div>
             <ul>
               <li><p>최대 1억원</p></li>
-              <li><p>연8%대~연14%대</p></li>
+              <li><p>연 8%대 ~ 연 14%대</p></li>
               <li><p>최장 5년</p></li>
             </ul>
           </div>
@@ -94,7 +94,7 @@ export default function TopMicro({ onToggleMainMicro, showMainMicro }) {
             </div>
             <ul>
               <li><p>최대 60억원</p></li>
-              <li><p>연7%대~연13%대</p></li>
+              <li><p>연 7%대 ~ 연 13%대</p></li>
               <li><p>최장 5년</p></li>
             </ul>
           </div>

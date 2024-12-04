@@ -85,12 +85,6 @@
     font-size: 0.8rem;
 }
 
-.none-list-p{
-    font-family: 'GmarketMedium';
-    font-size: 0.8rem;
-    margin: 0;
-}
-
 }
 @media (max-width: 1024px){
 #main-micro-body{
@@ -180,9 +174,4 @@
     font-size: 1.22vw;
 }
 
-.none-list-p{
-    font-family: 'GmarketMedium';
-    font-size: 1.3vw !important;
-    margin: 0;
-}
 }

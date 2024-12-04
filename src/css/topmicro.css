@@ -1,8 +1,8 @@
 @media (min-width: 1024px) {
 #top-micro-body{
-  background-image: url('/src/img/소상공인배경제외.png');
+  background-image: url('/src/img/소상공인배경.png');
   width: 100%;
-  height: 66rem;
+  height: 65rem;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;

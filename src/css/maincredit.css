@@ -83,11 +83,6 @@
     font-size: 0.8rem;
 }
 
-.none-list-p{
-    font-family: 'GmarketMedium';
-    font-size: 0.8rem;
-    margin: 0;
-}
 #biglone-table{
     margin-top: 1rem;
 }
@@ -187,11 +182,6 @@
     font-size: 1.22vw;
 }
 
-.none-list-p{
-    font-family: 'GmarketMedium';
-    font-size: 1.3vw !important;
-    margin: 0;
-}
 
 #biglone-table{
     margin-top: 1vw;

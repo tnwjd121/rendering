@@ -92,31 +92,21 @@
 }
 }
 @media (max-width: 1024px){
+#quick-menu-gu{
+    width:100%;
+    height: 20vw;
+    background-color: rgb(87,167,230);
+}
 #quick-menu-body{
     display: flex;
     justify-content: center;
-    position: fixed;
-    top: 8%;
-    right: 5%;
-    z-index: 100; /* 다른 요소 위에 유지 */
-}
-#quick-delete-button{
-    background-color: #575756;
-    width: 2vw;
-    height: 2vw;
-    cursor: pointer;
-}
-#quick-delete-button p{
-    margin: 0px;
-    text-align: center;
-    line-height: 2vw;
-    font-family: 'GmarketMedium';
-    color: #ffffff;
-    font-size: 2vw;
 }
 #quick-menu-list{
     text-align: center;
-    width: 10vw;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #quick-menu-list img{
@@ -182,5 +172,5 @@
 }
 #color-yellow{
     color: #ffff00;
-}
+} 
 }

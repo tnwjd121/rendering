@@ -210,10 +210,14 @@
 
 /* 1024px 이하 기준 */
 @media (max-width: 1024px) {
+  #top-guarantee{
+    background-color: rgb(87,167,230);
+    height: 102vw;
+  }
   #top-guarantee-body{
     background-image: url('/src/img/보증부상품배경.png');
     width: 100%;
-    height: 83vw;
+    height: 85vw;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -231,7 +235,7 @@
     font-family: 'GmarketBold';
     color: #ffffff;
     font-size: 5vw;
-    padding-top: 12vw;
+    padding-top: 8vw;
     padding-left: 1vw;
     text-shadow: 0.5vw 0.5vw 0.5vw rgba(0, 0, 0, 0.151);
     padding-bottom: 1.2vw;
@@ -244,7 +248,7 @@
     padding-bottom: 0.5vw;
     color: #152168;
     padding-left: 0.5vw;
-
+    margin-bottom: 2vw;
   
   }
   
@@ -253,8 +257,8 @@
     background-color: #0000ff;
     display: flex;
     width: 47vw;
-    height: 8vw;
-    border-radius: 5vw;
+    height: 10vw;
+    border-radius: 10vw;
     align-items: center;
     box-shadow: 0.1vw 0.1vw 0.1vw rgba(0, 0, 0, 0.836);
     
@@ -262,17 +266,17 @@
   #top-guarantee-shortcut-line{
     background-color: #ffffff;
     width: 47vw;
-    border-radius: 5vw;
+    border-radius: 10vw;
     border: 0.5vw solid #ffffff;
   }
   
   
   #top-guarantee-shortcut-left{
     font-family: 'GmarketBold';
-    font-size: 2.9vw;
+    font-size: 3.5vw;
     color: #ffffff;
     cursor: pointer;
-    padding-left: 4vw;
+    padding-left: 3vw;
     padding-right: 3vw;
   }
   
@@ -282,37 +286,49 @@
   
   #top-guarantee-shortcut-right{
     font-family: 'GmarketBold';
-    font-size: 2.9vw;
+    font-size: 3.5vw;
     color: #ffff00;
     cursor: pointer;
-    padding-left: 5vw;
+    padding-left: 3vw;
   }
   
   #top-guarantee-info{
-    width:55vw;
+    width:45vw;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: space-evenly;
     padding-left: 0px;
     margin-top: 5vw;
   }
   .guarantee-product-number{
     font-family: 'GmarketBold';
     color: #ffffff;
-    font-size: 3vw;
+    font-size: 4.5vw;
   }
   .guarantee-product-name{
     font-family: 'GmarketBold';
   color: #152168;
-    font-size: 2.6vw;
+    font-size: 4vw;
   }
   .guarantee-product-name2{
     font-family: 'GmarketBold';
     color: #021a2e;
-    font-size: 2.6vw;
+    font-size: 4vw;
   }
   .top-guarantee-info-detail{
     font-family: 'GmarketBold';
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    width: 32vw;
+  }
+  .top-guarantee-info-detail.active {
+    display: block;
+    opacity: 1;
+  }
+  
+  .top-guarantee-info-detail.inactive {
+    display: none;
+    opacity: 0;
   }
   .top-guarantee-info-detail p{
     margin: 0;
@@ -320,16 +336,16 @@
   .top-guarantee-info-detail ul{
     margin: 0px;
     padding: 0px;
-    margin-top: 0.7vw;
+    margin-top: 0.8vw;
   }
   .top-guarantee-info-detail li{
-    font-size: 0.8vw;
+    font-size: 1.5vw;
     color: #ffffff;
-    margin-left: 2vw;
+    margin-left: 1vw;
     margin-bottom: 0.1vw;
   }
   .top-guarantee-info-detail li p{
-    font-size: 1.6vw;
+    font-size: 2.5vw;
     color:#ffffff;
   }
   .top-guarantee-info-detail li p span{
@@ -337,6 +353,26 @@
   }
   #top-guarantee-info-line img {
     height: 10vw;
+  }
+  #left-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 4vw;
+    height: 4vw;
+    font-size: 3vw;
+    color: #152168;
+  }
+  #right-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 4vw;
+    height: 4vw;
+    font-size: 3vw;
+    color: #152168;
   }
   
   #top-guarantee-detail {

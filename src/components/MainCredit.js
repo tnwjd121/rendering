@@ -24,7 +24,7 @@ export default function MainCredit() {
                                 <p>당행 CSS평가 시스템에 의해 대출한도가 산출되는 자</p>
                                 <p>(NICE개인신용평점 725점이상 및 KCB개인신용평점 535점 이상)</p>
                                 <br />
-                                <p className='orange-color'>※심사 진행 시, 개인소득산정에 따라 i-빅론U플러스 신청 여부 확인 가능</p>
+                                <p className='orange-color'>※ 심사 진행 시, 개인소득산정에 따라 i-빅론U플러스 신청 여부 확인 가능</p>
                             </li>
                         </ul>
                     </div>
@@ -63,7 +63,7 @@ export default function MainCredit() {
                     <div className='main-credit-text-detail'>
                         <ul>
                             <li><p>원리금균등분할상환</p></li>
-                            <li><p>이자부과시기 : 매월후취</p></li>
+                            <li><p>이자부과시기: 매월후취</p></li>
                         </ul>
                     </div>
                     <div className='main-credit-text-title'>
@@ -73,7 +73,7 @@ export default function MainCredit() {
                         <ul>
                             <li>
                                 <p>상환금액의 1.6%</p>
-                                <p>※ 기한 전 상환 대출금액 X 기한 전 상환 수수료율 X 대출 잔여일 수 / 대출 기간</p>
+                                <p>※ 기한 전 상환 대출금액 X 기한 전 상환 수수료율 X 대출 잔여일수 ÷ 대출기간</p>
                             </li>
                         </ul>
                     </div>
@@ -82,7 +82,7 @@ export default function MainCredit() {
                     </div>
                     <div className='main-credit-text-detail'>
                         <ul>
-                            <li><p>인지세법에 따라 대출약정시 납부하는 세금으로 수입인지비용 발생</p></li>
+                            <li><p>인지세법에 따라 대출약정 시 납부하는 세금으로 수입인지비용 발생</p></li>
                             <li><p>고객과 저축은행 각 50% 부담</p></li>
                             <table id='biglone-table'>
                                 <tr>

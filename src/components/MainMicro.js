@@ -18,7 +18,7 @@ export default function MainMicro() {
                         <li><p>소득증빙 가능한 만 19세이상 고객</p></li>
                         <li><p>개인신용평점이 744점이하 및 연간소득 4,500만원 이하에 해당하는 사업자
                             <br/>
-                            ※단, 연소득 3,500만원 이하 (3개월이상 사업운영 중)인 경우 개인신용평점과 무관하게 가능
+                            ※ 단, 연소득 3,500만원 이하 (3개월이상 사업운영 중)인 경우 개인신용평점과 무관하게 가능
                         </p></li>
                     </ul>
                 </div>
@@ -27,7 +27,7 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>최대5,000만원 </p></li>
+                        <li><p>최대 5,000만원 </p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
@@ -45,7 +45,7 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                    <li><p>1년~5년</p></li>
+                    <li><p>1년 ~ 5년</p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
@@ -53,7 +53,7 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>1년 거치 4년 이내 원금균등분할상환 또는 5년이내 원금균등분할상환 가능</p></li>
+                        <li><p>1년 거치 4년 이내 원금균등분할상환 또는 5년 이내 원금균등분할상환 가능</p></li>
                         <li><p>이자부과시기: 매월후취</p></li>
                     </ul>
                 </div>
@@ -72,7 +72,7 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>보증료 : 보증금액의 연 1%이내 (지역 신용보증재단) </p></li>
+                        <li><p>보증료 : 보증금액의 연 1% 이내 (지역 신용보증재단) </p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
@@ -80,7 +80,7 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>대출금리 + 3% 이내(연체가산 이자율), 최대15%이내</p></li>
+                        <li><p>대출금리 + 3% 이내(연체가산 이자율), 최대 15% 이내</p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-info'>
@@ -128,8 +128,8 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>가계자금: 최장 30년이내</p></li>
-                        <li><p>운영자금: 최장 3년이내</p></li>
+                        <li><p>가계자금: 최장 30년 이내</p></li>
+                        <li><p>운영자금: 최장 3년 이내</p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
@@ -148,8 +148,8 @@ export default function MainMicro() {
                 <div className='main-micro-text-detail'>
                     <ul>
                         <li>
-                            <p>상환금액의 연2%이내</p>
-                            <p>※기한 전 상환 대출금액X기한 전 상환수수료율X대출잔여일÷대출기간</p>
+                            <p>상환금액의 연 2% 이내</p>
+                            <p>※ 기한 전 상환 대출금액 X 기한 전 상환 수수료율 X 대출 잔여일수 ÷ 대출기간</p>
                         </li>
                     </ul>
                 </div>
@@ -167,7 +167,7 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>대출금리 + 3% 이내(연체가산 이자율), 최대20%이내</p></li>
+                        <li><p>대출금리 + 3% 이내(연체가산 이자율), 최대 20% 이내</p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-info'>
@@ -233,8 +233,8 @@ export default function MainMicro() {
                 <div className='main-micro-text-detail'>
                     <ul>
                         <li>
-                            <p>상환금액의 연1.8%이내</p>
-                            <p>※기한 전 상환 대출금액X기한 전 상환수수료율X대출잔여일÷대출기간</p>
+                            <p>상환금액의 연 1.8% 이내</p>
+                            <p>※ 기한 전 상환 대출금액 X 기한 전 상환 수수료율 X 대출 잔여일수 ÷ 대출기간</p>
                         </li>
                     </ul>
                 </div>
@@ -252,7 +252,7 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>대출금리 + 3% 이내(연체가산 이자율), 최대20%이내</p></li>
+                        <li><p>대출금리 + 3% 이내(연체가산 이자율), 최대 20% 이내</p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-info'>
@@ -300,8 +300,7 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>최장 5년
-                            </p></li>
+                        <li><p>최장 5년</p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
@@ -319,8 +318,8 @@ export default function MainMicro() {
                 <div className='main-micro-text-detail'>
                     <ul>
                         <li>
-                            <p>상환금액의 연2%이내</p>
-                            <p>※기한 전 상환 대출금액X기한 전 상환수수료율X대출잔여일÷대출기간</p>
+                            <p>상환금액의 연 2% 이내</p>
+                            <p>※ 기한 전 상환 대출금액 X 기한 전 상환 수수료율 X 대출 잔여일수 ÷ 대출기간</p>
                         </li>
                     </ul>
                 </div>
@@ -338,7 +337,7 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>대출금리 + 3% 이내(연체가산 이자율), 최대20%이내</p></li>
+                        <li><p>대출금리 + 3% 이내(연체가산 이자율), 최대 20% 이내</p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-info'>
