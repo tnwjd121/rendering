@@ -37,6 +37,15 @@ export default function TopGuarantee({onToggleMainGuarantee, showMainGuarantee})
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % products.length);
+    }, 3000); // 3초마다 슬라이드 변경
+
+    return () => clearInterval(interval); // 컴포넌트 언마운트 시 interval 해제
+  }, [products.length]);
+
+
   const handlePrev = () => {
     setCurrentIndex((prevIndex) => (prevIndex === 0 ? products.length - 1 : prevIndex - 1));
   };
@@ -91,8 +100,17 @@ export default function TopGuarantee({onToggleMainGuarantee, showMainGuarantee})
                 </div>
               ))}
                 <div id='right-button' onClick={handleNext}><FaChevronRight /></div>
+                </div>
+              {/* 동그라미 인디케이터 추가 */}
+              <div className="slide-indicators">
+                {products.map((_, index) => (
+                  <div
+                    key={index}
+                    className={`indicator ${index === currentIndex ? 'active' : ''}`}
+                  />
+                ))}
               </div>
-          </div>
+            </div>
             <Quickmenu/>  
             <div id='top-guarantee-detail' onClick={onToggleMainGuarantee}>
               <p><span id='loanproduct'>대출상품정보</span> 자세히 보기 <span id={!showMainGuarantee? 'detail' : 'detail-change'}><LuChevronUp /></span></p>
