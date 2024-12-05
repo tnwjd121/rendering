@@ -4,11 +4,12 @@ import Quickmenu from './QuickmenuGu'
 import { LuChevronUp } from "react-icons/lu";
 import { FaChevronUp } from "react-icons/fa";
 import { FaChevronRight, FaChevronLeft } from "react-icons/fa6";
+import { useIsMoblie } from '../hooks/useIsMoblie';
 
-export default function TopGuarantee({onToggleMainGuarantee, showMainGuarantee}) {
+export default function TopGuarantee({scrollToSection, onToggleMainGuarantee, showMainGuarantee}) {
   const topRef = useRef(null);
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const isMobile = useIsMoblie();
   
   const products = [
     {
@@ -16,26 +17,18 @@ export default function TopGuarantee({onToggleMainGuarantee, showMainGuarantee})
       productName:'사잇돌2',
       money: '최대 3,000만원',
       interestRate: '연 12%대 ~ 연 17%대',
-      period: '최장 5년'
+      period: '최장 5년',
+      ref: 'saitdol'
     },
     {
       number:'02',
       productName:'온라인 햇살론',
       money: '최대 2,000만원',
       interestRate: '연 9%대',
-      period: '3년, 5년'
+      period: '3년, 5년',
+      ref: 'loan'
     },
   ];
-
-
-  // 화면 크기 감지
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 1024);
-    };
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -65,7 +58,6 @@ export default function TopGuarantee({onToggleMainGuarantee, showMainGuarantee})
     window.location.href ='https://sbloan.ibksb.co.kr/ibk/loan_form/loan_step00S.jsp'
   }
  
-  // 2초마다 바뀌고 현재 위치 표시 슬라이드
   return (
     <div>
     {isMobile ? (
@@ -90,7 +82,9 @@ export default function TopGuarantee({onToggleMainGuarantee, showMainGuarantee})
                   key={index}
                   className={`top-guarantee-info-detail ${
                     index === currentIndex ? 'active' : 'inactive'
-                  }`}>
+                  }`}
+                  onClick={() => scrollToSection(product.ref)}
+                  >
                   <p className='guarantee-product-name'><span className='guarantee-product-number'>{product.number}</span> {product.productName}</p>
                   <ul>
                     <li><p>{product.money}</p></li>
@@ -101,7 +95,6 @@ export default function TopGuarantee({onToggleMainGuarantee, showMainGuarantee})
               ))}
                 <div id='right-button' onClick={handleNext}><FaChevronRight /></div>
                 </div>
-              {/* 동그라미 인디케이터 추가 */}
               <div className="slide-indicators">
                 {products.map((_, index) => (
                   <div

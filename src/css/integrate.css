@@ -1,20 +1,23 @@
 /* max-height로 했을 때 책갈피 이동 안돼서 다른 페이지와 애니메이션 상이 */
 
 .main-integrate-transition-enter {
-    opacity: 0;
-    overflow: hidden;
-    /* 애니메이션 전환 시 흔들림, 지연, 성능 문제 줄임 */
-    will-change: transform, opacity;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  /* 애니메이션 전환 시 흔들림, 지연, 성능 문제 줄임 */
+  will-change: transform, opacity;
   }
   .main-integrate-transition-enter-active {
+    max-height: 100rem;
     opacity: 1;
-    transform: translateY(0);
-    transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
+    overflow: hidden;
+    transition: max-height 300ms ease-in-out, opacity 300ms ease-in-out;
   }
   
   .main-integrate-transition-exit {
+    max-height: 100rem;
     opacity: 1;
-    transform: translateY(0);
+    overflow: hidden;
     /* 애니메이션 전환 시 흔들림, 지연, 성능 문제 줄임 */
     will-change: transform, opacity;
   }

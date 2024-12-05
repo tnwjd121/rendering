@@ -1,10 +1,12 @@
 import React from 'react'
 import '../css/mainguarantee.css'
+import { useIsMoblie } from '../hooks/useIsMoblie'
 
-export default function MainGuarantee() {
+export default function MainGuarantee({saitdolRef, loanRef}) {
+    const isMobile = useIsMoblie();
   return (
     <div id='main-guarantee-body'>
-        <div id='main-guarantee-product'>
+        <div id='main-guarantee-product' ref={saitdolRef}>
             <div className='main-guarantee-title'>
                 <div className='main-guarantee-subtitle'>
                     중·저신용 거래자를 위한 정부지원 대출
@@ -87,7 +89,7 @@ export default function MainGuarantee() {
                 </div>
             </div>
       </div>
-        <div id='main-guarantee-product'>
+        <div id='main-guarantee-product' ref={loanRef}>
             <div className='main-guarantee-title'>
                 <div className='main-guarantee-subtitle'>
                     저신용·저소득 직장인 대상의 서민지원대출
@@ -167,16 +169,29 @@ export default function MainGuarantee() {
                     <span>부대비용</span><hr/>
                 </div>
                 <div className='main-guarantee-text-detail'>
+                    {isMobile?(
+                    <ul>
+                        <li><p>보증수수료: 서민금융진흥원 보증금액의 연 2.5%</p></li>
+                        <li><p>보증료 우대사항</p></li>
+                            <p className='none-list-p'>1) 저소득청년(연소득 3,500만원 이하, 만 34세 이하) 0.5%p 인하</p>
+                            <p className='none-list-p'>2) 기타(신용 부채관리 컨설팅 이수자, 금융교육 이수자) 0.1%p 인하</p>
+                            <p className='none-list-p'>※ 신용부채관리 컨설팅 금융교육 이수자: '21.7.26. 신규 신청접수분부터 신청일 이전 
+                                <br/><span className='indent-one'>1년 이내 서민금융진흥원에서 해당교육 이수한 경우</span></p>
+                        <li><p>보증료인하: 대출금리가 연10.5%를 초과한 경우, 동 초과분(대출금리-10.5%)의 60%에 
+                            <br/><span id='indent-gua'>해당하는 만큼의 보증료율 인하적용</span></p></li>
+                    </ul>
+                    ):(
                     <ul>
                         <li><p>보증수수료: 서민금융진흥원 보증금액의 연 2.5%</p></li>
                         <li><p>보증료 우대사항</p></li>
                             <p className='none-list-p'>1) 저소득청년(연소득 3,500만원 이하, 만 34세 이하) 0.5%p 인하</p>
                             <p className='none-list-p'>2) 기타(신용 부채관리 컨설팅 이수자, 금융교육 이수자) 0.1%p 인하</p>
                             <p className='none-list-p'>※ 신용부채관리 컨설팅 금융교육 이수자: '21.7.26. 신규 신청접수분부터 신청일 이전 1년 이내
-                            <br/><span className='indent-title'>서민금융진흥원에서 해당교육 이수한 경우</span></p>
+                            <br/><span className='indent-one'>서민금융진흥원에서 해당교육 이수한 경우</span></p>
                         <li><p>보증료인하: 대출금리가 연10.5%를 초과한 경우, 동 초과분(대출금리-10.5%)의 60%에 해당하는
                             <br/><span id='indent-gua'>만큼의 보증료율 인하적용</span></p></li>
-                    </ul>
+                    </ul>     
+                    )}
                 </div>
                 <div className='main-guarantee-text-title'>
                     <span>연체금리</span><hr/>

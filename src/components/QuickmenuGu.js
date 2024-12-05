@@ -1,11 +1,12 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import '../css/quickmenu.css'
 import { useNavigate } from 'react-router-dom'
 import { MdOutlineClose } from "react-icons/md";
+import { useIsMoblie } from '../hooks/useIsMoblie';
 
 export default function QuickmenuGu() {
   const navigate = useNavigate();
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
+  const isMobile = useIsMoblie();
   const  enroll = () =>{
     window.location.href ='https://sbloan.ibksb.co.kr/ibk/loan_form/loan_step00.jsp'
   }
@@ -23,15 +24,6 @@ export default function QuickmenuGu() {
   const navigateToMicro = () =>{
     navigate('/micro')
   } 
-    // 화면 크기 감지
-    useEffect(() => {
-      const handleResize = () => {
-        setIsMobile(window.innerWidth <= 1024);
-      };
-      window.addEventListener('resize', handleResize);
-      return () => window.removeEventListener('resize', handleResize);
-    }, []);
-
 
   if (isDeleted) {
     return null;
@@ -58,10 +50,17 @@ export default function QuickmenuGu() {
                 <img src={require('../img/예적금아이콘.png')}></img>
                 <p>예적금<br/>정보</p>
             </div>
+         {isMobile?(
+            <div id='quick-menu-sb-pf' onClick={deposit}>
+                <img src={require('../img/손아이콘.png')}></img>
+                <p>IBKSB<br/><span id='color-yellow'>통합대출신청</span></p>
+            </div>
+         ):(
             <div id='quick-menu-sb-pf' onClick={deposit}>
                 <img src={require('../img/손아이콘.png')}></img>
                 <p>IBKSB<br/><span id='color-yellow'>통합<br/>대출신청</span></p>
             </div>
+         )}   
         </div>
         {isMobile?null:(
         <div id='quick-delete-button' onClick={handleDelete}>

@@ -93,6 +93,9 @@
 #indent-gua{
     padding-left: 4.3rem;
 }
+.indent-one{
+    padding-left: 1rem;
+   }
 }
 @media (max-width: 1024px){
 
@@ -103,7 +106,8 @@
 #main-guarantee-product{
     margin: 0 auto;
     width: 90vw;
-    padding-bottom: 7vw;
+    padding-top: 2vw;
+    padding-bottom: 8vw;
 }
 .main-guarantee-title{
     margin: 0 auto;
@@ -112,18 +116,19 @@
     position: relative;
     top: 4.8vw;
     width: 65%;
-    border-radius: 3.5vw;
+    border-radius: 5vw;
     padding: 1vw;
+    margin-bottom: -2vw;
 }
 .main-guarantee-text{
     background-color: white;
     border-radius: 6vw;
-    padding: 8vw 6vw 4vw 6vw;
+    padding: 12vw 6vw 4vw 6vw;
 }
 .main-guarantee-subtitle{
     font-family: 'GmarketMedium';
-    font-size: 3vw;
-    margin-bottom: 1.1vw;
+    font-size: 2.7vw;
+    margin-bottom: 0.5vw;
     color: #535353;
 }
 .main-guarantee-maintitle{
@@ -185,8 +190,10 @@
     font-size: 2vw;
     margin: 0;
 }
-
+.indent-one{
+ padding-left: 2.5vw;
+}
 #indent-gua{
-    padding-left: 7.8vw;
+    padding-left: 10.5vw;
 }
 }
