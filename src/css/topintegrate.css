@@ -34,6 +34,7 @@
     color: white;
     font-family: "GmarketMedium";
     font-size: 1.8rem;
+    
 }
 #top-integrate-text span{
     font-size: 1.8rem;
@@ -55,7 +56,7 @@
     margin-top: 4.9rem;
 }
 
-.top-integrate-text{
+.top-integrate-text{ 
     background-image: url('/src/img/상품상자.png');
     background-size: contain;
     background-position: center;
@@ -121,6 +122,7 @@
     margin-right: 0.1rem;
     width: 0.7rem;
 }
+
 
 #top-intergrate-detail {
     margin: 0 auto;
@@ -229,7 +231,7 @@
     margin: 0 auto;
     background-image: url('/src/img/원스톱모바일배경.png');
     width: 100%;
-    height: 255vw;
+    height: 245vw;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -245,13 +247,13 @@
     margin: 0 auto;
 }
 #top-integrate-subtitle img{
-    margin-top: 17vw;
+    margin-top: 13vw;
     width: 77vw;
 }
 #top-integrate-title img{
-    margin-top: 2vw;
+    margin-top: 1vw;
     width: 77vw;
-    margin-bottom: 3vw;
+    margin-bottom: 2vw;
 }
 #top-integrate-text{
     text-align: center;
@@ -266,10 +268,14 @@
 .color-blue{
     color: #25eaf9;
 }
+.color-green{
+  color: #34fda2;
+}
 #top-integrate-shortcut img{
     margin-top: 4vw;
-    width: 65vw;
+    width: 68vw;
     cursor: pointer;
+    margin-bottom: 2vw;
 }
 
 #top-integrate-product-list{
@@ -282,6 +288,8 @@
 
 .top-integrate-text{
     background-image: url('/src/img/상품상자모바일.png');
+    width: 76vw;
+    height: 33vw;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -290,63 +298,101 @@
     justify-content: center;
     padding: 2.5vw 1.5vw;
     cursor: pointer;
+    margin-bottom: 2vw;
+}
+.top-integrate-text-subtitle{
+  font-family: 'PretendardMedium';
+  font-size: 3.7vw;
+  color: #0f155c;
+  margin-left: 5vw;
+}
+.top-integrate-text-bottom{
+  display: flex;
+  height: 25vw;
+  padding-top: 1vw;
+  margin-left: 4vw;
+  justify-content: space-between;
+  margin-right: 4vw;
+}
+.top-integrate-text-title{
+  color: #0f155c;
+  font-family: 'GmarketBold';
+  font-size: 5.6vw;
+  margin-bottom: 0.5vw;
+  margin-left: 0.5vw;
+}
+.top-integrate-text-bottom-list{
+  font-family: 'PretendardtRegular';
+  font-size: 4vw;
+}
+.top-integrate-text-bottom-list p{
+  margin: 1vw 0;
+}
+.top-integrate-text-bottom-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top-integrate-bottom-img {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2vw;
+}
+.top-integrate-bottom-img img{
+  width: 17vw;
+  height: 14vw;
+}
+.top-integrate-bottom-img2 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2vw;
+}
+.top-integrate-bottom-img2 img{
+  width: 12.5vw;
+  height: 16vw;
+}
+.top-integrate-bottom-enter img{
+  width: 20vw;
+  height: 4.5vw;
 }
 
-#top-intergrate-detail {
-    margin: 0 auto;
-    background-color: #000000;
-    bottom:  0px;
-    left: 0;
-    width: 95vw;
-    height: 6vw;
-    display: flex;
-    align-items: center; 
-    justify-content: center; 
-    cursor: pointer;
-    margin-top: -1vw;
-  }
-  #top-intergrate-detail p{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    font-family: 'GmarketMedium';
-    font-size: 2.8vw;
-    color: #ffffff;
-    margin: 0px;
-  }
-  #detail-integrate{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
-    border-radius: 50%;
-    width: 3.5vw !important;
-    height: 3.5vw !important;
-    transform: rotate(180deg);
-    margin-left: 1vw !important;
+.top-integrate-text-bottom-list img{
+  width: 3vw;
 }
-#detail-integrate-change{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
-    border-radius: 50%;
-    width: 3.5vw !important;
-    height: 3.5vw !important;
-    transform: rotate(0deg);
-    margin-left: 1vw !important;
-  }
-  #detail-integrate img{
-    width: 1.7vw;
-    height: 1.7vw;
-  }
-  #detail-integrate-change img{
-    width: 1.7vw;
-    height: 1.7vw;
-  }
-  .color-green{
-    color: #34fda2;
-  }
+
+#top-integrate-inquiry{
+  text-align: center;
+  margin-top: 3vw;
+}
+#top-integrate-inquiry-img img{
+  width: 14vw;
+}
+#top-integrate-inquiry-text{
+  background-color: #ffffff;
+  color: #0e1550;
+  font-family: 'GmarketBold';
+  font-size: 5vw;
+  padding: 0.5vw 3vw;
+  width: 40vw;
+  margin: 2vw auto 2vw;
+}
+#top-integrate-inquiry-call{
+  font-family: 'GmarketBold';
+  color: #ffffff;
+  font-size: 6vw;
+}
+#top-integrate-inquiry-call span{
+  color: #7cfaa9;
+}
+#top-integrate-inquiry-time{
+  font-family: 'GmarketMedium';
+  color: #ffffff;
+  font-size: 3vw;
+  margin-top: 1vw;
+}
+
+
+
   
   #top-button{
     display: flex;

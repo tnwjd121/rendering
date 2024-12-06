@@ -3,12 +3,16 @@ import '../css/topintegrate.css'
 import { FaAngleRight } from "react-icons/fa6";
 import { FaChevronUp } from "react-icons/fa";
 import { useIsMoblie } from '../hooks/useIsMoblie';
+import { useNavigate } from 'react-router-dom';
 
 
 
 export default function TopIntegrate({ scrollToSection, onToggleMainIntegrate, showMainIntegrate }) {
   const topRef = useRef(null);
   const isMobile = useIsMoblie();
+  const navigate = useNavigate();
+;
+  // 헤드셋(문의), 사잇돌모바일버전 아이콘 포토샵 png 다운로드
 
   const ClickTopButton = () => {
     topRef.current.scrollIntoView({ behavior: 'smooth' });
@@ -17,6 +21,11 @@ export default function TopIntegrate({ scrollToSection, onToggleMainIntegrate, s
   const totalCheck = () => {
     window.location.href = 'https://webloan.ibksb.co.kr/?AD_NO=AD0017&AGENT_ID=SL002&RECOMMENDER=Y?adf_cd=40';
   }
+
+  const navigateToBiflone = () => {
+    navigate('/biglone')
+  }
+
   return (
     <div>
       {isMobile ? (
@@ -41,29 +50,61 @@ export default function TopIntegrate({ scrollToSection, onToggleMainIntegrate, s
               <div id='top-integrate-product-list'>
                 <div className='top-integrate-text'>
                   <div className='top-integrate-text-top'>
-                      <div className='top-integrate-text-subtitle'>직장인을 위한 IBKSB신용대출</div>
+                    <div className='top-integrate-text-subtitle'>직장인을 위한 IBKSB신용대출</div>
+                  </div>
                   <div className='top-integrate-text-bottom'>
                     <div className='top-integrate-text-bottom-left'>
                       <div className='top-integrate-text-title'>i-빅론U</div>
                       <div className='top-integrate-text-bottom-list'>
-                      <p>
-                        <img src={require('../img/liststyle.png')}></img>
-                        연 11%대 ~ 연 19%대
-                      </p>
-                      <p>
-                        <img src={require('../img/liststyle.png')}></img>
-                        최대 6,000만원
-                      </p>
-                      <p>
-                        <img src={require('../img/liststyle.png')}></img>
-                        최소 1년 ~ 최장 5년까지
-                      </p>
+                        <p>
+                          <img src={require('../img/liststyle.png')}></img>
+                          연 11%대 ~ 연 19%대
+                        </p>
+                        <p>
+                          <img src={require('../img/liststyle.png')}></img>
+                          최대 6,000만원
+                        </p>
+                        <p>
+                          <img src={require('../img/liststyle.png')}></img>
+                          최소 1년 ~ 최장 5년까지
+                        </p>
                       </div>
                     </div>
-                  </div>
                     <div className='top-integrate-text-bottom-right'>
                       <div className='top-integrate-bottom-img'>
                         <img src={require('../img/빅론.png')}></img>
+                      </div>
+                      <div className='top-integrate-bottom-enter' onClick={navigateToBiflone}>
+                        <img src={require('../img/자세히보기.png')}></img>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className='top-integrate-text'>
+                  <div className='top-integrate-text-top'>
+                    <div className='top-integrate-text-subtitle'>중·저신용 거래자를 위한 정부지원대출</div>
+                  </div>
+                  <div className='top-integrate-text-bottom'>
+                    <div className='top-integrate-text-bottom-left'>
+                      <div className='top-integrate-text-title'>사잇돌2</div>
+                      <div className='top-integrate-text-bottom-list'>
+                        <p>
+                          <img src={require('../img/liststyle.png')}></img>
+                          연 12%대 ~ 연 17%대
+                        </p>
+                        <p>
+                          <img src={require('../img/liststyle.png')}></img>
+                          최대 3,000만원
+                        </p>
+                        <p>
+                          <img src={require('../img/liststyle.png')}></img>
+                          최장 5년까지
+                        </p>
+                      </div>
+                    </div>
+                    <div className='top-integrate-text-bottom-right'>
+                      <div className='top-integrate-bottom-img'>
+                        <img src={require('../img/사잇돌2.png')}></img>
                       </div>
                       <div className='top-integrate-bottom-enter'>
                         <img src={require('../img/자세히보기.png')}></img>
@@ -71,7 +112,46 @@ export default function TopIntegrate({ scrollToSection, onToggleMainIntegrate, s
                     </div>
                   </div>
                 </div>
-
+                <div className='top-integrate-text'>
+                  <div className='top-integrate-text-top'>
+                    <div className='top-integrate-text-subtitle'>저신용·저소득 직장인을 위한 서민지원대출</div>
+                  </div>
+                  <div className='top-integrate-text-bottom'>
+                    <div className='top-integrate-text-bottom-left'>
+                      <div className='top-integrate-text-title'>온라인햇살론</div>
+                      <div className='top-integrate-text-bottom-list'>
+                        <p>
+                          <img src={require('../img/liststyle.png')}></img>
+                          연 9%대
+                        </p>
+                        <p>
+                          <img src={require('../img/liststyle.png')}></img>
+                          최대 2,000만원
+                        </p>
+                        <p>
+                          <img src={require('../img/liststyle.png')}></img>
+                          3년, 5년
+                        </p>
+                      </div>
+                    </div>
+                    <div className='top-integrate-text-bottom-right'>
+                      <div className='top-integrate-bottom-img2'>
+                        <img src={require('../img/햇살론.png')}></img>
+                      </div>
+                      <div className='top-integrate-bottom-enter'>
+                        <img src={require('../img/자세히보기.png')}></img>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id='top-integrate-inquiry'>
+                <div id='top-integrate-inquiry-img'>
+                  <img src={require('../img/문의.png')}></img>
+                </div>
+                <div id='top-integrate-inquiry-text'>대출상품문의안내</div>
+                <div id='top-integrate-inquiry-call'>대표번호 <span>1522-7900</span></div>
+                <div id='top-integrate-inquiry-time'>(평일 오전 9시 ~ 오후 6시까지)</div>
               </div>
             </div>
           </div>

@@ -157,11 +157,11 @@
 #footer1-inte{
     background-color: #eeeeee;
     font-family: 'GmarketMedium';
-    width: 95vw;
+    width: 95.8vw;
     margin: 0 auto;
 }
 #footer1-inte-body{
-    width: 72vw;
+    width: 80vw;
     margin:0 auto;
     padding: 2vw 0;
 }
@@ -172,7 +172,7 @@
     border: 0.1vw solid black;
     margin-top: 0.5vw;
     margin-bottom: 2vw;
-    width: 70vw;
+    width: 80vw;
 }
 
 #footer1-inte-title{
@@ -185,92 +185,53 @@
 }
 #footer1-inte-title p {
     font-family: 'GmarketBold';
-    font-size: 2.5vw;
+    font-size: 4vw;
 }
 #footer1-inte-title img {
-    height: 1.6vw;
-    width: 1.8vw;
+    height: 2.8vw;
+    width: 3vw;
 }
-#footer1-inte-text p{
-    margin: 0.4vw 0;
-    font-size: 1.5vw;
-}
-
-#padding-left-one{
+#footer1-inte-text ul{
     padding-left: 1vw;
 }
-#padding-left-two{
-    padding-left: 2.5vw;
+#footer1-inte-text ul li{ 
+    font-size:2vw;
 }
+#footer1-inte-text ul li p{ 
+    font-size:3vw;
+    margin: 0.2vw -2vw 0.2vw 0;
 
-#footer2-inte{
-    font-family: 'GmarketMedium';
-    color: #2b2b2b;
-    font-size: 2.1vw;
-    width: 95vw;
-    margin: 0 auto;
-}
-#footer2-inte-body{
-    width: 82.5vw;
-    margin: 0 auto;
-    height: 35vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-#footer2-inte-container p{
-    margin: 0;
-
-}
-#call-number{ 
-    font-family: 'GmarketBold';
-    font-size: 3.5vw;
-    padding-top: 0.6vw;
-    padding-bottom: 2.7vw;
-}
-#footer2-inte-box{
-    background-color: #030d52;
-    padding: 1.5vw 4vw;
-    cursor: pointer;
-}
-#footer2-inte-box-text1{
-    color: white;
-}
-#footer2-inte-box-text2{
-    font-family: 'GmarketBold';
-    color:#37fe9f;
-    font-size: 3.5vw;
 }
 
 
 #footer3-inte{
     font-family: 'GmarketMedium';
     font-size: 1.1vw;
-    background-color: #343530;
-    width: 95vw;
+    background-color: #585858;
+    width: 95.8vw;
+    height: 25vw;
     margin: 0 auto;
-}
-#footer3-inte{
-    font-family: 'GmarketMedium';
-    font-size: 1.1vw;
-    background-color: #343530;
+    padding: 2vw 0;
 }
 .footer3-inte-text{
     color: #ffffff;
+    text-align: center;
+    font-size: 2vw;
 }
 
 #footer3-inte-body{
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 70vw;
     height: 12vw;
 }
 .footer3-inte-img img{
-    width: 21vw;
-    height: 4.5vw;
+    width: 35vw;
+    height: 7vw;
+    padding: 2vw 0;
 }
 .footer3-inte-text li{
     list-style: none;
