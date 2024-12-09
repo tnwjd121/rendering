@@ -229,7 +229,7 @@
     flex-direction: column; 
     height: 91%;
     margin: 0 auto;
-    width: 75%;
+    width: 80%;
   }
   #top-guarantee-bank{
     font-family: 'GmarketBold';
@@ -256,7 +256,7 @@
   #top-guarantee-shortcut{
     background-color: #0000ff;
     display: flex;
-    width: 48vw;
+    width: 52vw;
     height: 12vw;
     border-radius: 10vw;
     align-items: center;
@@ -265,7 +265,7 @@
   }
   #top-guarantee-shortcut-line{
     background-color: #ffffff;
-    width: 48vw;
+    width: 52vw;
     border-radius: 10vw;
     border: 0.5vw solid #ffffff;
   }
@@ -276,8 +276,8 @@
     font-size: 4vw;
     color: #ffffff;
     cursor: pointer;
-    padding-left: 3vw;
-    padding-right: 2vw;
+    padding-left: 4vw;
+    padding-right: 2.5vw;
   }
   
   #top-guarantee-shortcut-center img{
@@ -289,7 +289,7 @@
     font-size: 4vw;
     color: #ffff00;
     cursor: pointer;
-    padding-left: 2vw;
+    padding-left: 2.5vw;
   }
   
   #top-guarantee-info{

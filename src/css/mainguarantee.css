@@ -115,7 +115,7 @@
     background-color: #efefef;
     position: relative;
     top: 4.8vw;
-    width: 65%;
+    width: 75%;
     border-radius: 5vw;
     padding: 1vw;
     margin-bottom: -2vw;
@@ -127,13 +127,13 @@
 }
 .main-guarantee-subtitle{
     font-family: 'GmarketMedium';
-    font-size: 2.7vw;
+    font-size: 3vw;
     margin-bottom: 0.5vw;
     color: #535353;
 }
 .main-guarantee-maintitle{
     font-family: 'GmarketBold';
-    font-size: 4vw;
+    font-size: 5vw;
     color: #021a2e;
 }
 .main-guarantee-text-title {
@@ -151,7 +151,7 @@
     font-family: 'GmarketBold';
    padding-right: 2vw;
    color: #34438b;
-   font-size: 3vw;
+   font-size: 4vw;
    margin-top: 1vw;
    margin-bottom: 0.2vw;
 }
@@ -164,7 +164,7 @@
     font-size: 0.5vw;
 }
 .main-guarantee-text-detail li p{
-    font-size: 2vw;
+    font-size: 3vw;
     margin: 0.1vw;
 }
 .target{
@@ -172,7 +172,7 @@
     color: #ffffff;
     padding: 0.2vw 0.2vw 0.2vw 0.2vw;
     display: inline-block;
-    width: 10vw;
+    width: 15vw;
     margin: 0.1vw;
 }
 .main-guarantee-text-info{
@@ -182,12 +182,12 @@
 }
 .main-guarantee-text-info p{
     margin: 0px;
-    font-size: 1.5vw;
+    font-size: 2.5vw;
 }
 
 .none-list-p{
     font-family: 'GmarketMedium';
-    font-size: 2vw;
+    font-size: 3vw;
     margin: 0;
 }
 .indent-one{

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import MainCredit from '../components/MainCredit'
 import Footer from '../components/Footer'
 import TopCredit from '../components/TopCredit'
@@ -6,16 +6,40 @@ import { CSSTransition } from 'react-transition-group';
 import '../css/credit.css'
 
 export default function Credit() {
+  const bigloneRef = useRef(null);
+  const bigloneplusRef = useRef(null);
   const [showMainCredit, setShowMainCredit] = useState(false);
+  const [tartgetSection, setTargetSection] = useState(null);
 
-  const OpenMainCredit = () =>{
-    setShowMainCredit(!showMainCredit);
+  const scrollToSection = (section) => {
+    if(section == 'biglone' && bigloneRef.current){
+      bigloneRef.current.scrollIntoView({ behavior: 'smooth'});
+    }else if(section == 'bigloneplus' && bigloneplusRef.current){
+      bigloneplusRef.current.scrollIntoView({ behavior: 'smooth'});
+    }
   }
+
+  const handleOpenAndScroll = (section) => {
+    if(!showMainCredit){
+      setShowMainCredit(true);
+      setTargetSection(section);
+    }else{
+      scrollToSection(section);
+    }
+  }
+
+  useEffect(()=>{
+    if(showMainCredit && tartgetSection) {
+      scrollToSection(tartgetSection);
+      setTargetSection(null);
+    }
+  }, [showMainCredit, tartgetSection]);
 
   return (
     <div>
       <TopCredit 
-        onToggleMainCredit={OpenMainCredit}
+        scrollToSection={handleOpenAndScroll}
+        onToggleMainCredit={() =>setShowMainCredit(!showMainCredit)}
         showMainCredit={showMainCredit}
       />
       <CSSTransition

@@ -42,9 +42,9 @@ export default function MainCredit() {
                     </div>
                     <div className='main-credit-text-detail'>
                         <ul>
-                            <li><p><span className='target-credit'>i-빅론U</span> 연 11%대 ~ 연 19%대 </p></li>
+                            <li><p><span className='target-credit'>i-빅론U</span> 연 11%대 ~ 연 19%대 (고정금리) </p></li>
                             <li>
-                                <p><span className='target-credit'>i-빅론U플러스</span> 연 7%대 ~ 연 19%대</p>
+                                <p><span className='target-credit'>i-빅론U플러스</span> 연 7%대 ~ 연 19%대 (고정금리)</p>
                                 <p>※ 고객 AS등급 등에 따라 달리 적용</p>
                             </li>
                         </ul>
@@ -75,6 +75,7 @@ export default function MainCredit() {
                                 <p>상환금액의 1.6%</p>
                                 <p>※ 기한 전 상환 대출금액 X 기한 전 상환 수수료율 X 대출 잔여일수 ÷ 대출기간</p>
                             </li>
+                            <li><p>면제기준<br/>: 대출취급일부터 3년 경과 시 중도상환수수료 면제</p></li>
                         </ul>
                     </div>
                     <div className='main-credit-text-title'>

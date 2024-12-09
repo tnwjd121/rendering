@@ -18,6 +18,15 @@
     font-size: 5vw;
     padding-top: 13vw;
     padding-bottom: 1vw;
+    margin-right: -15vw;
+
+}
+#top-product-subtitle-online{
+    font-family: 'PretendardMedium';
+    font-size: 5vw;
+    padding-top: 7vw;
+    padding-bottom: 1vw;
+    margin-right: -6vw;
 
 }
 
@@ -25,7 +34,7 @@
     color: #7cfaa8;
     font-family: 'GmarketBold';
     font-size: 7.8vw;
-    padding-bottom: 3vw;
+    padding-bottom: 2vw;
 }
 #top-product-list{
     display: flex;
@@ -51,5 +60,13 @@
     width: 70vw;
 }
 
-
+#top-prev-button{
+    position: fixed;
+    top: 3%;
+    left: 5%;
+    z-index: 100;
+    font-size: 6vw;
+    /* color: #6ba5e1; */
+    color: #7cfaa8;
+}
 

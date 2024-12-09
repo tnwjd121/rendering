@@ -1,0 +1,76 @@
+#main-product-body {
+    width: 95.8vw;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+#main-product-container{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5vw;
+}
+
+
+#main-product-text-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 4vw;
+    padding-top: 5vw;
+}
+
+#main-product-text-title hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 0.1vw solid #a3a6c4;
+    margin-left: 2vw;
+    margin-right: -4.5vw;
+}
+
+#main-product-text-title span {
+    font-family: 'GmarketBold';
+    color: #0e154f;
+    font-size: 4vw;
+}
+#main-product-text-detail ul li{
+    font-size: 2vw;
+    margin-right: -2vw;
+}
+#main-product-text-detail ul li p{
+    font-family: 'GmarketMedium';
+    margin:0.1vw 0;
+    font-size: 3.4vw;
+    padding-left: 0.6vw;
+}
+#left-margin-one{
+    padding-left: 5vw;
+}
+
+#product-table{
+    font-family: 'GmarketMedium';
+    border-collapse: separate;
+    border-spacing: 0.4vw;
+}
+#product-table tr td{
+    padding: 1vw 0;
+    width: 20vw;
+    text-align: center;
+    font-size: 3.4vw;
+}
+#product-table tr:nth-child(odd){
+    background-color: #d9d9d9;
+}
+#product-table tr:nth-child(even){
+    background-color: #ebebeb;
+}
+#main-product-text-info{
+    color: #5e5e5e;
+    text-align: right;
+    margin-top: 2rem;
+    font-size: 3.2vw;
+}
+#main-product-text-info p{
+    margin: 0;
+}
+#margin-left-one{
+    margin-left: 2.5vw;
+}

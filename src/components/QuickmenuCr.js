@@ -2,10 +2,12 @@ import React, { useState } from 'react'
 import '../css/quickmenu.css'
 import { useNavigate } from 'react-router-dom'
 import { MdOutlineClose } from "react-icons/md";
+import { useIsMoblie } from '../hooks/useIsMoblie';
 
 
 export default function QuickmenuCr() {
   const navigate = useNavigate();
+  const isMobile = useIsMoblie();
 
   const enroll = () => {
     window.location.href = 'https://sbloan.ibksb.co.kr/ibk/loan_form/loan_step00.jsp'
@@ -35,9 +37,11 @@ export default function QuickmenuCr() {
     <div>
       <div id='quick-menu-body'>
         <div id='quick-menu-list'>
+          {isMobile?null:(
           <div id='quick-menu-product'>
             <p>IBKSB Quick</p>
           </div>
+          )}
           <div id='quick-menu' onClick={navigateToGuarantee}>
             <img src={require('../img/햇살론아이콘.png')}></img>
             <p>햇살론<br />사잇돌2</p>
@@ -55,9 +59,11 @@ export default function QuickmenuCr() {
             <p>IBKSB<br /><span id='color-yellow'>통합<br />대출신청</span></p>
           </div>
         </div>
+        {isMobile?null:(
         <div id='quick-delete-button' onClick={handleDelete}>
           <p><MdOutlineClose /></p>
         </div>
+        )}
       </div>
     </div>
   )

@@ -36,7 +36,7 @@ export default function MainMicro() {
                 <div className='main-micro-text-detail'>
                     <ul>
                         <li>
-                            <p>연 9%대</p>
+                            <p>연 9%대 (12개월 변동금리 / 대환대출 시 고정금리)</p>
                         </li>
                     </ul>
                 </div>
@@ -120,7 +120,8 @@ export default function MainMicro() {
                 </div>
                 <div className='main-micro-text-detail'>
                     <ul>
-                        <li><p>연 5%대 ~ 연 9%대 (신용평점 및 LTV별 차등적용)</p></li>
+                        <li><p>연 5%대 ~ 연 9%대 (고정금리 / 신용평점 및 LTV별 차등적용)</p></li>
+                        <li><p>※ 단, 가계자금 대출기간 5년 이상 시 변동금리 (대출금리 운용지침에 의한 COFIX 기준금리 적용)</p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
@@ -151,6 +152,7 @@ export default function MainMicro() {
                             <p>상환금액의 연 2% 이내</p>
                             <p>※ 기한 전 상환 대출금액 X 기한 전 상환 수수료율 X 대출 잔여일수 ÷ 대출기간</p>
                         </li>
+                        <li><p>면제기준<br/>: 대출취급일부터 3년 경과 시 중도상환수수료 면제</p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
@@ -206,7 +208,7 @@ export default function MainMicro() {
                 <div className='main-micro-text-detail'>
                     <ul>
                         <li>
-                            <p>연 8%대 ~  연 14%대</p>
+                            <p>연 8%대 ~  연 14%대 (고정금리)</p>
                         </li>
                     </ul>
                 </div>
@@ -236,6 +238,7 @@ export default function MainMicro() {
                             <p>상환금액의 연 1.8% 이내</p>
                             <p>※ 기한 전 상환 대출금액 X 기한 전 상환 수수료율 X 대출 잔여일수 ÷ 대출기간</p>
                         </li>
+                        <li><p>면제기준<br/>: 대출취급일부터 3년 경과 시 중도상환수수료 면제</p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>
@@ -291,7 +294,7 @@ export default function MainMicro() {
                 <div className='main-micro-text-detail'>
                     <ul>
                         <li>
-                            <p>연 7%대 ~ 연 13%대</p>
+                            <p>연 7%대 ~ 연 13%대 (고정금리)</p>
                         </li>
                     </ul>
                 </div>
@@ -321,6 +324,7 @@ export default function MainMicro() {
                             <p>상환금액의 연 2% 이내</p>
                             <p>※ 기한 전 상환 대출금액 X 기한 전 상환 수수료율 X 대출 잔여일수 ÷ 대출기간</p>
                         </li>
+                        <li><p>면제기준<br/>: 대출취급일부터 3년 경과 시 중도상환수수료 면제</p></li>
                     </ul>
                 </div>
                 <div className='main-micro-text-title'>

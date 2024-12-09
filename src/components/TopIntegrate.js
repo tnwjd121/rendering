@@ -12,7 +12,6 @@ export default function TopIntegrate({ scrollToSection, onToggleMainIntegrate, s
   const isMobile = useIsMoblie();
   const navigate = useNavigate();
 ;
-  // 헤드셋(문의), 사잇돌모바일버전 아이콘 포토샵 png 다운로드
 
   const ClickTopButton = () => {
     topRef.current.scrollIntoView({ behavior: 'smooth' });
@@ -22,8 +21,14 @@ export default function TopIntegrate({ scrollToSection, onToggleMainIntegrate, s
     window.location.href = 'https://webloan.ibksb.co.kr/?AD_NO=AD0017&AGENT_ID=SL002&RECOMMENDER=Y?adf_cd=40';
   }
 
-  const navigateToBiflone = () => {
+  const navigateToBiglone = () => {
     navigate('/biglone')
+  }
+  const navigateToSaitdol = () => {
+    navigate('/saitdol')
+  }
+  const navigateToOnline = () => {
+    navigate('/online')
   }
 
   return (
@@ -48,7 +53,7 @@ export default function TopIntegrate({ scrollToSection, onToggleMainIntegrate, s
                 <img src={require('../img/바로가기모바일.png')}></img>
               </div>
               <div id='top-integrate-product-list'>
-                <div className='top-integrate-text'>
+                <div className='top-integrate-text' onClick={navigateToBiglone}>
                   <div className='top-integrate-text-top'>
                     <div className='top-integrate-text-subtitle'>직장인을 위한 IBKSB신용대출</div>
                   </div>
@@ -74,13 +79,13 @@ export default function TopIntegrate({ scrollToSection, onToggleMainIntegrate, s
                       <div className='top-integrate-bottom-img'>
                         <img src={require('../img/빅론.png')}></img>
                       </div>
-                      <div className='top-integrate-bottom-enter' onClick={navigateToBiflone}>
+                      <div className='top-integrate-bottom-enter'>
                         <img src={require('../img/자세히보기.png')}></img>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className='top-integrate-text'>
+                <div className='top-integrate-text' onClick={navigateToSaitdol}>
                   <div className='top-integrate-text-top'>
                     <div className='top-integrate-text-subtitle'>중·저신용 거래자를 위한 정부지원대출</div>
                   </div>
@@ -106,13 +111,13 @@ export default function TopIntegrate({ scrollToSection, onToggleMainIntegrate, s
                       <div className='top-integrate-bottom-img'>
                         <img src={require('../img/사잇돌2.png')}></img>
                       </div>
-                      <div className='top-integrate-bottom-enter'>
+                      <div className='top-integrate-bottom-enter' >
                         <img src={require('../img/자세히보기.png')}></img>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className='top-integrate-text'>
+                <div className='top-integrate-text' onClick={navigateToOnline}>
                   <div className='top-integrate-text-top'>
                     <div className='top-integrate-text-subtitle'>저신용·저소득 직장인을 위한 서민지원대출</div>
                   </div>
@@ -138,7 +143,7 @@ export default function TopIntegrate({ scrollToSection, onToggleMainIntegrate, s
                       <div className='top-integrate-bottom-img2'>
                         <img src={require('../img/햇살론.png')}></img>
                       </div>
-                      <div className='top-integrate-bottom-enter'>
+                      <div className='top-integrate-bottom-enter' >
                         <img src={require('../img/자세히보기.png')}></img>
                       </div>
                     </div>

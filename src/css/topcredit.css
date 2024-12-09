@@ -202,10 +202,14 @@
   }
 }
 @media (max-width: 1024px) {
+  #top-credit{
+    background-color: #222d4d;
+    height: 115vw;
+  }
 #top-credit-body{
     background-image: url('/src/img/신용대출배경.png');
     width: 100%;
-    height: 83vw;
+    height: 86vw;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
