@@ -1,25 +1,27 @@
 /* 컴포넌트가 열릴 때 */
-    .main-guarantee-transition-enter {
-      opacity: 0;
-      overflow: hidden;
-      /* 애니메이션 전환 시 흔들림, 지연, 성능 문제 줄임 */
-      will-change: transform, opacity;
-  }
-  .main-guarantee-transition-enter-active {
-    opacity: 1;
-    transform: translateY(0);
-    transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
-  }
-  
-  /* 컴포넌트가 닫힐 때 */
-  .main-guarantee-transition-exit {
-    opacity: 1;
-    transform: translateY(0);
-    /* 애니메이션 전환 시 흔들림, 지연, 성능 문제 줄임 */
-    will-change: transform, opacity;
-  }
-  .main-guarantee-transition-exit-active {
-    opacity: 0;
-    transform: translateY(-1px); /* 애니메이션이 완료되면 요소가 위로 사라짐*/
-    transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
-  }
+.main-guarantee-transition-enter {
+  opacity: 0;
+  overflow: hidden;
+  /* 애니메이션 전환 시 흔들림, 지연, 성능 문제 줄임 */
+  will-change: transform, opacity;
+}
+
+.main-guarantee-transition-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
+}
+
+/* 컴포넌트가 닫힐 때 */
+.main-guarantee-transition-exit {
+  opacity: 1;
+  transform: translateY(0);
+  /* 애니메이션 전환 시 흔들림, 지연, 성능 문제 줄임 */
+  will-change: transform, opacity;
+}
+
+.main-guarantee-transition-exit-active {
+  opacity: 0;
+  transform: translateY(-1px);
+  transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
+}

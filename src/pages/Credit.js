@@ -7,15 +7,12 @@ import '../css/credit.css'
 
 export default function Credit() {
   const bigloneRef = useRef(null);
-  const bigloneplusRef = useRef(null);
   const [showMainCredit, setShowMainCredit] = useState(false);
   const [tartgetSection, setTargetSection] = useState(null);
 
   const scrollToSection = (section) => {
     if(section == 'biglone' && bigloneRef.current){
       bigloneRef.current.scrollIntoView({ behavior: 'smooth'});
-    }else if(section == 'bigloneplus' && bigloneplusRef.current){
-      bigloneplusRef.current.scrollIntoView({ behavior: 'smooth'});
     }
   }
 
@@ -48,7 +45,9 @@ export default function Credit() {
         classNames="main-credit-transition"
         unmountOnExit
       >
-        <MainCredit/>
+        <MainCredit
+          bigloneRef={bigloneRef}
+        />
       </CSSTransition>
       <Footer/>
     </div>

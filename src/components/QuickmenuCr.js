@@ -54,10 +54,17 @@ export default function QuickmenuCr() {
             <img src={require('../img/예적금아이콘.png')}></img>
             <p>예적금<br />정보</p>
           </div>
+          {isMobile?(
+          <div id='quick-menu-sb-pf' onClick={deposit}>
+            <img src={require('../img/손아이콘.png')}></img>
+            <p>IBKSB<br /><span id='color-yellow'>통합대출신청</span></p>
+          </div>
+          ):(
           <div id='quick-menu-sb-pf' onClick={deposit}>
             <img src={require('../img/손아이콘.png')}></img>
             <p>IBKSB<br /><span id='color-yellow'>통합<br />대출신청</span></p>
           </div>
+          )}
         </div>
         {isMobile?null:(
         <div id='quick-delete-button' onClick={handleDelete}>

@@ -1,5 +1,5 @@
 @media (min-width: 1024px) {
-#top-credit-body{
+  #top-credit-body {
     background-image: url('/src/img/신용대출배경.png');
     width: 100%;
     height: 50rem;
@@ -8,15 +8,16 @@
     background-repeat: no-repeat;
     background-color: #222d4d;
   }
-  
-  #top-credit-container{
+
+  #top-credit-container {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     height: 91%;
     width: 53rem;
     margin: 0 auto;
   }
-  #top-credit-bank{
+
+  #top-credit-bank {
     font-family: 'GmarketBold';
     color: #ffffff;
     font-size: 3.2rem;
@@ -25,8 +26,8 @@
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.151);
     padding-bottom: 1rem;
   }
-  
-  #top-credit-product{
+
+  #top-credit-product {
     font-family: 'GmarketBold';
     line-height: 8rem;
     font-size: 8rem;
@@ -34,8 +35,8 @@
     color: #00e4ff;
     padding-left: 0.5rem;
   }
-  
-  #top-credit-shortcut{
+
+  #top-credit-shortcut {
     background-color: #0000ff;
     display: flex;
     width: 30rem;
@@ -44,38 +45,39 @@
     align-items: center;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.836);
     padding-left: -0.5rem;
-    
+
   }
-  #top-credit-shortcut-line{
+
+  #top-credit-shortcut-line {
     background-color: #ffffff;
     width: 30rem;
     border-radius: 3rem;
     border: 5px solid #ffffff;
   }
-  
-  
-  #top-credit-shortcut-left{
+
+
+  #top-credit-shortcut-left {
     font-family: 'GmarketBold';
-    font-size: 1.9rem;
+    font-size: 2rem;
     color: #ffffff;
     cursor: pointer;
     padding-left: 2.5rem;
     padding-right: 1.5rem;
   }
-  
-  #top-credit-shortcut-center img{
+
+  #top-credit-shortcut-center img {
     height: 2.7rem;
   }
-  
-  #top-credit-shortcut-right{
+
+  #top-credit-shortcut-right {
     font-family: 'GmarketBold';
-    font-size: 1.9rem;
+    font-size: 2rem;
     color: #ffff00;
     cursor: pointer;
     padding-left: 3rem;
   }
-  
-  #top-credit-info{
+
+  #top-credit-info {
     width: 30rem;
     display: flex;
     justify-content: space-evenly;
@@ -84,58 +86,68 @@
     margin-top: 2.5rem;
     margin-left: 1rem;
   }
-  .credit-product-number{
+
+  .credit-product-number {
     font-family: 'GmarketBold';
     color: #ffffff;
     font-size: 2rem;
   }
-  .credit-product-name{
+
+  .credit-product-name {
     font-family: 'GmarketBold';
     color: #00e4ff;
     font-size: 1.5rem;
   }
-  .top-credit-info-detail{
+
+  .top-credit-info-detail {
     font-family: 'GmarketBold';
   }
-  .top-credit-info-detail p{
+
+  .top-credit-info-detail p {
     margin: 0;
   }
-  .top-credit-info-detail ul{
+
+  .top-credit-info-detail ul {
     margin: 0px;
     padding: 0px;
     margin-top: 0.2rem;
   }
-  .top-credit-info-detail li{
+
+  .top-credit-info-detail li {
     font-size: 0.5rem;
     color: #ffffff;
     margin-left: 0.8rem;
     margin-bottom: 0.3rem;
     height: 0.8rem;
   }
-  .top-credit-info-detail li p{
+
+  .top-credit-info-detail li p {
     font-size: 0.9rem;
   }
-  .top-credit-info-detail li p span{
-    color:#ffffff;
+
+  .top-credit-info-detail li p span {
+    color: #ffffff;
   }
+
   #top-credit-info-line img {
     height: 6rem;
     width: 1px;
   }
-  
+
   #top-credit-detail {
-    display: flex;  
-    align-items: center; 
+    display: flex;
+    align-items: center;
     justify-content: center;
     background-color: #fbd44e;
-    bottom:  0px;
+    bottom: 0px;
     left: 0;
     width: 100%;
     height: 5rem;
     margin-top: auto;
     cursor: pointer;
   }
-  #top-credit-detail p{
+
+  #top-credit-detail p {
     display: flex;
     text-align: center;
     align-items: center;
@@ -144,38 +156,8 @@
     color: #021a2e;
     margin: 0px;
   }
-  #loanproduct{
-    font-family: 'GmarketBold';
-    margin-right: 0.5rem;
-  }
-  #detail{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    line-height: 2rem;
-    background-color: #b3e7ed;
-    width: 2.5rem;
-    height: 2.5rem;
-    font-size: 1.8rem;
-    transform: rotate(0deg);
-    margin-left: 0.5rem;
-  }
-  #detail-change{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 2rem;
-    background-color: #b3e7ed;
-    border-radius: 50%;
-    width: 2.5rem;
-    height: 2.5rem;
-    font-size: 1.8rem;
-    transform: rotate(180deg);
-    margin-left: 0.5rem;
-  }
-  
-  #top-button-credit{
+
+  #top-button-credit {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -194,189 +176,241 @@
     z-index: 100;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.226);
   }
+
   #top-button-credit p {
     margin: 0;
   }
-  #top-button-credit-text{
+
+  #top-button-credit-text {
     padding-bottom: 0.5rem;
   }
 }
+
 @media (max-width: 1024px) {
-  #top-credit{
+  #top-credit {
     background-color: #222d4d;
     height: 115vw;
   }
-#top-credit-body{
+
+  #top-credit-body {
     background-image: url('/src/img/신용대출배경.png');
     width: 100%;
-    height: 86vw;
+    height: 83vw;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #222d4d;
   }
-  
-  #top-credit-container{
+
+  #top-credit-container {
     display: flex;
-    flex-direction: column; 
-    height: 91%;
-    width: 75%;
+    flex-direction: column;
+    height: 80.8vw;
     margin: 0 auto;
+    width: 80%;
   }
-  #top-credit-bank{
+
+  #top-credit-bank {
     font-family: 'GmarketBold';
     color: #ffffff;
-    font-size: 5vw;
-    padding-top: 12vw;
+    font-size: 5.5vw;
+    padding-top: 14vw;
     padding-left: 1vw;
     text-shadow: 0.5vw 0.5vw 0.5vw rgba(0, 0, 0, 0.151);
     padding-bottom: 1.2vw;
   }
-  
-  #top-credit-product{
+
+  #top-credit-product {
     font-family: 'GmarketBold';
-    line-height: 12vw;
-    font-size: 12vw;
+    line-height: 12.5vw;
+    font-size: 12.5vw;
     padding-bottom: 0.5vw;
     color: #00e4ff;
     padding-left: 0.5vw;
+    padding-bottom: 1vw;
   }
-  
-  #top-credit-shortcut{
+
+  #top-credit-shortcut {
     background-color: #0000ff;
     display: flex;
-    width: 47vw;
-    height: 8vw;
-    border-radius: 5vw;
+    width: 50vw;
+    height: 11vw;
+    border-radius: 10vw;
     align-items: center;
     box-shadow: 0.1vw 0.1vw 0.1vw rgba(0, 0, 0, 0.836);
-    
+
   }
-  #top-credit-shortcut-line{
+
+  #top-credit-shortcut-line {
     background-color: #ffffff;
-    width: 47vw;
-    border-radius: 5vw;
+    width: 50vw;
+    border-radius: 10vw;
     border: 0.5vw solid #ffffff;
   }
-  
-  
-  #top-credit-shortcut-left{
+
+
+  #top-credit-shortcut-left {
     font-family: 'GmarketBold';
-    font-size: 2.9vw;
+    font-size: 3.9vw;
     color: #ffffff;
     cursor: pointer;
-    padding-left: 4vw;
-    padding-right: 3vw;
+    padding-left: 3.5vw;
+    padding-right: 2.5vw;
   }
-  
-  #top-credit-shortcut-center img{
+
+  #top-credit-shortcut-center img {
     height: 4vw;
   }
-  
-  #top-credit-shortcut-right{
+
+  #top-credit-shortcut-right {
     font-family: 'GmarketBold';
-    font-size: 2.9vw;
+    font-size: 3.9vw;
     color: #ffff00;
     cursor: pointer;
-    padding-left: 5vw;
+    padding-left: 2.5vw;
   }
-  
-  #top-credit-info{
-    width:55vw;
+
+  #top-credit-info {
+    width: 50vw;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: space-between;
     padding-left: 0px;
-    margin-top: 5vw;
+    margin-top: 3vw;
   }
-  .credit-product-number{
+
+  .credit-product-number {
     font-family: 'GmarketBold';
     color: #ffffff;
-    font-size: 3vw;
+    font-size: 4.5vw;
   }
-  .credit-product-name{
+
+  .credit-product-name {
     font-family: 'GmarketBold';
     color: #00e4ff;
-    font-size: 2.6vw;
+    font-size: 4.05vw;
   }
-  .top-credit-info-detail{
+
+  .top-credit-info-detail {
     font-family: 'GmarketBold';
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
   }
-  .top-credit-info-detail p{
+
+  .top-credit-info-detail p {
     margin: 0;
+    padding: 0;
+    line-height: 1;
+    text-align: left;
   }
-  .top-credit-info-detail ul{
+
+  .top-credit-info-detail.active {
+    display: block;
+    opacity: 1;
+  }
+
+  .top-credit-info-detail.inactive {
+    display: none;
+    opacity: 0;
+  }
+
+  /* 슬라이드 동그라미 인디케이터 */
+  .slide-indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 1vw;
+    width: 50vw;
+    margin-bottom: 20vw;
+  }
+
+  .indicator {
+    width: 1vw;
+    height: 1vw;
+    margin: 0 0.5vw;
+    background-color: #ffffff;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+
+  .indicator.active {
+    background-color: #0000ff;
+
+  }
+
+  .top-credit-info-detail ul {
     margin: 0px;
     padding: 0px;
-    margin-top: 0.7vw;
+    margin-top: 0.8vw;
   }
-  .top-credit-info-detail li{
-    font-size: 0.8vw;
+
+  .top-credit-info-detail li {
+    font-size: 1.5vw;
     color: #ffffff;
-    margin-left: 2vw;
+    margin-left: 1vw;
     margin-bottom: 0.1vw;
   }
-  .top-credit-info-detail li p{
-    font-size: 1.6vw;
+
+  .top-credit-info-detail li p {
+    font-size: 2.5vw;
+    color: #ffffff;
   }
-  .top-credit-info-detail li p span{
-    color:#ffffff;
+
+  .top-credit-info-detail li p span {
+    color: #ffffff;
   }
+
   #top-credit-info-line img {
     height: 10vw;
   }
-  
+
+  #left-button-credit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 4vw;
+    height: 4vw;
+    font-size: 3vw;
+    color: #ffffff;
+  }
+
+  #right-button-credit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 4vw;
+    height: 4vw;
+    font-size: 3vw;
+    color: #ffffff;
+  }
+
+
   #top-credit-detail {
     background-color: #fbd44e;
-    bottom:  0px;
+    bottom: 0px;
     left: 0;
     width: 100%;
-    height: 7.5vw;
-    margin-top: auto;
+    height: 8vw;
+    margin-top: 6.3vw;
     display: flex;
-    align-items: center; 
-    justify-content: center; 
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
   }
-  #top-credit-detail p{
+
+  #top-credit-detail p {
     display: flex;
     text-align: center;
     align-items: center;
     font-family: 'GmarketMedium';
-    font-size: 2.9vw;
+    font-size: 3.5vw;
     color: #021a2e;
     margin: 0px;
   }
-  #loanproduct{
-    font-family: 'GmarketBold';
-    margin-right: 0.8vw;
-  }
-  #detail{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: #b3e7ed;
-    width: 4vw !important;
-    height: 4vw !important;
-    font-size: 3vw !important; 
-    transform: rotate(0deg);
-    margin-left: 0.5rem;
-  }
-  #detail-change{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: #b3e7ed;
-    width: 4vw !important;
-    height: 4vw !important;
-    font-size: 3vw !important; 
-    transform: rotate(180deg);
-    margin-left: 0.5rem;
-  }
-  
-  #top-button-credit{
+
+
+  #top-button-credit {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -395,10 +429,12 @@
     z-index: 100;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.226);
   }
+
   #top-button-credit p {
     margin: 0;
   }
-  #top-button-credit-text{
+
+  #top-button-credit-text {
     padding-bottom: 1.5vw;
   }
 }

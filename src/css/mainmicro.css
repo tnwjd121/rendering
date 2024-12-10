@@ -31,7 +31,7 @@
     justify-content: center;
     align-items: center;
     font-family: 'GmarketBold';
-    font-size: 2.1rem;
+    font-size: 2.4rem;
     color: #021a2e;
 }
 .main-micro-text-title {
@@ -49,7 +49,7 @@
     font-family: 'GmarketBold';
    padding-right: 1.5rem;
    color: #34438b;
-   font-size: 1rem;
+   font-size: 1.3rem;
 }
 .main-micro-text-detail{
     font-family: 'GmarketMedium';
@@ -64,7 +64,7 @@
     font-size: 0.5rem;
 }
 .main-micro-text-detail li p{
-    font-size: 0.8rem;
+    font-size: 0.87rem;
     margin: 2px;
 }
 .target-micro{
@@ -93,8 +93,9 @@
 }
 #main-micro-product{
     margin: 0 auto;
-    width: 71vw;
-    padding-bottom: 7vw;
+    width: 90vw;
+    padding-top: 2vw;
+    padding-bottom: 8vw;
 }
 .main-micro-title{
     margin: 0 auto;
@@ -102,15 +103,16 @@
     background-color: #efefef;
     position: relative;
     top: 4.8vw;
-    width: 60%;
-    border-radius: 3vw;
-    padding: 1.5vw;
+    width: 75%;
+    border-radius: 4vw;
+    padding: 1vw;
+    margin-bottom: -2vw;
 
 }
 .main-micro-text{
     background-color: white;
     border-radius: 6vw;
-    padding: 8vw 6vw 4vw 6vw;
+    padding: 12vw 6vw 4vw 6vw;
 
 }
 .main-micro-maintitle{
@@ -118,13 +120,16 @@
     justify-content: center;
     align-items: center;
     font-family: 'GmarketBold';
-    font-size: 3.3vw;
+    font-size: 5vw;
     color: #021a2e;
+    padding-top: 2vw;
+    padding-bottom: 1vw;
 }
 .main-micro-text-title {
     display: flex;
     align-items: center;
     padding: 0;
+    margin-top: 1.2vw;
     
 }
 .main-micro-text-title hr{
@@ -136,25 +141,23 @@
   font-family: 'GmarketBold';
   padding-right: 2vw;
   color: #34438b;
-   font-size: 1.5vw;
+  font-size: 4vw;
    margin-top: 1vw;
    margin-bottom: 0.2vw;
 }
 .main-micro-text-detail{
     font-family: 'GmarketMedium';
 }
-.main-micro-text-detail p{
-    margin: 0;
-}
 .main-micro-text-detail ul{
     padding-left: 0px;
     list-style-type: disc;
-    font-size: 0.7vw;
-    margin-right: -4vw;
+    font-size: 2vw;
 }
 .main-micro-text-detail li p{
-    font-size: 1.3vw;
+    font-size: 3vw;
     margin: 0.1vw;
+    text-align: justify;
+    margin-right: -2.5vw;
 }
 .target-micro{
     background-color: #434342;
@@ -171,7 +174,7 @@
 }
 .main-micro-text-info p{
     margin: 0px;
-    font-size: 1.22vw;
+    font-size: 2.8vw;
 }
 
 }

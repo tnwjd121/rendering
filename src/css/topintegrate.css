@@ -120,7 +120,7 @@
 }
 .top-integrate-text-bottom p img{
     margin-right: 0.1rem;
-    width: 0.7rem;
+    width: 1rem;
 }
 
 
@@ -176,53 +176,10 @@
     height: 1rem;
   }
   
-  #top-button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 5%;
-    right: 2%;
-    font-family: 'GmarketBold';
-    background-color: #004b9d;
-    color: #ffffff;
-    border-radius: 50%;
-    width: 3.5rem;
-    height: 3.5rem;
-    text-align: center;
-    font-size: 0.7rem;
-    z-index: 100;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.226);
-  }
   .color-green{
     color: #34fda2;
   }
 
-  #top-button{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 5%;
-    right: 2%;
-    font-family: 'GmarketBold';
-    background-color: #004b9d;
-    color: #ffffff;
-    border-radius: 50%;
-    width: 3.5rem;
-    height: 3.5rem;
-    text-align: center;
-    font-size: 0.7rem;
-    z-index: 100;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.226);
-  }
-  #top-button p {
-    margin: 0;
-  }
-  #top-button-text{
-     padding-bottom: 0.5rem;
-  }
       
 }
 @media(max-width: 1024px){
@@ -391,33 +348,5 @@
   margin-top: 1vw;
 }
 
-
-
-  
-  #top-button{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 5%;
-    right: 2%;
-    font-family: 'GmarketBold';
-    background-color: #004b9d;
-    color: #ffffff;
-    border-radius: 50%;
-    width: 8vw;
-    height: 8vw;
-    text-align: center;
-    font-size: 1.7vw;
-    z-index: 100;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.226);
-  }
-  #top-button p {
-    margin: 0;
-  }
-  #top-button-text{
-    padding-bottom: 1.5vw;
-  }
       
 }

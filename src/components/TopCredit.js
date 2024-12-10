@@ -26,7 +26,7 @@ export default function TopCredit({scrollToSection, onToggleMainCredit, showMain
       money: '최대 1억원',
       interestRate: '연 7%대 ~ 연 19%대',
       period: '최장 5년',
-      ref: 'bigloneplus'
+      ref: 'biglone'
     },
   ];
 
@@ -76,16 +76,16 @@ export default function TopCredit({scrollToSection, onToggleMainCredit, showMain
             </div>
           </div>
           <div id='top-credit-info'>
-              <div id='left-button' onClick={handlePrev}><FaChevronLeft /></div>
+              <div id='left-button-credit' onClick={handlePrev}><FaChevronLeft /></div>
               {products.map((product, index) => (
                 <div 
                   key={index}
-                  className={`top-guarantee-info-detail ${
+                  className={`top-credit-info-detail ${
                     index === currentIndex ? 'active' : 'inactive'
                   }`}
                   onClick={() => scrollToSection(product.ref)}
                   >
-                  <p className='guarantee-product-name'><span className='guarantee-product-number'>{product.number}</span> {product.productName}</p>
+                  <p className='credit-product-name'><span className='credit-product-number'>{product.number}</span> {product.productName}</p>
                   <ul>
                     <li><p>{product.money}</p></li>
                     <li><p>{product.interestRate}</p></li>
@@ -93,7 +93,7 @@ export default function TopCredit({scrollToSection, onToggleMainCredit, showMain
                   </ul>
                 </div>
               ))}
-                <div id='right-button' onClick={handleNext}><FaChevronRight /></div>
+                <div id='right-button-credit' onClick={handleNext}><FaChevronRight /></div>
                 </div>
               <div className="slide-indicators">
                 {products.map((_, index) => (

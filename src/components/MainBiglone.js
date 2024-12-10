@@ -5,14 +5,17 @@ export default function MainBiglone() {
   return (
     <div id='main-product-body'>
       <div id='main-product-container'>
+        <div className='base-date-integrate'>
+          기준일자: 2024.12.
+        </div>
         <div id='main-product-text-title'>
           <span>가입대상</span><hr />
         </div>
         <div id='main-product-text-detail'>
           <ul>
             <li><p>소득증빙이 가능한 만 20세 이상 고객</p></li>
-            <li><p>현 직장 재직기간 120일 이상 근로자<br />(연소득 최소 2,400만원 이상)</p></li>
-            <li><p>당행 CSS평가 시스템에 의해 대출한도가 산출되는 자<br />(NICE개인신용평점 725점이상 및 <br />KCB개인신용평점 535점 이상)</p></li>
+            <li><p>현 직장 재직기간 120일 이상 근로자<br /> (연소득 최소 2,400만원 이상)</p></li>
+            <li><p>당행 CSS평가 시스템에 의해 대출한도가 산출되는 자<br /> (NICE개인신용평점 725점이상 및 <br />KCB개인신용평점 535점 이상)</p></li>
             <li><p>심사 진행 시, 개인소득산정에 따라 i-빅론U플러스 신청<br /> 여부 확인 가능</p></li>
           </ul>
         </div>
@@ -56,7 +59,7 @@ export default function MainBiglone() {
           <ul>
             <li><p>상환금액의 1.6%</p></li>
             <li><p>※ 기한 전 상환 대출금액 X 기한 전 상환 수수료율<br /><span id='left-margin-one'> X 대출 잔여일수 ÷ 대출기간</span></p></li>
-            <li><p>면제기준<br/>: 대출취급일부터 3년 경과 시 중도상환수수료 면제</p></li>
+            <li><p>면제기준<br />: 대출취급일부터 3년 경과 시 중도상환수수료 면제</p></li>
           </ul>
         </div>
         <div id='main-product-text-title'>
@@ -87,12 +90,12 @@ export default function MainBiglone() {
         </div>
         <div id='main-product-text-detail'>
           <ul>
-            <li><p>대출금리 + 3% 이내(연체가산 이자율), 최대 20% 이내</p></li>
+            <li><p>대출금리 + 3% 이내 (연체가산 이자율), 최대 20% 이내</p></li>
           </ul>
         </div>
         <div id='main-product-text-info'>
-          <p>IBK저축은행 준법감시인심의필 2024-00호<br/>(2024.00.00.~2025.00.00.)</p>
-          <p>저축은행중앙회심의필 제2024-00000호<br/>(2024.00.00.~2025.00.00.)</p>
+          <p>IBK저축은행 준법감시인심의필 2024-00호<br /> (2024.00.00.~2025.00.00.)</p>
+          <p>저축은행중앙회심의필 제2024-00000호<br /> (2024.00.00.~2025.00.00.)</p>
         </div>
       </div>
     </div>

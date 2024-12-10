@@ -1,4 +1,198 @@
-*{
+* {
     /* 자동확대 방지 */
     text-size-adjust: 100%;
+}
+
+@media (min-width: 1024px) {
+    .base-date {
+        font-family: 'GmarketMedium';
+        font-size: 0.8rem;
+        text-align: right;
+    }
+
+    #top-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 5%;
+        right: 2%;
+        font-family: 'GmarketBold';
+        background-color: #004b9d;
+        color: #ffffff;
+        border-radius: 50%;
+        width: 3.5rem;
+        height: 3.5rem;
+        text-align: center;
+        font-size: 0.7rem;
+        z-index: 100;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.226);
+    }
+
+    #top-button p {
+        margin: 0;
+    }
+
+    #top-button-text {
+        padding-bottom: 0.5rem;
+    }
+
+    #loanproduct {
+        font-family: 'GmarketBold';
+        margin-right: 0.5rem;
+    }
+
+    #detail {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        line-height: 2rem;
+        background-color: #b3e7ed;
+        border-radius: 50%;
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 1.8rem;
+        transform: rotate(0deg);
+        margin-left: 0.5rem;
+    }
+
+    #detail-change {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 2rem;
+        background-color: #b3e7ed;
+        border-radius: 50%;
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 1.8rem;
+        transform: rotate(180deg);
+        margin-left: 0.5rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .base-date {
+        font-family: 'GmarketMedium';
+        font-size: 2vw;
+        text-align: right;
+        margin-top: 2vw;
+    }
+
+    .base-date-integrate {
+        font-family: 'GmarketMedium';
+        font-size: 2vw;
+        text-align: right;
+        margin-top: 4vw;
+    }
+
+
+    #top-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 5%;
+        right: 2%;
+        font-family: 'GmarketBold';
+        background-color: #004b9d;
+        color: #ffffff;
+        border-radius: 50%;
+        width: 8vw;
+        height: 8vw;
+        text-align: center;
+        font-size: 1.7vw;
+        z-index: 100;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.226);
+    }
+
+    #top-button p {
+        margin: 0;
+    }
+
+    #top-button-text {
+        padding-bottom: 1.5vw;
+    }
+
+    #loanproduct {
+        font-family: 'GmarketBold';
+        margin-right: 0.8vw;
+    }
+
+    /* 슬라이드 동그라미 인디케이터 */
+    .slide-indicators {
+        display: flex;
+        justify-content: center;
+        margin-top: 1vw;
+        width: 50vw;
+    }
+
+    .indicator {
+        width: 1vw;
+        height: 1vw;
+        margin: 0 0.5vw;
+        background-color: #ffffff;
+        border-radius: 50%;
+        transition: background-color 0.3s ease;
+    }
+
+    .indicator.active {
+        background-color: #0000ff;
+
+    }
+
+    #left-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        width: 4vw;
+        height: 4vw;
+        font-size: 3vw;
+        color: #152168;
+    }
+
+    #right-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        width: 4vw;
+        height: 4vw;
+        font-size: 3vw;
+        color: #152168;
+    }
+
+    #detail {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: #b3e7ed;
+        border-radius: 50%;
+        width: 4vw;
+        height: 4vw;
+        font-size: 3vw;
+        margin-left: 1vw;
+        transform: rotate(0deg);
+    }
+
+    #detail-change {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: #b3e7ed;
+        border-radius: 50%;
+        width: 4vw;
+        height: 4vw;
+        font-size: 3vw;
+        margin-left: 1vw;
+        transform: rotate(180deg);
+    }
+
+
 }

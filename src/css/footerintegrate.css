@@ -200,8 +200,14 @@
 #footer1-inte-text ul li p{ 
     font-size:3vw;
     margin: 0.2vw -2vw 0.2vw 0;
-
+    text-align: justify;
 }
+
+/* #footer1-inte-text ul li p:after{
+    content: '';
+    display: inline-block;
+    width: 95%;
+} */
 
 
 #footer3-inte{

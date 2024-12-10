@@ -96,7 +96,7 @@ footer{
   }
 .note-title{
     font-family: 'GmarketBold';
-    width: 19vw;
+    width: 20vw;
     color: #fbeb9b;
     vertical-align: top;
     padding: 0.7vw;
@@ -176,11 +176,14 @@ footer{
     height: 7vw;
     padding: 2vw 0;
 }
+.footer2-text ul{
+    padding: 0;
+}
 .footer2-text li{
     list-style: none;
 }
 .footer2-text li p{
-    margin: 0.2vw;
+    margin: 0 0.2vw;
 }
     
 }

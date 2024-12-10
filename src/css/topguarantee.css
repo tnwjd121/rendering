@@ -1,237 +1,197 @@
 @media (min-width: 1024px) {
-#top-guarantee-body{
-  background-image: url('/src/img/보증부상품배경.png');
-  width: 100%;
-  height: 50rem;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: rgb(87,167,230);
-}
+  #top-guarantee-body {
+    background-image: url('/src/img/보증부상품배경.png');
+    width: 100%;
+    height: 50rem;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(87, 167, 230);
+  }
 
-#top-guarantee-container{
-  display: flex;
-  flex-direction: column; 
-  height: 91%;
-  width: 53rem;
-  margin: 0 auto;
-}
-#top-guarantee-bank{
-  font-family: 'GmarketBold';
-  color: #ffffff;
-  font-size: 3.2rem;
-  padding-top: 6rem;
-  padding-left: 1rem;
-  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.151);
-  padding-bottom: 1rem;
-}
+  #top-guarantee-container {
+    display: flex;
+    flex-direction: column;
+    height: 91%;
+    width: 53rem;
+    margin: 0 auto;
+  }
 
-#top-guarantee-product{
-  font-family: 'GmarketBold';
-  line-height: 8rem;
-  font-size: 8rem;
-  padding-bottom: 0.5rem;
-  color: #152168;
-  padding-left: 0.5rem;
+  #top-guarantee-bank {
+    font-family: 'GmarketBold';
+    color: #ffffff;
+    font-size: 3.2rem;
+    padding-top: 6rem;
+    padding-left: 1rem;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.151);
+    padding-bottom: 1rem;
+  }
 
-}
+  #top-guarantee-product {
+    font-family: 'GmarketBold';
+    line-height: 8rem;
+    font-size: 8rem;
+    padding-bottom: 0.5rem;
+    color: #152168;
+    padding-left: 0.5rem;
 
-
-#top-guarantee-shortcut{
-  background-color: #0000ff;
-  display: flex;
-  width: 30rem;
-  height: 5.5rem;
-  border-radius: 3rem;
-  align-items: center;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.836);
-  padding-left: -0.5rem;
-  
-}
-#top-guarantee-shortcut-line{
-  background-color: #ffffff;
-  width: 30rem;
-  border-radius: 3rem;
-  border: 5px solid #ffffff;
-}
+  }
 
 
-#top-guarantee-shortcut-left{
-  font-family: 'GmarketBold';
-  font-size: 1.9rem;
-  color: #ffffff;
-  cursor: pointer;
-  padding-left: 2.5rem;
-  padding-right: 1.5rem;
-}
+  #top-guarantee-shortcut {
+    background-color: #0000ff;
+    display: flex;
+    width: 30rem;
+    height: 5.5rem;
+    border-radius: 3rem;
+    align-items: center;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.836);
+    padding-left: -0.5rem;
 
-#top-guarantee-shortcut-center img{
-  height: 2.7rem;
-}
+  }
 
-#top-guarantee-shortcut-right{
-  font-family: 'GmarketBold';
-  font-size: 1.9rem;
-  color: #ffff00;
-  cursor: pointer;
-  padding-left: 3rem;
-}
+  #top-guarantee-shortcut-line {
+    background-color: #ffffff;
+    width: 30rem;
+    border-radius: 3rem;
+    border: 5px solid #ffffff;
+  }
 
-#top-guarantee-info{
-  width: 30rem;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding-left: 0px;
-  margin-top: 2.5rem;
-  margin-left: 1rem;
-}
-.guarantee-product-number{
-  font-family: 'GmarketBold';
-  color: #ffffff;
-  font-size: 2rem;
-}
-.guarantee-product-name{
-  font-family: 'GmarketBold';
-  color: #152168;
-  font-size: 1.5rem;
-}
-.guarantee-product-name2{
-  font-family: 'GmarketBold';
-  color: #021a2e;
-  font-size: 1.5rem;
-}
-.top-guarantee-info-detail{
-  font-family: 'GmarketBold';
-}
-.top-guarantee-info-detail p{
-  margin: 0;
-  padding: 0;
-}
-.top-guarantee-info-detail ul{
-  margin: 0px;
-  padding: 0px;
-  margin-top: 0.2rem;
-}
-.top-guarantee-info-detail li{
-  font-size: 0.5rem;
-  color: #ffffff;
-  margin-left: 0.8rem;
-  margin-bottom: 0.3rem;
-  height: 0.8rem;
-}
-.top-guarantee-info-detail li p{
-  font-size: 0.9rem;
-  color:#ffffff;
-}
-#top-guarantee-info-line img {
-  height: 6rem;
-  width: 1px;
-}
 
-#top-guarantee-detail {
-  background-color: #fbd44e;
-  bottom:  0px;
-  left: 0;
-  width: 100%;
-  height: 5rem;
-  margin-top: auto;
-  display: flex;
-  align-items: center; 
-  justify-content: center; 
-  cursor: pointer;
-}
-#top-guarantee-detail p{
-  display: flex;
-  text-align: center;
-  align-items: center;
-  font-family: 'GmarketMedium';
-  font-size: 1.9rem;
-  color: #021a2e;
-  margin: 0px;
-}
-#loanproduct{
-  font-family: 'GmarketBold';
-  margin-right: 0.5rem;
-}
-#detail{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  line-height: 2rem;
-  background-color: #b3e7ed;
-  width: 2.5rem;
-  height: 2.5rem;
-  font-size: 1.8rem;
-  transform: rotate(0deg);
-  margin-left: 0.5rem;
-}
-#detail-change{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 2rem;
-  background-color: #b3e7ed;
-  border-radius: 50%;
-  width: 2.5rem;
-  height: 2.5rem;
-  font-size: 1.8rem;
-  transform: rotate(180deg);
-  margin-left: 0.5rem;
-}
+  #top-guarantee-shortcut-left {
+    font-family: 'GmarketBold';
+    font-size: 2rem;
+    color: #ffffff;
+    cursor: pointer;
+    padding-left: 2.5rem;
+    padding-right: 1.5rem;
+  }
 
-#top-button{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  bottom: 5%;
-  right: 2%;
-  font-family: 'GmarketBold';
-  background-color: #004b9d;
-  color: #ffffff;
-  border-radius: 50%;
-  width: 3.5rem;
-  height: 3.5rem;
-  text-align: center;
-  font-size: 0.7rem;
-  z-index: 100;
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.226);
-}
-#top-button p {
-  margin: 0;
-}
-#top-button-text{
-   padding-bottom: 0.5rem;
-}
+  #top-guarantee-shortcut-center img {
+    height: 2.7rem;
+  }
+
+  #top-guarantee-shortcut-right {
+    font-family: 'GmarketBold';
+    font-size: 2rem;
+    color: #ffff00;
+    cursor: pointer;
+    padding-left: 3rem;
+  }
+
+  #top-guarantee-info {
+    width: 30rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 0px;
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+  }
+
+  .guarantee-product-number {
+    font-family: 'GmarketBold';
+    color: #ffffff;
+    font-size: 2rem;
+  }
+
+  .guarantee-product-name {
+    font-family: 'GmarketBold';
+    color: #152168;
+    font-size: 1.5rem;
+  }
+
+  .guarantee-product-name2 {
+    font-family: 'GmarketBold';
+    color: #021a2e;
+    font-size: 1.5rem;
+  }
+
+  .top-guarantee-info-detail {
+    font-family: 'GmarketBold';
+  }
+
+  .top-guarantee-info-detail p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .top-guarantee-info-detail ul {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0.2rem;
+  }
+
+  .top-guarantee-info-detail li {
+    font-size: 0.5rem;
+    color: #ffffff;
+    margin-left: 0.8rem;
+    margin-bottom: 0.3rem;
+    height: 0.8rem;
+  }
+
+  .top-guarantee-info-detail li p {
+    font-size: 0.9rem;
+    color: #ffffff;
+  }
+
+  #top-guarantee-info-line img {
+    height: 6rem;
+    width: 1px;
+  }
+
+  #top-guarantee-detail {
+    background-color: #fbd44e;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  #top-guarantee-detail p {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: 'GmarketMedium';
+    font-size: 1.9rem;
+    color: #021a2e;
+    margin: 0px;
+  }
+
+
 }
 
 /* 1024px 이하 기준 */
 @media (max-width: 1024px) {
-  #top-guarantee{
-    background-color: rgb(87,167,230);
+  #top-guarantee {
+    background-color: rgb(87, 167, 230);
     height: 115vw;
   }
-  #top-guarantee-body{
+
+  #top-guarantee-body {
     background-image: url('/src/img/보증부상품배경.png');
     width: 100%;
     height: 90vw;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgb(87,167,230);
+    background-color: rgb(87, 167, 230);
   }
-  
-  #top-guarantee-container{
+
+  #top-guarantee-container {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     height: 91%;
     margin: 0 auto;
     width: 80%;
   }
-  #top-guarantee-bank{
+
+  #top-guarantee-bank {
     font-family: 'GmarketBold';
     color: #ffffff;
     font-size: 5.5vw;
@@ -240,8 +200,8 @@
     text-shadow: 0.5vw 0.5vw 0.5vw rgba(0, 0, 0, 0.151);
     padding-bottom: 1.2vw;
   }
-  
-  #top-guarantee-product{
+
+  #top-guarantee-product {
     font-family: 'GmarketBold';
     line-height: 12.5vw;
     font-size: 12.5vw;
@@ -249,227 +209,142 @@
     color: #152168;
     padding-left: 0.5vw;
     padding-bottom: 1vw;
-  
+
   }
-  
-  
-  #top-guarantee-shortcut{
+
+
+  #top-guarantee-shortcut {
     background-color: #0000ff;
     display: flex;
-    width: 52vw;
-    height: 12vw;
+    width: 50vw;
+    height: 11vw;
     border-radius: 10vw;
     align-items: center;
     box-shadow: 0.1vw 0.1vw 0.1vw rgba(0, 0, 0, 0.836);
-    
+
   }
-  #top-guarantee-shortcut-line{
+
+  #top-guarantee-shortcut-line {
     background-color: #ffffff;
-    width: 52vw;
+    width: 50vw;
     border-radius: 10vw;
     border: 0.5vw solid #ffffff;
   }
-  
-  
-  #top-guarantee-shortcut-left{
+
+
+  #top-guarantee-shortcut-left {
     font-family: 'GmarketBold';
-    font-size: 4vw;
+    font-size: 3.9vw;
     color: #ffffff;
     cursor: pointer;
-    padding-left: 4vw;
+    padding-left: 3.5vw;
     padding-right: 2.5vw;
   }
-  
-  #top-guarantee-shortcut-center img{
+
+  #top-guarantee-shortcut-center img {
     height: 4vw;
   }
-  
-  #top-guarantee-shortcut-right{
+
+  #top-guarantee-shortcut-right {
     font-family: 'GmarketBold';
-    font-size: 4vw;
+    font-size: 3.9vw;
     color: #ffff00;
     cursor: pointer;
     padding-left: 2.5vw;
   }
-  
-  #top-guarantee-info{
-    width:50vw;
+
+  #top-guarantee-info {
+    width: 50vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-left: 0px;
     margin-top: 3vw;
   }
-  .guarantee-product-number{
+
+  .guarantee-product-number {
     font-family: 'GmarketBold';
     color: #ffffff;
     font-size: 4.5vw;
   }
-  .guarantee-product-name{
+
+  .guarantee-product-name {
     font-family: 'GmarketBold';
     color: #152168;
     font-size: 4.05vw;
   }
-  .top-guarantee-info-detail{
+
+  .top-guarantee-info-detail {
     font-family: 'GmarketBold';
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
   }
-  .top-guarantee-info-detail p{
+
+  .top-guarantee-info-detail p {
     margin: 0;
     padding: 0;
-    line-height: 1; 
+    line-height: 1;
     text-align: left;
   }
+
   .top-guarantee-info-detail.active {
     display: block;
     opacity: 1;
   }
-  
+
   .top-guarantee-info-detail.inactive {
     display: none;
     opacity: 0;
   }
-/* 슬라이드 동그라미 인디케이터 */
-.slide-indicators {
-  display: flex;
-  justify-content: center;
-  margin-top: 1vw;
-  width:50vw;
-}
 
-.indicator {
-  width: 1vw;
-  height: 1vw;
-  margin: 0 0.5vw;
-  background-color: #ffffff;
-  border-radius: 50%;
-  transition: background-color 0.3s ease;
-}
 
-.indicator.active {
-  /* background-color: #007bff; */
-  background-color: #0000ff;
-  
-}
-  .top-guarantee-info-detail p{
-    margin: 0;
-  }
-  .top-guarantee-info-detail ul{
+
+  .top-guarantee-info-detail ul {
     margin: 0px;
     padding: 0px;
     margin-top: 0.8vw;
   }
-  .top-guarantee-info-detail li{
+
+  .top-guarantee-info-detail li {
     font-size: 1.5vw;
     color: #ffffff;
     margin-left: 1vw;
     margin-bottom: 0.1vw;
   }
-  .top-guarantee-info-detail li p{
+
+  .top-guarantee-info-detail li p {
     font-size: 2.5vw;
-    color:#ffffff;
+    color: #ffffff;
   }
-  .top-guarantee-info-detail li p span{
-    color:#ffffff;
+
+  .top-guarantee-info-detail li p span {
+    color: #ffffff;
   }
-  #top-guarantee-info-line img {
-    height: 10vw;
-  }
-  #left-button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    width: 4vw;
-    height: 4vw;
-    font-size: 3vw;
-    color: #152168;
-  }
-  #right-button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    width: 4vw;
-    height: 4vw;
-    font-size: 3vw;
-    color: #152168;
-  }
-  
+
+
   #top-guarantee-detail {
     background-color: #fbd44e;
-    bottom:  0px;
+    bottom: 0px;
     left: 0;
     width: 100%;
     height: 8vw;
     margin-top: 6.3vw;
     display: flex;
-    align-items: center; 
-    justify-content: center; 
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
   }
-  #top-guarantee-detail p{
+
+  #top-guarantee-detail p {
     display: flex;
     text-align: center;
     align-items: center;
     font-family: 'GmarketMedium';
-    font-size: 3.2vw;
+    font-size: 3.5vw;
     color: #021a2e;
     margin: 0px;
   }
-  #loanproduct{
-    font-family: 'GmarketBold';
-    margin-right: 0.8vw;
-  }
-  #detail{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: #b3e7ed;
-    width: 4vw !important;
-    height: 4vw !important;
-    font-size: 3vw !important; 
-    transform: rotate(0deg);
-    margin-left: 1vw !important;
-  }
-  #detail-change{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: #b3e7ed;
-    width: 4vw !important;
-    height: 4vw !important;
-    font-size: 3vw !important; 
-    transform: rotate(180deg);
-    margin-left: 1vw !important;
-  }
-  
-  #top-button{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 5%;
-    right: 2%;
-    font-family: 'GmarketBold';
-    background-color: #004b9d;
-    color: #ffffff;
-    border-radius: 50%;
-    width: 8vw;
-    height: 8vw;
-    text-align: center;
-    font-size: 1.7vw;
-    z-index: 100;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.226);
-  }
-  #top-button p {
-    margin: 0;
-  }
-  #top-button-text{
-    padding-bottom: 1.5vw;
-  }
+
+
+
 }

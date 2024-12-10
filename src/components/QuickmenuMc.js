@@ -3,9 +3,11 @@ import '../css/quickmenu.css'
 import { useNavigate } from 'react-router-dom'
 import { LuChevronDown } from "react-icons/lu";
 import { MdOutlineClose } from "react-icons/md";
+import { useIsMoblie } from '../hooks/useIsMoblie';
 
 export default function QuickmenuMc() {
   const navigate = useNavigate();
+  const  isMobile = useIsMoblie();
   const enroll = () => {
     window.location.href = 'https://sbloan.ibksb.co.kr/ibk/loan_form/loan_step00.jsp'
   }
@@ -32,9 +34,11 @@ export default function QuickmenuMc() {
     <div>
       <div id='quick-menu-body'>
         <div id='quick-menu-list'>
+          {isMobile?null:(
           <div id='quick-menu-product'>
             <p>IBKSB Quick</p>
           </div>
+          )}
           <div id='quick-menu' onClick={navigateToCredit}>
             <img src={require('../img/신용대출아이콘.png')}></img>
             <p>신용대출</p>
@@ -52,9 +56,11 @@ export default function QuickmenuMc() {
             <p>IBKSB<br /><span id='color-yellow'>통합<br />대출신청</span></p>
           </div>
         </div>
+        {isMobile?null:(
         <div id='quick-delete-button' onClick={handleDelete}>
           <p><MdOutlineClose /></p>
         </div>
+        )}
       </div>
     </div>
   )
