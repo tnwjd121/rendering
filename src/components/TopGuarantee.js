@@ -57,6 +57,12 @@ export default function TopGuarantee({scrollToSection, onToggleMainGuarantee, sh
   const  enroll00S = () =>{
     window.location.href ='https://sbloan.ibksb.co.kr/ibk/loan_form/loan_step00S.jsp'
   }
+  const easyCheckM = () => {
+    window.location.href = 'https://sbloan.ibksb.co.kr/ibk/m/loan_form/loan_limit_01.jsp';
+  }
+  const  enroll00SM = () =>{
+    window.location.href ='https://sbloan.ibksb.co.kr/ibk/m/loan_form/loan_step00S.jsp'
+  }
  
   return (
     <div>
@@ -68,11 +74,11 @@ export default function TopGuarantee({scrollToSection, onToggleMainGuarantee, sh
             <div id='top-guarantee-product'>보증부<br/>서민대출</div>
             <div id='top-guarantee-shortcut-line'>
               <div id='top-guarantee-shortcut'>
-                <div id='top-guarantee-shortcut-left' onClick={easyCheck}>간편한도조회</div>
+                <div id='top-guarantee-shortcut-left' onClick={easyCheckM}>간편한도조회</div>
                 <div id='top-guarantee-shortcut-center'>
                   <img src={require('../img/보증부선.png')} alt='line'/>
                 </div>
-                <div id='top-guarantee-shortcut-right' onClick={enroll00S}>대출신청</div>
+                <div id='top-guarantee-shortcut-right' onClick={enroll00SM}>대출신청</div>
               </div>
             </div>
             <div id='top-guarantee-info'>

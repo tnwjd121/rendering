@@ -27,7 +27,7 @@ export default function Footer() {
                     </tr>
                     <tr>
                         <td className='note-title'>
-                            <p>※ 발생가능한 <br/><span className='indent-title'>불이익 안내</span></p>
+                            <p>※ 발생 가능한 <br/><span className='indent-title'>불이익 안내</span></p>
                         </td>
                         <td>
                             <ul>
@@ -95,7 +95,7 @@ export default function Footer() {
                     </tr>
                     <tr>
                         <td className='note-title'>
-                            <p>※ 발생가능한 <br/><span className='indent-title'>불이익 안내</span></p>
+                            <p>※ 발생 가능한 <br/><span className='indent-title'>불이익 안내</span></p>
                         </td>
                         <td>
                             <ul>

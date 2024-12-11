@@ -52,7 +52,7 @@ export default function MainIntegrate({ bigloneRef, saitdolRef, onlineRef }) {
                         <ul>
                             <li>
                                 <p>
-                                    연 11%대 ~ 연 19%대 <br />
+                                    연 11%대 ~ 연 19%대 (고정금리) <br />
                                     ※ 고객 AS등급 등에 따라 달리 적용
                                 </p>
                             </li>
@@ -82,6 +82,7 @@ export default function MainIntegrate({ bigloneRef, saitdolRef, onlineRef }) {
                         <ul>
                             <li><p>상환금액의 1.6%
                                 <br />※ 기한 전 상환 대출금액 X 기한 전 상환 수수료율 X 대출 잔여일수 ÷ 대출기간</p></li>
+                            <li><p>면제기준<br />: 대출취급일부터 3년 경과 시 중도상환수수료 면제</p></li>
                         </ul>
                     </div>
                     <div className='main-integrate-text-title'>
@@ -171,7 +172,7 @@ export default function MainIntegrate({ bigloneRef, saitdolRef, onlineRef }) {
                         <ul>
                             <li>
                                 <p>
-                                    연 12%대 ~ 연 17%대 <br />
+                                    연 12%대 ~ 연 17%대 (고정금리)<br />
                                     ※ 서울보증보험 CSS결과에 따라 차등적용
                                 </p>
                             </li>
@@ -247,7 +248,7 @@ export default function MainIntegrate({ bigloneRef, saitdolRef, onlineRef }) {
                         <ul>
                             <li><p>소득증빙이 가능한 만 19세 이상 고객</p></li>
                             <li>
-                                <p>개인신용평점이 하위 100분의 20 이하 및 연간소득 4,500만원이하에 해당하는 근로자<br />
+                                <p>개인신용평점이 하위 100분의 20 이하 및 연간소득 4,500만원 이하에 해당하는 근로자<br />
                                     ※ 단, 연소득 3,500만원 이하 (3개월 이상 재직 중)인 경우 개인신용평점과 무관하게 가능
                                 </p>
                             </li>

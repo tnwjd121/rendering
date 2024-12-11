@@ -31,9 +31,12 @@
     color: #0e154f;
     font-size: 4vw;
 }
+#main-product-text-detail ul{
+    padding-left: 3vw;
+}
 #main-product-text-detail ul li{
     font-size: 2vw;
-    margin-right: -2vw;
+    margin-right: -4vw;
 }
 #main-product-text-detail ul li p{
     font-family: 'GmarketMedium';

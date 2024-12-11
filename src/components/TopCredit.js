@@ -57,6 +57,12 @@ export default function TopCredit({scrollToSection, onToggleMainCredit, showMain
   const enroll00B = () => {
     window.location.href = 'https://sbloan.ibksb.co.kr/ibk/loan_form/loan_step00B.jsp'
   }
+  const easyCheckM = () => {
+    window.location.href = 'https://sbloan.ibksb.co.kr/ibk/m/loan_form/loan_limit_01.jsp';
+  }
+  const enroll00BM = () => {
+    window.location.href = 'https://sbloan.ibksb.co.kr/ibk/m/loan_form/loan_step00B.jsp'
+  }
 
   return (
     <div>
@@ -68,11 +74,11 @@ export default function TopCredit({scrollToSection, onToggleMainCredit, showMain
           <div id='top-credit-product'>직장인<br />신용대출</div>
           <div id='top-credit-shortcut-line'>
             <div id='top-credit-shortcut'>
-              <div id='top-credit-shortcut-left' onClick={easyCheck}>간편한도조회</div>
+              <div id='top-credit-shortcut-left' onClick={easyCheckM}>간편한도조회</div>
               <div id='top-credit-shortcut-center'>
                 <img src={require('../img/보증부선.png')} alt='line' />
               </div>
-              <div id='top-credit-shortcut-right' onClick={enroll00B}>대출신청</div>
+              <div id='top-credit-shortcut-right' onClick={enroll00BM}>대출신청</div>
             </div>
           </div>
           <div id='top-credit-info'>

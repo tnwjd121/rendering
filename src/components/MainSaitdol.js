@@ -14,9 +14,9 @@ export default function MainSaitdol() {
         <div id='main-product-text-detail'>
           <ul>
             <li><p>소득증빙이 가능한 만 19세 이상 고객</p></li>
-            <li><p>근로자: 현 직장 5개월 이상 재직 중이며,<br /> 연소득 1,200만원 이상인 자</p></li>
-            <li><p>사업자: 사업 개시일로부터 4개월 이상 사업 운영 중이며,<br /> 연소득 600만원 이상인 자</p></li>
-            <li><p>연금수령자: 연금 1회 이상 수령자 <br /> (국민연금, 공무원연금, 군인연금, 사학연금) 중,<br />연소득 600만원 이상인자</p></li>
+            <li><p>근로자: 현 직장 5개월 이상 재직 중이며,<br /><span style={{paddingLeft:"11.5vw"}}></span> 연소득 1,200만원 이상인 자</p></li>
+            <li><p>사업자: 사업 개시일로부터 4개월 이상 사업 운영 중이며,<br /><span style={{paddingLeft:"11.5vw"}}></span> 연소득 600만원 이상인 자</p></li>
+            <li><p>연금수령자: 연금 1회 이상 수령자 <br /><span style={{paddingLeft:"18vw"}}></span> (국민연금, 공무원연금, 군인연금, 사학연금) 중,<br /><span style={{paddingLeft:"18vw"}}></span>연소득 600만원 이상인자</p></li>
           </ul>
         </div>
         <div id='main-product-text-title'>

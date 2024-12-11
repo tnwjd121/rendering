@@ -67,9 +67,11 @@ export default function TopMicro({scrollToSection, onToggleMainMicro, showMainMi
     topRef.current.scrollIntoView({ behavior: 'smooth' });
   }
 
-  // URL 확인 필요
   const enter = () => {
     window.location.href = 'https://sbloan.ibksb.co.kr/ibk/loan_form/loan_step01_Evt.jsp';
+  }
+  const enterM = () => {
+    window.location.href = 'https://sbloan.ibksb.co.kr/ibk/m/loan_form/loan_step01_Evt.jsp';
   }
 
   return (
@@ -82,7 +84,7 @@ export default function TopMicro({scrollToSection, onToggleMainMicro, showMainMi
           <div id='top-micro-product'>소상공인<br />4종대출</div>
           <div id='top-micro-shortcut-line'>
             <div id='top-micro-shortcut'>
-              <div id='top-micro-shortcut-main' onClick={enter}>
+              <div id='top-micro-shortcut-main' onClick={enterM}>
                 <span id='top-micro-white'>대출</span>상담신청
               </div>
             </div>

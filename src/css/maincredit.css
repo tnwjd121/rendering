@@ -70,7 +70,7 @@
     color: #ffffff;
     padding: 2px 2px 2px 2px;
     display: inline-block;
-    width: 5.5rem;
+    width: 6rem;
     margin: 1px;
 }
 .main-credit-text-info{
@@ -135,7 +135,7 @@
 .main-credit-maintitle{
     font-family: 'GmarketBold';
     font-size: 5vw;
-    color: #34438b;
+    color: #1c2f40;
 }
 .main-credit-text-title {
     display: flex;

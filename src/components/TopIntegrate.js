@@ -240,7 +240,7 @@ export default function TopIntegrate({ scrollToSection, onToggleMainIntegrate, s
                       </p>
                       <p>
                         <img src={require('../img/liststyle.png')}></img>
-                        최장 5년까지(보증기간 이내)
+                        최장 5년까지 (보증기간 이내)
                       </p>
                     </div>
                   </div>

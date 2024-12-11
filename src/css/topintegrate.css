@@ -186,9 +186,11 @@
 
 #top-integrate-body{
     margin: 0 auto;
-    background-image: url('/src/img/원스톱모바일배경.png');
+    /* background-image: url('/src/img/원스톱모바일배경.png');
+    height: 245vw; */
+    background-image: url('/src/img/원스톱모바일배경수정.png');
+    height: 225vw;
     width: 100%;
-    height: 245vw;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -227,6 +229,11 @@
 }
 .color-green{
   color: #34fda2;
+}
+/* 통합간편한도조회 수정 */
+#top-integrate-shortcut {
+  position: fixed;
+  bottom: 3%;
 }
 #top-integrate-shortcut img{
     margin-top: 4vw;
@@ -281,6 +288,7 @@
 .top-integrate-text-bottom-list{
   font-family: 'PretendardtRegular';
   font-size: 4vw;
+  padding-left: 1vw;
 }
 .top-integrate-text-bottom-list p{
   margin: 1vw 0;

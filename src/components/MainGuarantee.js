@@ -183,8 +183,8 @@ export default function MainGuarantee({ saitdolRef, loanRef }) {
                                     <p className='none-list-p'>1) 저소득청년 (연소득 3,500만원 이하, 만 34세 이하) 0.5%p 인하</p>
                                     <p className='none-list-p'>2) 기타 (신용 부채관리 컨설팅 이수자, 금융교육 이수자) 0.1%p 인하</p>
                                     <p className='none-list-p'>※ 신용부채관리 컨설팅 금융교육 이수자: '21.7.26. 신규
-                                        <br /><span style={{ paddingLeft: '3.5vw' }}></span> 신청접수분부터 신청일 이전 1년 이내 서민금융진흥원에서
-                                        <br /><span style={{ paddingLeft: '3.5vw' }}></span>해당교육 이수한 경우</p>
+                                        <br /><span style={{ paddingLeft: '3.8vw' }}></span> 신청접수분부터 신청일 이전 1년 이내 서민금융진흥원에서
+                                        <br /><span style={{ paddingLeft: '3.8vw' }}></span>해당교육 이수한 경우</p>
                                     <li><p>보증료인하: 대출금리가 연 10.5%를 초과한 경우, 동 초과분
                                         <br /><span style={{ paddingLeft: '16vw' }}></span> (대출금리-10.5%)의 60%에 해당하는 만큼의
                                         <br /><span style={{ paddingLeft: '16vw' }}></span>보증료율 인하적용</p></li>
@@ -384,7 +384,7 @@ export default function MainGuarantee({ saitdolRef, loanRef }) {
                                     <p className='none-list-p'>2) 기타 (신용 부채관리 컨설팅 이수자, 금융교육 이수자) 0.1%p 인하</p>
                                     <p className='none-list-p'>※ 신용부채관리 컨설팅 금융교육 이수자: '21.7.26. 신규 신청접수분부터 신청일 이전 1년 이내
                                         <br /><span className='indent-one'>서민금융진흥원에서 해당교육 이수한 경우</span></p>
-                                    <li><p>보증료인하: 대출금리가 연10.5%를 초과한 경우, 동 초과분 (대출금리-10.5%)의 60%에 해당하는
+                                    <li><p>보증료인하: 대출금리가 연 10.5%를 초과한 경우, 동 초과분 (대출금리-10.5%)의 60%에 해당하는
                                         <br /><span id='indent-gua'>만큼의 보증료율 인하적용</span></p></li>
                                 </ul>
                             </div>

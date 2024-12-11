@@ -29,7 +29,7 @@ export default function MainCredit({ bigloneRef }) {
                                     <li><p>현 직장 재직기간 120일 이상 근로자 <br /> (연소득 최소 2,400만원 이상)</p></li>
                                     <li>
                                         <p>당행 CSS평가 시스템에 의해 대출한도가 산출되는 자</p>
-                                        <p> (NICE개인신용평점 725점이상 및 KCB개인신용평점 <br />535점 이상)</p>
+                                        <p> (NICE개인신용평점 725점 이상 및 KCB개인신용평점 <br />535점 이상)</p>
                                         <br />
                                         <p className='orange-color'>※ 심사 진행 시, 개인소득산정에 따라 i-빅론U플러스 <br /><span style={{ paddingLeft: "3.5vw" }}></span>신청 여부 확인 가능</p>
                                     </li>
@@ -148,7 +148,7 @@ export default function MainCredit({ bigloneRef }) {
                                     <li><p>현 직장 재직기간 120일 이상 근로자 (연소득 최소 2,400만원 이상)</p></li>
                                     <li>
                                         <p>당행 CSS평가 시스템에 의해 대출한도가 산출되는 자</p>
-                                        <p> (NICE개인신용평점 725점이상 및 KCB개인신용평점 535점 이상)</p>
+                                        <p> (NICE개인신용평점 725점 이상 및 KCB개인신용평점 535점 이상)</p>
                                         <br />
                                         <p className='orange-color'>※ 심사 진행 시, 개인소득산정에 따라 i-빅론U플러스 신청 여부 확인 가능</p>
                                     </li>

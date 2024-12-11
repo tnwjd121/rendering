@@ -53,16 +53,13 @@
    color: #34438b;
    font-size: 1.3rem;
 }
-.main-guarantee-text-detail{
-    font-family: 'GmarketMedium';
-    font-size: 0.8rem;
-}
 .main-guarantee-text-detail ul{
     padding-left: 0px;
     list-style-type: disc;
     font-size: 0.5rem;
 }
 .main-guarantee-text-detail li p{
+    font-family: 'GmarketMedium';
     font-size: 0.9rem;
     margin: 3px;
     margin-right: -0.5rem;
@@ -87,7 +84,7 @@
 
 .none-list-p{
     font-family: 'GmarketMedium';
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin: 0;
 }
 
@@ -95,7 +92,7 @@
     padding-left: 4.8rem;
 }
 .indent-one{
-    padding-left: 1rem;
+    padding-left: 1.1rem;
    }
 }
 @media (max-width: 1024px){

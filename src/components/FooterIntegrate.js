@@ -230,7 +230,7 @@ export default function FooterIntegrate() {
                 <div id='footer2-inte'>
                     <div id='footer2-inte-body'>
                         <div id='footer2-inte-container'>
-                            <p>대출상품문의안내 (평일 오전 9시~오후 6시까지)</p>
+                            <p>대출상품문의안내 (평일 오전 9시 ~ 오후 6시까지)</p>
                             <p id='call-number'>대표번호 1522-7900</p>
                             <div id='footer2-inte-box' onClick={integrateProduct}>
                                 <p id='footer2-inte-box-text1'>다른 대출상품이 궁금하시다면?</p>
