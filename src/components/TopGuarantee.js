@@ -5,11 +5,13 @@ import { LuChevronUp } from "react-icons/lu";
 import { FaChevronUp } from "react-icons/fa";
 import { FaChevronRight, FaChevronLeft } from "react-icons/fa6";
 import { useIsMoblie } from '../hooks/useIsMoblie';
+import { useLocation } from 'react-router-dom';
 
 export default function TopGuarantee({scrollToSection, onToggleMainGuarantee, showMainGuarantee}) {
   const topRef = useRef(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const isMobile = useIsMoblie();
+  const location = useLocation();
   
   const products = [
     {
@@ -51,17 +53,18 @@ export default function TopGuarantee({scrollToSection, onToggleMainGuarantee, sh
     topRef.current.scrollIntoView({behavior: 'smooth'});
   }
 
+  const currentParams = location.search;
   const easyCheck = () => {
-    window.location.href = 'https://sbloan.ibksb.co.kr/ibk/loan_form/loan_limit_01.jsp';
+    window.location.href = `https://sbloan.ibksb.co.kr/ibk/loan_form/loan_limit_01.jsp${currentParams}`;
   }
   const  enroll00S = () =>{
-    window.location.href ='https://sbloan.ibksb.co.kr/ibk/loan_form/loan_step00S.jsp'
+    window.location.href =`https://sbloan.ibksb.co.kr/ibk/loan_form/loan_step00S.jsp${currentParams}`
   }
   const easyCheckM = () => {
-    window.location.href = 'https://sbloan.ibksb.co.kr/ibk/m/loan_form/loan_limit_01.jsp';
+    window.location.href = `https://sbloan.ibksb.co.kr/ibk/m/loan_form/loan_limit_01.jsp${currentParams}`;
   }
   const  enroll00SM = () =>{
-    window.location.href ='https://sbloan.ibksb.co.kr/ibk/m/loan_form/loan_step00S.jsp'
+    window.location.href =`https://sbloan.ibksb.co.kr/ibk/m/loan_form/loan_step00S.jsp${currentParams}`
   }
  
   return (

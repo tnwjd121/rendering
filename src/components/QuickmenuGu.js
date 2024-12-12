@@ -1,17 +1,26 @@
 import React, { useState } from 'react'
 import '../css/quickmenu.css'
-import { useNavigate } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
 import { MdOutlineClose } from "react-icons/md";
 import { useIsMoblie } from '../hooks/useIsMoblie';
 
 export default function QuickmenuGu() {
   const navigate = useNavigate();
   const isMobile = useIsMoblie();
+  const location = useLocation();
+
+  const currentParams = location.search;
   const  enroll = () =>{
-    window.location.href ='https://sbloan.ibksb.co.kr/ibk/m/loan_form/loan_step00.jsp'
+    window.location.href =`https://sbloan.ibksb.co.kr/ibk/loan_form/loan_step00.jsp${currentParams}`
   }
   const deposit = () => {
-    window.location.href ='https://www.ibksb.co.kr/m/deposit'
+    window.location.href =`https://www.ibksb.co.kr/deposit${currentParams}`
+  }
+  const  enrollM = () =>{
+    window.location.href =`https://sbloan.ibksb.co.kr/ibk/m/loan_form/loan_step00.jsp${currentParams}`
+  }
+  const depositM = () => {
+    window.location.href =`https://www.ibksb.co.kr/m/deposit${currentParams}`
   }
   const [isDeleted, setIsDeleted] = useState(false);
   const handleDelete = () => {
@@ -19,10 +28,10 @@ export default function QuickmenuGu() {
   };
 
   const navigateToCredit = () =>{
-    navigate('/credit')
+    navigate('/ibk/landing/credit')
   } 
   const navigateToMicro = () =>{
-    navigate('/micro')
+    navigate('/ibk/landing/micro')
   } 
 
   if (isDeleted) {
@@ -46,12 +55,20 @@ export default function QuickmenuGu() {
                 <img src={require('../img/소상공인아이콘.png')}></img>
                 <p>소상공인<br/>4종대출</p>
             </div>
+          {isMobile?(
+            <div id='quick-menu-sb-total' onClick={depositM}>
+                <img src={require('../img/예적금아이콘.png')}></img>
+                <p>예적금<br/>정보</p>
+            </div>
+          ):(
             <div id='quick-menu-sb-total' onClick={deposit}>
                 <img src={require('../img/예적금아이콘.png')}></img>
                 <p>예적금<br/>정보</p>
             </div>
+
+          )}
          {isMobile?(
-            <div id='quick-menu-sb-pf' onClick={enroll}>
+            <div id='quick-menu-sb-pf' onClick={enrollM}>
                 <img src={require('../img/손아이콘.png')}></img>
                 <p>IBKSB<br/><span id='color-yellow'>통합대출신청</span></p>
             </div>

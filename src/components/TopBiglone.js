@@ -1,22 +1,24 @@
 import React from 'react'
 import '../css/topproduct.css'
 import { FaArrowLeft } from "react-icons/fa";
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 export default function TopBiglone() {
+  const location = useLocation();
+  const currentParams = location.search;
   const totalCheck = () => {
-    window.location.href = 'https://webloan.ibksb.co.kr/?AD_NO=AD0017&AGENT_ID=SL002&RECOMMENDER=Y?adf_cd=40';
+    window.location.href = `https://webloan.ibksb.co.kr/?AD_NO=AD0017&AGENT_ID=SL002&RECOMMENDER=Y?adf_cd=40${currentParams}`;
   }
   const navigate = useNavigate();
   const navigateToIntegrate = () => {
-    navigate('/integrate')
+    navigate('/ibk/landing/integrate')
   }
   return (
     <div id='top-product-body'>
-      <div id='top-product-container'>
         <div id='top-prev-button' onClick={navigateToIntegrate}>
           <FaArrowLeft />
         </div>
+      <div id='top-product-container'>
         <div id='top-product-subtitle'>직장인을 위한 IBKSB신용대출</div>
         <div id='top-product-title'>i-빅론U</div>
         <div id='top-product-list'>

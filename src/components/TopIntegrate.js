@@ -3,7 +3,7 @@ import '../css/topintegrate.css'
 import { FaAngleRight } from "react-icons/fa6";
 import { FaChevronUp } from "react-icons/fa";
 import { useIsMoblie } from '../hooks/useIsMoblie';
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 
 
@@ -11,24 +11,26 @@ export default function TopIntegrate({ scrollToSection, onToggleMainIntegrate, s
   const topRef = useRef(null);
   const isMobile = useIsMoblie();
   const navigate = useNavigate();
-;
+  const location = useLocation();
+
 
   const ClickTopButton = () => {
     topRef.current.scrollIntoView({ behavior: 'smooth' });
   }
 
+  const currentParams=location.search;
   const totalCheck = () => {
-    window.location.href = 'https://webloan.ibksb.co.kr/?AD_NO=AD0017&AGENT_ID=SL002&RECOMMENDER=Y?adf_cd=40';
+    window.location.href = `https://webloan.ibksb.co.kr/?AD_NO=AD0017&AGENT_ID=SL002&RECOMMENDER=Y?adf_cd=40${currentParams}`;
   }
 
   const navigateToBiglone = () => {
-    navigate('/biglone')
+    navigate('/ibk/landing/integrate/biglone')
   }
   const navigateToSaitdol = () => {
-    navigate('/saitdol')
+    navigate('/ibk/landing/integrate/saitdol')
   }
   const navigateToOnline = () => {
-    navigate('/online')
+    navigate('/ibk/landing/integrate/online')
   }
 
   return (

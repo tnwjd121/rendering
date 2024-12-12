@@ -1,4 +1,4 @@
-@media (min-width: 1024px){
+@media (min-width: 1025px){
 
 #main-guarantee-body{
     width: 100%;
@@ -157,7 +157,7 @@
     font-family: 'GmarketMedium';
 }
 .main-guarantee-text-detail ul{
-    padding-left: 0px;
+    padding-left: 0;
     list-style-type: disc;
     font-size: 2vw;
 }

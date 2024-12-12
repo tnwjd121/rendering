@@ -6,6 +6,10 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 #top-product-container{
@@ -66,7 +70,6 @@
     left: 5%;
     z-index: 100;
     font-size: 6vw;
-    /* color: #6ba5e1; */
     color: #7cfaa8;
 }
 

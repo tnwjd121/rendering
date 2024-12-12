@@ -134,10 +134,10 @@ export default function MainIntegrate({ bigloneRef, saitdolRef, onlineRef }) {
                     </div>
                     <div id='main-integrate-title'>
                         <div id='main-integrate-subtitle'>
-                            <span>중·저신용 거래자 대상의 정부지원대출</span><hr />
+                            <span>중·저신용 거래자를 위한 정부지원대출</span><hr />
                         </div>
                         <div id='main-integrate-maintitle' >사잇돌2</div>
-                    </div>
+                    </div>  
                 </div>
                 <div id='main-integrate-container'>
                     <div className='base-date'>

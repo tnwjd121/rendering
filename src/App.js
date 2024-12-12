@@ -13,28 +13,10 @@ import { useEffect } from 'react';
 function App() {
 
   const location = useLocation();
-  const navigate = useNavigate();
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location.pathname]); 
-
-  useEffect(() => {
-    const defaultParams = {
-      adf_cd: '25',
-      utm_source: 'naver_brand',
-      n_query: 'IBK저축은행',
-    };
-
-    const params = new URLSearchParams(defaultParams);
-    const currentPath = window.location.pathname;
-
-    // URL에 기본 파라미터 추가
-    if (!window.location.search) {
-      navigate(`${currentPath}?${params.toString()}`);
-    }
-  }, []);
-
 
 
 
@@ -46,7 +28,7 @@ function App() {
         <Route path='/ibk/landing/integrate' element={<Integrate/>}/>
         <Route path='/ibk/landing/integrate/biglone' element={<Biglone/>}/>
         <Route path='/ibk/landing/integrate/saitdol' element={<Saitdol/>}/>
-        <Route path='/online' element={<Online/>}/>
+        <Route path='/ibk/landing/integrate/online' element={<Online/>}/>
       </Routes>
   );
 }

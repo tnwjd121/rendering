@@ -1,11 +1,7 @@
-@media(min-width: 1024px){
+@media(min-width: 1025px){
 
 #top-integrate-body{
     margin: 0 auto;
-    /* background-image: url('/src/img/원스톱배경포함.png'); 
-    height: 46vw;
-    width: 100%;
-    background-color: #040d51; */
     background-image: url('/src/img/원스톱배경.png');
     height: 66rem;
     background-size: contain;
@@ -206,7 +202,7 @@
     margin: 0 auto;
 }
 #top-integrate-subtitle img{
-    margin-top: 13vw;
+    margin-top: 9vw;
     width: 77vw;
 }
 #top-integrate-title img{
@@ -220,6 +216,10 @@
     font-family: "GmarketMedium";
     font-size: 3.4vw;
 }
+#top-integrate-text p{
+  margin: 0;
+}
+
 #top-integrate-text span{
     font-size: 3.4vw;
     font-family: "GmarketBold";
@@ -230,10 +230,9 @@
 .color-green{
   color: #34fda2;
 }
-/* 통합간편한도조회 수정 */
 #top-integrate-shortcut {
-  position: fixed;
-  bottom: 3%;
+  cursor: none;
+
 }
 #top-integrate-shortcut img{
     margin-top: 4vw;
@@ -246,7 +245,7 @@
     width: 80vw;
     display: flex;
     justify-content: space-around;
-    margin-top: 5vw;
+    margin-top: 2vw;
     flex-direction: column;
 }
 
@@ -327,7 +326,7 @@
 
 #top-integrate-inquiry{
   text-align: center;
-  margin-top: 3vw;
+  margin-top: 1vw;
 }
 #top-integrate-inquiry-img img{
   width: 14vw;

@@ -27,7 +27,7 @@
     opacity: 0;
     transition: max-height 200ms ease-in-out, opacity 200ms ease-in-out;
 }
-@media(min-width:1024px){
+@media(min-width:1025px){
 #footer1-inte{
     background-color: #eeeeee;
     font-family: 'GmarketMedium';

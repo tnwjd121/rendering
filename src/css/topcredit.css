@@ -1,4 +1,4 @@
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   #top-credit-body {
     background-image: url('/src/img/신용대출배경.png');
     width: 100%;
@@ -315,26 +315,11 @@
   }
 
   /* 슬라이드 동그라미 인디케이터 */
-  .slide-indicators {
+  .slide-indicators-micro {
     display: flex;
     justify-content: center;
     margin-top: 1vw;
     width: 50vw;
-    margin-bottom: 20vw;
-  }
-
-  .indicator {
-    width: 1vw;
-    height: 1vw;
-    margin: 0 0.5vw;
-    background-color: #ffffff;
-    border-radius: 50%;
-    transition: background-color 0.3s ease;
-  }
-
-  .indicator.active {
-    background-color: #0000ff;
-
   }
 
   .top-credit-info-detail ul {

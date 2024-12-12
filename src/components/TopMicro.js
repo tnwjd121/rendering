@@ -5,11 +5,13 @@ import { LuChevronUp } from "react-icons/lu";
 import { FaChevronUp } from "react-icons/fa";
 import { useIsMoblie } from '../hooks/useIsMoblie';
 import { FaChevronRight, FaChevronLeft } from "react-icons/fa6";
+import { useLocation } from 'react-router-dom';
 
 export default function TopMicro({scrollToSection, onToggleMainMicro, showMainMicro }) {
   const topRef = useRef(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const isMobile = useIsMoblie();
+  const location = useLocation();
 
   const products = [
     {
@@ -67,11 +69,12 @@ export default function TopMicro({scrollToSection, onToggleMainMicro, showMainMi
     topRef.current.scrollIntoView({ behavior: 'smooth' });
   }
 
+  const currentParams = location.search;
   const enter = () => {
-    window.location.href = 'https://sbloan.ibksb.co.kr/ibk/loan_form/loan_step01_Evt.jsp';
+    window.location.href = `https://sbloan.ibksb.co.kr/ibk/loan_form/loan_step01_Evt.jsp${currentParams}`;
   }
   const enterM = () => {
-    window.location.href = 'https://sbloan.ibksb.co.kr/ibk/m/loan_form/loan_step01_Evt.jsp';
+    window.location.href = `https://sbloan.ibksb.co.kr/ibk/m/loan_form/loan_step01_Evt.jsp${currentParams}`;
   }
 
   return (
