@@ -41,7 +41,7 @@ export default function Micro() {
         const [key, value] = param.split("=");
         return { key, value};
       })
-      console.log(urlMap)
+      // console.log(urlMap)
     },[1000])
     
     // 가져온 url 파라미터 주소 넣기

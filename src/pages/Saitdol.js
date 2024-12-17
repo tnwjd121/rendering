@@ -39,7 +39,7 @@ export default function Saitdol() {
       const [key, value] = param.split("=");
       return { key, value };
     })
-    console.log(urlMap)
+    // console.log(urlMap)
   }, [1000])
 
   return (
