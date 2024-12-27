@@ -26,7 +26,7 @@ export default function TopMicro({scrollToSection, onToggleMainMicro, showMainMi
       number:'02',
       productName:'사업자 아파트 담보대출',
       money: '최대 10억원',
-      interestRate: '연 5%대 ~ 연 9%대',
+      interestRate: '연 5.8% ~ 연 9.5%',
       period: '운영자금 최장 3년',
       ref: 'ea'
     },
@@ -34,7 +34,7 @@ export default function TopMicro({scrollToSection, onToggleMainMicro, showMainMi
       number:'03',
       productName:'소상공인 신용대출',
       money: '최대 1억원',
-      interestRate: '연 8%대 ~ 연 14%대',
+      interestRate: '연 8.13% ~ 연 14.16%',
       period: '최장 5년',
       ref: 'mc'
     },
@@ -42,7 +42,7 @@ export default function TopMicro({scrollToSection, onToggleMainMicro, showMainMi
       number:'04',
       productName:'소상공인 부동산 담보대출',
       money: '최대 60억원',
-      interestRate: '연 7%대 ~ 연 13%대',
+      interestRate: '연 7.72% ~ 연 13.79%',
       period: '최장 5년',
       ref: 'mp'
     },

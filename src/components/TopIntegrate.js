@@ -65,7 +65,7 @@ export default function TopIntegrate({ scrollToSection, onToggleMainIntegrate, s
                       <div className='top-integrate-text-bottom-list'>
                         <p>
                           <img src={require('../img/liststyle.png')}></img>
-                          연 11%대 ~ 연 19%대
+                          연 11.87% ~ 연 19.68%
                         </p>
                         <p>
                           <img src={require('../img/liststyle.png')}></img>
@@ -204,7 +204,7 @@ export default function TopIntegrate({ scrollToSection, onToggleMainIntegrate, s
                     <div className='top-integrate-text-bottom-text'>
                       <p>
                         <img src={require('../img/liststyle.png')}></img>
-                        연 11%대 ~ 연 19%대
+                        연 11.87% ~ 연 19.68%
                       </p>
                       <p>
                         <img src={require('../img/liststyle.png')}></img>

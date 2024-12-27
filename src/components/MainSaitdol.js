@@ -6,7 +6,7 @@ export default function MainSaitdol() {
     <div id='main-product-body'>
       <div id='main-product-container'>
         <div className='base-date-integrate'>
-          기준일자: 2024.12.
+          기준일자: 2024.12.01.
         </div>
         <div id='main-product-text-title'>
           <span>가입대상</span><hr />

@@ -24,7 +24,7 @@ export default function TopBiglone() {
         <div id='top-product-list'>
           <p>
             <img src={require('../img/liststyle.png')}></img>
-            연 11%대 ~ 연 19%대
+            연 11.87% ~ 연 19.68%
           </p>
           <p>
             <img src={require('../img/liststyle.png')}></img>

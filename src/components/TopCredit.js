@@ -18,7 +18,7 @@ export default function TopCredit({scrollToSection, onToggleMainCredit, showMain
       number:'01',
       productName:'i-빅론U',
       money: '최대 6,000만원',
-      interestRate: '연 11%대 ~ 연 19%대',
+      interestRate: '연 11.87% ~ 연 19.68%',
       period: '최장 5년',
       ref: 'biglone'
     },
@@ -26,7 +26,7 @@ export default function TopCredit({scrollToSection, onToggleMainCredit, showMain
       number:'02',
       productName:'i-빅론U플러스',
       money: '최대 1억원',
-      interestRate: '연 7%대 ~ 연 19%대',
+      interestRate: '연 7.30% ~ 연 19.68%',
       period: '최장 5년',
       ref: 'biglone'
     },

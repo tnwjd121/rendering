@@ -19,7 +19,7 @@ export default function MainGuarantee({ saitdolRef, loanRef }) {
                         </div>
                         <div className='main-guarantee-text'>
                             <div className='base-date'>
-                                기준일자: 2024.12.
+                                기준일자: 2024.12.01
                             </div>
                             <div className='main-guarantee-text-title'>
                                 <span>가입대상</span><hr />
@@ -105,7 +105,7 @@ export default function MainGuarantee({ saitdolRef, loanRef }) {
                         </div>
                         <div className='main-guarantee-text'>
                             <div className='base-date'>
-                                기준일자: 2024.12.
+                                기준일자: 2024.12.01
                             </div>
                             <div className='main-guarantee-text-title'>
                                 <span>가입대상</span><hr />
@@ -219,7 +219,7 @@ export default function MainGuarantee({ saitdolRef, loanRef }) {
                         </div>
                         <div className='main-guarantee-text'>
                             <div className='base-date'>
-                                기준일자: 2024.12.
+                                기준일자: 2024.12.01
                             </div>
                             <div className='main-guarantee-text-title'>
                                 <span>가입대상</span><hr />
@@ -305,7 +305,7 @@ export default function MainGuarantee({ saitdolRef, loanRef }) {
                         </div>
                         <div className='main-guarantee-text'>
                             <div className='base-date'>
-                                기준일자: 2024.12.
+                                기준일자: 2024.12.01
                             </div>
                             <div className='main-guarantee-text-title'>
                                 <span>가입대상</span><hr />

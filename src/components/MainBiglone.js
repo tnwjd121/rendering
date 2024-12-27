@@ -6,7 +6,7 @@ export default function MainBiglone() {
     <div id='main-product-body'>
       <div id='main-product-container'>
         <div className='base-date-integrate'>
-          기준일자: 2024.12.
+          기준일자: 2024.12.01.
         </div>
         <div id='main-product-text-title'>
           <span>가입대상</span><hr />
@@ -32,7 +32,7 @@ export default function MainBiglone() {
         </div>
         <div id='main-product-text-detail'>
           <ul>
-            <li><p>연 11%대 ~ 연 19%대 (고정금리)<br />※ 고객 AS등급 등에 따라 달리 적용</p></li>
+            <li><p>연 11.87% ~ 연 19.68% (고정금리)<br />※ 고객 AS등급 등에 따라 달리 적용</p></li>
           </ul>
         </div>
         <div id='main-product-text-title'>
@@ -58,7 +58,7 @@ export default function MainBiglone() {
         <div id='main-product-text-detail'>
           <ul>
             <li><p>상환금액의 1.6%</p></li>
-            <li><p>※ 기한 전 상환 대출금액 X 기한 전 상환 수수료율<br /><span id='left-margin-one'> X 대출 잔여일수 ÷ 대출기간</span></p></li>
+            <li><p>※ 중도상환금액 X 중도상환수수료율 (1.6%)<br /><span id='left-margin-one'> X (대출 잔여기간 ÷ 대출기간)</span></p></li>
             <li><p>면제기준<br />: 대출취급일부터 3년 경과 시 중도상환수수료 면제</p></li>
           </ul>
         </div>

@@ -15,7 +15,7 @@ export default function MainMicro({ esRef, eaRef, mcRef, mpRef }) {
                         </div>
                         <div className='main-micro-text'>
                             <div className='base-date'>
-                                기준일자: 2024.12.
+                                기준일자: 2024.12.01
                             </div>
                             <div className='main-micro-text-title'>
                                 <span>가입대상</span><hr />
@@ -104,7 +104,7 @@ export default function MainMicro({ esRef, eaRef, mcRef, mpRef }) {
                         </div>
                         <div className='main-micro-text'>
                             <div className='base-date'>
-                                기준일자: 2024.12.
+                                기준일자: 2024.12.01
                             </div>
                             <div className='main-micro-text-title'>
                                 <span>가입대상</span><hr />
@@ -112,7 +112,7 @@ export default function MainMicro({ esRef, eaRef, mcRef, mpRef }) {
                             <div className='main-micro-text-detail'>
                                 <ul>
                                     <li><p>아파트를 담보로 제공하고 대출을 받고자 하는 개인사업자</p></li>
-                                    <li><p>사업 개시일로부터 3개월 이상 사업 영위자로 <br/>NICE 725점 이상 범위에 속하는 자</p></li>
+                                    <li><p>사업 개시일로부터 3개월 이상 사업 영위자로 <br />NICE 725점 이상 범위에 속하는 자</p></li>
                                     <li><p>서울 수도권 및 부산지역 취급</p></li>
                                 </ul>
                             </div>
@@ -130,7 +130,7 @@ export default function MainMicro({ esRef, eaRef, mcRef, mpRef }) {
                             </div>
                             <div className='main-micro-text-detail'>
                                 <ul>
-                                    <li><p>연 5%대 ~ 연 9%대 (고정금리 <br />/ 신용평점 및 LTV별 차등적용)</p></li>
+                                    <li><p>연 5.8% ~ 연 9.5% (고정금리 <br />/ 신용평점 및 LTV별 차등적용)</p></li>
                                     <li><p>※ 단, 가계자금 대출기간 5년 이상 시 변동금리
                                         <br /><span style={{ paddingLeft: '3.5vw' }}></span>
                                         (대출금리 운용지침에 의한 COFIX 기준금리 적용)</p></li>
@@ -162,8 +162,8 @@ export default function MainMicro({ esRef, eaRef, mcRef, mpRef }) {
                                 <ul>
                                     <li>
                                         <p>상환금액의 연 2% 이내</p>
-                                        <p>※ 기한 전 상환 대출금액 X 기한 전 상환 수수료율
-                                            <br /><span style={{ paddingLeft: '4vw' }}></span>X 대출 잔여일수 ÷ 대출기간</p>
+                                        <p>※ 중도상환금액 X 중도상환수수료율 (2%)
+                                            <br /><span style={{ paddingLeft: '4vw' }}></span>X (대출 잔여기간 ÷ 대출기간)</p>
                                     </li>
                                     <li><p>면제기준<br />: 대출취급일부터 3년 경과 시 중도상환수수료 면제</p></li>
                                 </ul>
@@ -173,8 +173,8 @@ export default function MainMicro({ esRef, eaRef, mcRef, mpRef }) {
                             </div>
                             <div className='main-micro-text-detail'>
                                 <ul>
-                                <li><p>인지비용: 인지세법에 따라 대출약정 시 납부하는 세금으로 <br/><span style={{ paddingLeft: '13vw' }}></span>수입인지 비용 발생 (고객과 저축은행 각 50% 부담) </p></li>
-                                <li><p>근저당권 설정 시: 국민주택채권 매입비용 고객부담 (근저당권<br /><span style={{ paddingLeft: '23.5vw' }}></span> 말소 또는 채권최고액 감액시 비용 고객부담) </p></li>
+                                    <li><p>인지비용: 인지세법에 따라 대출약정 시 납부하는 세금으로 <br /><span style={{ paddingLeft: '13vw' }}></span>수입인지 비용 발생 (고객과 저축은행 각 50% 부담) </p></li>
+                                    <li><p>근저당권 설정 시: 국민주택채권 매입비용 고객부담 (근저당권<br /><span style={{ paddingLeft: '23.5vw' }}></span> 말소 또는 채권최고액 감액시 비용 고객부담) </p></li>
                                 </ul>
                             </div>
                             <div className='main-micro-text-title'>
@@ -199,7 +199,7 @@ export default function MainMicro({ esRef, eaRef, mcRef, mpRef }) {
                         </div>
                         <div className='main-micro-text'>
                             <div className='base-date'>
-                                기준일자: 2024.12.
+                                기준일자: 2024.12.01
                             </div>
                             <div className='main-micro-text-title'>
                                 <span>가입대상</span><hr />
@@ -224,7 +224,7 @@ export default function MainMicro({ esRef, eaRef, mcRef, mpRef }) {
                             <div className='main-micro-text-detail'>
                                 <ul>
                                     <li>
-                                        <p>연 8%대 ~  연 14%대 (고정금리)</p>
+                                        <p>연 8.13% ~  연 14.16% (고정금리)</p>
                                     </li>
                                 </ul>
                             </div>
@@ -252,8 +252,8 @@ export default function MainMicro({ esRef, eaRef, mcRef, mpRef }) {
                                 <ul>
                                     <li>
                                         <p>상환금액의 연 1.8% 이내</p>
-                                        <p>※ 기한 전 상환 대출금액 X 기한 전 상환 수수료율
-                                            <br /><span style={{ paddingLeft: '4vw' }}></span>X 대출 잔여일수 ÷ 대출기간</p>
+                                        <p>※ 중도상환금액 X 중도상환수수료율 (1.8%)
+                                            <br /><span style={{ paddingLeft: '4vw' }}></span>X (대출 잔여기간 ÷ 대출기간)</p>
                                     </li>
                                     <li><p>면제기준<br />: 대출취급일부터 3년 경과 시 중도상환수수료 면제</p></li>
                                 </ul>
@@ -263,7 +263,7 @@ export default function MainMicro({ esRef, eaRef, mcRef, mpRef }) {
                             </div>
                             <div className='main-micro-text-detail'>
                                 <ul>
-                                    <li><p>인지비용: 인지세법에 따라 대출약정 시 납부하는 세금으로 <br/><span style={{ paddingLeft: '13vw' }}></span>수입인지 비용 발생 (고객과 저축은행 각 50% 부담) </p></li>
+                                    <li><p>인지비용: 인지세법에 따라 대출약정 시 납부하는 세금으로 <br /><span style={{ paddingLeft: '13vw' }}></span>수입인지 비용 발생 (고객과 저축은행 각 50% 부담) </p></li>
                                     <li><p>근저당권 설정 시: 국민주택채권 매입비용 고객부담 (근저당권<br /><span style={{ paddingLeft: '23.5vw' }}></span> 말소 또는 채권최고액 감액시 비용 고객부담) </p></li>
                                 </ul>
                             </div>
@@ -289,7 +289,7 @@ export default function MainMicro({ esRef, eaRef, mcRef, mpRef }) {
                         </div>
                         <div className='main-micro-text'>
                             <div className='base-date'>
-                                기준일자: 2024.12.
+                                기준일자: 2024.12.01
                             </div>
                             <div className='main-micro-text-title'>
                                 <span>가입대상</span><hr />
@@ -314,7 +314,7 @@ export default function MainMicro({ esRef, eaRef, mcRef, mpRef }) {
                             <div className='main-micro-text-detail'>
                                 <ul>
                                     <li>
-                                        <p>연 7%대 ~ 연 13%대 (고정금리)</p>
+                                        <p>연 7.72% ~ 연 13.79% (고정금리)</p>
                                     </li>
                                 </ul>
                             </div>
@@ -342,8 +342,8 @@ export default function MainMicro({ esRef, eaRef, mcRef, mpRef }) {
                                 <ul>
                                     <li>
                                         <p>상환금액의 연 2% 이내</p>
-                                        <p>※ 기한 전 상환 대출금액 X 기한 전 상환 수수료율
-                                            <br /><span style={{ paddingLeft: '4vw' }}></span>X 대출 잔여일수 ÷ 대출기간</p>
+                                        <p>※ 중도상환금액 X 중도상환수수료율 (2%)
+                                            <br /><span style={{ paddingLeft: '4vw' }}></span>X (대출 잔여기간 ÷ 대출기간)</p>
                                     </li>
                                     <li><p>면제기준<br />: 대출취급일부터 3년 경과 시 중도상환수수료 면제</p></li>
                                 </ul>
@@ -353,8 +353,8 @@ export default function MainMicro({ esRef, eaRef, mcRef, mpRef }) {
                             </div>
                             <div className='main-micro-text-detail'>
                                 <ul>
-                                <li><p>인지비용: 인지세법에 따라 대출약정 시 납부하는 세금으로 <br/><span style={{ paddingLeft: '13vw' }}></span>수입인지 비용 발생 (고객과 저축은행 각 50% 부담) </p></li>
-                                <li><p>근저당권 설정 시: 국민주택채권 매입비용 고객부담 (근저당권<br /><span style={{ paddingLeft: '23.5vw' }}></span> 말소 또는 채권최고액 감액시 비용 고객부담) </p></li>
+                                    <li><p>인지비용: 인지세법에 따라 대출약정 시 납부하는 세금으로 <br /><span style={{ paddingLeft: '13vw' }}></span>수입인지 비용 발생 (고객과 저축은행 각 50% 부담) </p></li>
+                                    <li><p>근저당권 설정 시: 국민주택채권 매입비용 고객부담 (근저당권<br /><span style={{ paddingLeft: '23.5vw' }}></span> 말소 또는 채권최고액 감액시 비용 고객부담) </p></li>
                                 </ul>
                             </div>
                             <div className='main-micro-text-title'>
@@ -383,7 +383,7 @@ export default function MainMicro({ esRef, eaRef, mcRef, mpRef }) {
                         </div>
                         <div className='main-micro-text'>
                             <div className='base-date'>
-                                기준일자: 2024.12.
+                                기준일자: 2024.12.01
                             </div>
                             <div className='main-micro-text-title'>
                                 <span>가입대상</span><hr />
@@ -472,7 +472,7 @@ export default function MainMicro({ esRef, eaRef, mcRef, mpRef }) {
                         </div>
                         <div className='main-micro-text'>
                             <div className='base-date'>
-                                기준일자: 2024.12.
+                                기준일자: 2024.12.01
                             </div>
                             <div className='main-micro-text-title'>
                                 <span>가입대상</span><hr />
@@ -498,7 +498,7 @@ export default function MainMicro({ esRef, eaRef, mcRef, mpRef }) {
                             </div>
                             <div className='main-micro-text-detail'>
                                 <ul>
-                                    <li><p>연 5%대 ~ 연 9%대 (고정금리 / 신용평점 및 LTV별 차등적용)</p></li>
+                                    <li><p>연 5.8% ~ 연 9.5% (고정금리 / 신용평점 및 LTV별 차등적용)</p></li>
                                     <li><p>※ 단, 가계자금 대출기간 5년 이상 시 변동금리 (대출금리 운용지침에 의한 COFIX 기준금리 적용)</p></li>
                                 </ul>
                             </div>
@@ -528,7 +528,7 @@ export default function MainMicro({ esRef, eaRef, mcRef, mpRef }) {
                                 <ul>
                                     <li>
                                         <p>상환금액의 연 2% 이내</p>
-                                        <p>※ 기한 전 상환 대출금액 X 기한 전 상환 수수료율 X 대출 잔여일수 ÷ 대출기간</p>
+                                        <p>※ 중도상환금액 X 중도상환수수료율 (2%) X (대출 잔여기간 ÷ 대출기간)</p>
                                     </li>
                                     <li><p>면제기준<br />: 대출취급일부터 3년 경과 시 중도상환수수료 면제</p></li>
                                 </ul>
@@ -564,7 +564,7 @@ export default function MainMicro({ esRef, eaRef, mcRef, mpRef }) {
                         </div>
                         <div className='main-micro-text'>
                             <div className='base-date'>
-                                기준일자: 2024.12.
+                                기준일자: 2024.12.01
                             </div>
                             <div className='main-micro-text-title'>
                                 <span>가입대상</span><hr />
@@ -589,7 +589,7 @@ export default function MainMicro({ esRef, eaRef, mcRef, mpRef }) {
                             <div className='main-micro-text-detail'>
                                 <ul>
                                     <li>
-                                        <p>연 8%대 ~  연 14%대 (고정금리)</p>
+                                        <p>연 8.13% ~  연 14.16% (고정금리)</p>
                                     </li>
                                 </ul>
                             </div>
@@ -616,8 +616,8 @@ export default function MainMicro({ esRef, eaRef, mcRef, mpRef }) {
                             <div className='main-micro-text-detail'>
                                 <ul>
                                     <li>
-                                        <p>상환금액의 연 1.8% 이내</p>
-                                        <p>※ 기한 전 상환 대출금액 X 기한 전 상환 수수료율 X 대출 잔여일수 ÷ 대출기간</p>
+                                    <p>상환금액의 연 1.8% 이내</p>
+                                    <p>※ 중도상환금액 X 중도상환수수료율 (1.8%) X (대출 잔여기간 ÷ 대출기간)</p>
                                     </li>
                                     <li><p>면제기준<br />: 대출취급일부터 3년 경과 시 중도상환수수료 면제</p></li>
                                 </ul>
@@ -653,7 +653,7 @@ export default function MainMicro({ esRef, eaRef, mcRef, mpRef }) {
                         </div>
                         <div className='main-micro-text'>
                             <div className='base-date'>
-                                기준일자: 2024.12.
+                                기준일자: 2024.12.01
                             </div>
                             <div className='main-micro-text-title'>
                                 <span>가입대상</span><hr />
@@ -678,7 +678,7 @@ export default function MainMicro({ esRef, eaRef, mcRef, mpRef }) {
                             <div className='main-micro-text-detail'>
                                 <ul>
                                     <li>
-                                        <p>연 7%대 ~ 연 13%대 (고정금리)</p>
+                                        <p>연 7.72% ~ 연 13.79% (고정금리)</p>
                                     </li>
                                 </ul>
                             </div>
@@ -705,8 +705,8 @@ export default function MainMicro({ esRef, eaRef, mcRef, mpRef }) {
                             <div className='main-micro-text-detail'>
                                 <ul>
                                     <li>
-                                        <p>상환금액의 연 2% 이내</p>
-                                        <p>※ 기한 전 상환 대출금액 X 기한 전 상환 수수료율 X 대출 잔여일수 ÷ 대출기간</p>
+                                    <p>상환금액의 연 2% 이내</p>
+                                    <p>※ 중도상환금액 X 중도상환수수료율 (2%) X (대출 잔여기간 ÷ 대출기간)</p>
                                     </li>
                                     <li><p>면제기준<br />: 대출취급일부터 3년 경과 시 중도상환수수료 면제</p></li>
                                 </ul>
